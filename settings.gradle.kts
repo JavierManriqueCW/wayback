@@ -29,9 +29,9 @@ dependencyResolutionManagement {
 }
 
 include(":androidApp")
-include(":sharedApp:common")
-include(":sharedApp:presentation")
-include(":sharedApp:domain")
-include(":sharedApp:data")
-include(":sharedApp:di:provider")
-include(":sharedApp:di:core")
+include(":shared:common")
+include(":shared:presentation")
+include(":shared:domain")
+include(":shared:data")
+include(":shared:di:provider")
+include(":shared:di:core")

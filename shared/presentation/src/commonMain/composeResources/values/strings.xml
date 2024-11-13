@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="onboarding_button_text">GET STARTED</string>
+    <string name="main_detail_placeholder">What do you want to remember?</string>
+    <string name="park_button">Park</string>
+</resources>

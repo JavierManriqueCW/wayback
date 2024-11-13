@@ -1,7 +1,7 @@
 package com.jmp.wayback
 
 import android.app.Application
-import com.jmp.wayback.presentation.app.di.KoinDependencies
+import com.jmp.wayback.presentation.app.common.di.KoinDependencies
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.GlobalContext.startKoin
 

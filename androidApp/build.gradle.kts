@@ -40,7 +40,7 @@ android {
 }
 
 dependencies {
-    implementation(projects.sharedApp.presentation)
+    implementation(projects.shared.presentation)
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.appcompat)
     implementation(libs.compose.uitooling)
