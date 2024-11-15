@@ -16,8 +16,10 @@ class AppViewModel(
 
     init {
         viewModelScope.launch {
+            val shouldShowOnboarding = shouldShowOnboardingUseCase()
             _uiState.value = _uiState.value.copy(
-                shouldShowOnboardingUseCase()
+                loaded = true,
+                shouldShowOnboarding = shouldShowOnboarding
             )
         }
     }

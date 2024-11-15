@@ -9,4 +9,6 @@ sealed class Failure(val message: Int? = null) {
     class UnknownError : Failure()
 
     class ErrorDisablingOnboarding : Failure()
+
+    data object ErrorSavingParkingInformation : Failure()
 }

@@ -35,6 +35,7 @@ kotlin {
                 implementation(compose.uiTooling)
                 implementation(compose.preview)
                 implementation(libs.koin.core.android)
+                implementation(libs.play.services.location)
             }
         }
 
@@ -99,6 +100,5 @@ dependencies {
     implementation(libs.androidx.navigation.compose)
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.runtime.android)
-    implementation(project(":shared:domain"))
     debugImplementation(compose.uiTooling)
 }

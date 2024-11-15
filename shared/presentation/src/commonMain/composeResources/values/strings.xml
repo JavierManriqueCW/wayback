@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <resources>
+    <string name="loading_lottie_path" translatable="false">files/loading-lottie.json</string>
+    <string name="loading_content_description">Lottie loading animation</string>
     <string name="onboarding_button_text">GET STARTED</string>
-    <string name="main_detail_placeholder">What do you want to remember?</string>
-    <string name="park_button">Park</string>
+    <string name="non_parked_screen_title">Welcome back</string>
+    <string name="non_parked_screen_description">driver</string>
+    <string name="non_parked_screen_lottie_path" translatable="false">files/car-lottie.json</string>
+    <string name="non_parked_screen_lottie_content_description">Lottie animation</string>
+    <string name="non_parked_screen_detail_placeholder">What do you want to remember?</string>
+    <string name="non_parked_screen_park_button">PARK</string>
+    <string name="parked_screen_title">You are parked</string>
+    <string name="parked_screen_title_image_description">Parked title image</string>
+    <string name="parked_screen_address_title">Place</string>
+    <string name="parked_screen_lottie_path">files/location-pin-lottie.json</string>
+    <string name="parked_screen_date_title">Time</string>
+    <string name="parked_screen_stop_parking_button">STOP PARKING</string>
 </resources>

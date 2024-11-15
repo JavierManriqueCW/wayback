@@ -12,7 +12,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.view.WindowCompat
+import com.jmp.wayback.presentation.app.common.location.LocationProvider
 import com.jmp.wayback.presentation.app.view.AppScreen
+import org.koin.java.KoinJavaComponent.inject
 
 class MainActivity : ComponentActivity() {
 
@@ -21,8 +23,9 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         WindowCompat.setDecorFitsSystemWindows(window, false)
-        window.decorView.systemUiVisibility = window.decorView.systemUiVisibility and View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR.inv()
-        window.decorView.systemUiVisibility = window.decorView.systemUiVisibility and View.SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR.inv()
+
+        val locationProvider: LocationProvider by inject(LocationProvider::class.java)
+        locationProvider.init(this, this)
 
         setContent {
             AppScreen()
