@@ -1,4 +1,4 @@
-package com.jmp.wayback.presentation.app.common
+package com.jmp.wayback.presentation.app.common.compose
 
 import androidx.compose.ui.graphics.Color
 

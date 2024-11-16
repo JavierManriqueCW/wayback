@@ -16,7 +16,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.jmp.wayback.presentation.app.common.Screens
+import com.jmp.wayback.presentation.app.common.navigation.Screens
 import com.jmp.wayback.presentation.onboarding.viewmodel.OnboardingViewModel
 import kotlinx.coroutines.launch
 import org.jetbrains.compose.resources.painterResource

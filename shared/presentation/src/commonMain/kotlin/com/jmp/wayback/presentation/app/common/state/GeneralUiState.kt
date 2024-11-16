@@ -1,4 +1,4 @@
-package com.jmp.wayback.presentation.app.common
+package com.jmp.wayback.presentation.app.common.state
 
 sealed class GeneralUiState<T> {
 

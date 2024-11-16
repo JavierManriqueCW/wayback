@@ -10,8 +10,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
-import com.jmp.wayback.presentation.app.common.GeneralUiState
-import com.jmp.wayback.presentation.app.common.LoadingScreen
+import com.jmp.wayback.presentation.app.common.state.GeneralUiState
+import com.jmp.wayback.presentation.app.common.compose.LoadingScreen
+import com.jmp.wayback.presentation.app.common.compose.clearFocusOnTap
+import com.jmp.wayback.presentation.main.view.nonparked.NonParkedScreen
+import com.jmp.wayback.presentation.main.view.parked.ParkedScreen
 import com.jmp.wayback.presentation.main.viewmodel.MainIntent
 import com.jmp.wayback.presentation.main.viewmodel.MainViewModel
 import com.jmp.wayback.presentation.main.viewmodel.ParkedUiState
@@ -56,7 +59,9 @@ fun MainScreen(
                     visible = !isParked
                 ) {
                     NonParkedScreen(
-                        modifier = Modifier.fillMaxSize(),
+                        modifier = Modifier
+                            .fillMaxSize()
+                            .clearFocusOnTap(),
                         uiState = generalUiState.data.nonParkedUiState,
                         onTextChanged = {
                             if (it.length <= generalUiState.data.nonParkedUiState.maxCharacters) {

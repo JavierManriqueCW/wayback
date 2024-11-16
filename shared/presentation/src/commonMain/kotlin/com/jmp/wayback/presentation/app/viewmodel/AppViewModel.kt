@@ -3,7 +3,7 @@ package com.jmp.wayback.presentation.app.viewmodel
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.jmp.wayback.domain.interactor.ShouldShowOnboarding
-import com.jmp.wayback.presentation.app.common.Screens
+import com.jmp.wayback.presentation.app.common.navigation.Screens
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
 

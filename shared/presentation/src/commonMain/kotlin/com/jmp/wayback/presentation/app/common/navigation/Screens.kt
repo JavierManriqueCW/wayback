@@ -1,4 +1,4 @@
-package com.jmp.wayback.presentation.app.common
+package com.jmp.wayback.presentation.app.common.navigation
 
 sealed class Screens(
     val route: String

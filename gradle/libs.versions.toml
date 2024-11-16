@@ -24,6 +24,7 @@ koin = "3.5.0"
 datastore = "1.1.1"
 kotlinx-coroutines = "1.7.3"
 playServicesLocation = "21.3.0"
+activityKtx = "1.7.2"
 
 [libraries]
 androidx-datastore = { group = "androidx.datastore:datastore", name = "datastore", version.ref = "datastore"}
@@ -48,6 +49,7 @@ koin-core = { module = "io.insert-koin:koin-core", version.ref = "koin" }
 koin-core-android = { module = "io.insert-koin:koin-android", version.ref = "koin" }
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines" }
 play-services-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "playServicesLocation" }
+androidx-activity-ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "activityKtx" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }

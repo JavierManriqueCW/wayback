@@ -30,11 +30,20 @@ kotlin {
     }
     
     sourceSets {
+        iosMain {
+           dependencies {
+               implementation(libs.koin.core)
+           }
+        }
+
         androidMain {
             dependencies {
                 implementation(compose.uiTooling)
                 implementation(compose.preview)
                 implementation(libs.koin.core.android)
+                implementation(libs.androidx.appcompat)
+                implementation(libs.androidx.activity.ktx)
+                implementation(libs.androidx.runtime.android)
                 implementation(libs.play.services.location)
             }
         }
@@ -90,6 +99,7 @@ android {
     }
 
     dependencies {
+        implementation(libs.androidx.activity.ktx)
         debugImplementation(compose.uiTooling)
         debugImplementation(compose.preview)
     }
@@ -99,6 +109,7 @@ dependencies {
     implementation(libs.androidx.navigation.runtime.ktx)
     implementation(libs.androidx.navigation.compose)
     implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.runtime.android)
     debugImplementation(compose.uiTooling)
 }

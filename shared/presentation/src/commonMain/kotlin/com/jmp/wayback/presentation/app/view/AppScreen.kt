@@ -1,22 +1,19 @@
 package com.jmp.wayback.presentation.app.view
 
 import androidx.compose.animation.AnimatedVisibility
-import androidx.compose.animation.EnterTransition
 import androidx.compose.animation.core.tween
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.layout.ContentScale
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.jmp.wayback.presentation.app.common.LoadingScreen
-import com.jmp.wayback.presentation.app.common.Screens
+import com.jmp.wayback.presentation.app.common.compose.LoadingScreen
+import com.jmp.wayback.presentation.app.common.navigation.Screens
 import com.jmp.wayback.presentation.app.viewmodel.AppViewModel
 import com.jmp.wayback.presentation.main.view.MainScreen
 import com.jmp.wayback.presentation.onboarding.view.OnboardingScreen

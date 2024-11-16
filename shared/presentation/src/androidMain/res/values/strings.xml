@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Wayback</string>
     <string name="permission_required_title">Permission Required</string>
     <string name="permission_required_message">Location permission is required for this feature. Please enable it in the app settings.</string>
     <string name="permission_required_positive_action">Go to Settings</string>
