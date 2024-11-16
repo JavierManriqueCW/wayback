@@ -4,9 +4,9 @@ import com.jmp.wayback.di.provider.DependencyInjectionModulesProvider
 import com.jmp.wayback.domain.interactor.ClearParkingInformation
 import com.jmp.wayback.domain.interactor.DisableOnboarding
 import com.jmp.wayback.domain.interactor.FetchUpdatedParkingInformation
-import com.jmp.wayback.domain.interactor.ShouldShowOnboarding
 import com.jmp.wayback.domain.interactor.GetParkingState
 import com.jmp.wayback.domain.interactor.SaveParkingInformation
+import com.jmp.wayback.domain.interactor.ShouldShowOnboarding
 import org.koin.core.module.Module
 import org.koin.core.module.dsl.factoryOf
 import org.koin.dsl.module

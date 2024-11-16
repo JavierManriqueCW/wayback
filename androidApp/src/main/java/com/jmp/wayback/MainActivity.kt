@@ -1,19 +1,15 @@
 package com.jmp.wayback
 
-import android.os.Build
 import android.os.Bundle
-import android.view.View
 import androidx.activity.ComponentActivity
 import androidx.activity.SystemBarStyle
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.view.WindowCompat
-import com.jmp.wayback.presentation.app.common.location.ActivityResultManager
 import com.jmp.wayback.presentation.app.common.location.LocationProvider
 import com.jmp.wayback.presentation.app.view.AppScreen
 import org.koin.java.KoinJavaComponent.inject

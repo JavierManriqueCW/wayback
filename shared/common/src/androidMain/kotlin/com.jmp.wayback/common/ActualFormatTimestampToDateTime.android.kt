@@ -1,7 +1,8 @@
 package com.jmp.wayback.common
 
 import java.text.SimpleDateFormat
-import java.util.*
+import java.util.Date
+import java.util.Locale
 
 actual fun obtainParkingTime(): String {
     val date = Date(System.currentTimeMillis())

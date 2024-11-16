@@ -5,7 +5,6 @@ import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.doublePreferencesKey
 import androidx.datastore.preferences.core.edit
-import androidx.datastore.preferences.core.longPreferencesKey
 import androidx.datastore.preferences.core.stringPreferencesKey
 import com.jmp.wayback.common.Either
 import com.jmp.wayback.common.Failure
@@ -13,7 +12,6 @@ import com.jmp.wayback.common.ParkingInformation
 import com.jmp.wayback.common.ParkingState
 import com.jmp.wayback.domain.repository.Repository
 import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.firstOrNull
 import kotlinx.coroutines.flow.map
 
 class RepositoryImplementation(

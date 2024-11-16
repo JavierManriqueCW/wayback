@@ -3,7 +3,6 @@ package com.jmp.wayback.presentation.app.common.location
 import kotlinx.cinterop.ExperimentalForeignApi
 import kotlinx.cinterop.useContents
 import org.koin.core.module.Module
-import org.koin.dsl.module
 
 actual fun getPlatformPresentationDependencies(): List<Module> =
     listOf()

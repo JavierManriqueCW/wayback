@@ -10,9 +10,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
-import com.jmp.wayback.presentation.app.common.state.GeneralUiState
 import com.jmp.wayback.presentation.app.common.compose.LoadingScreen
 import com.jmp.wayback.presentation.app.common.compose.clearFocusOnTap
+import com.jmp.wayback.presentation.app.common.state.GeneralUiState
 import com.jmp.wayback.presentation.main.view.nonparked.NonParkedScreen
 import com.jmp.wayback.presentation.main.view.parked.ParkedScreen
 import com.jmp.wayback.presentation.main.viewmodel.MainIntent

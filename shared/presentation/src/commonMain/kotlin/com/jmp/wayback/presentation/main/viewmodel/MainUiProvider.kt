@@ -1,22 +1,21 @@
 package com.jmp.wayback.presentation.main.viewmodel
 
 import com.jmp.wayback.common.ParkingInformation
-import com.jmp.wayback.common.ParkingState
 import wayback.shared.presentation.generated.resources.Res
+import wayback.shared.presentation.generated.resources.asleep_emoji
 import wayback.shared.presentation.generated.resources.main_background
+import wayback.shared.presentation.generated.resources.non_parked_screen_description
 import wayback.shared.presentation.generated.resources.non_parked_screen_detail_placeholder
+import wayback.shared.presentation.generated.resources.non_parked_screen_lottie_content_description
+import wayback.shared.presentation.generated.resources.non_parked_screen_lottie_path
 import wayback.shared.presentation.generated.resources.non_parked_screen_park_button
 import wayback.shared.presentation.generated.resources.non_parked_screen_title
-import wayback.shared.presentation.generated.resources.non_parked_screen_description
-import wayback.shared.presentation.generated.resources.non_parked_screen_lottie_path
-import wayback.shared.presentation.generated.resources.non_parked_screen_lottie_content_description
-import wayback.shared.presentation.generated.resources.parked_screen_title
-import wayback.shared.presentation.generated.resources.parked_screen_stop_parking_button
-import wayback.shared.presentation.generated.resources.asleep_emoji
-import wayback.shared.presentation.generated.resources.parked_screen_title_image_description
 import wayback.shared.presentation.generated.resources.parked_screen_address_title
 import wayback.shared.presentation.generated.resources.parked_screen_date_title
 import wayback.shared.presentation.generated.resources.parked_screen_lottie_path
+import wayback.shared.presentation.generated.resources.parked_screen_stop_parking_button
+import wayback.shared.presentation.generated.resources.parked_screen_title
+import wayback.shared.presentation.generated.resources.parked_screen_title_image_description
 
 class MainUiProvider {
 

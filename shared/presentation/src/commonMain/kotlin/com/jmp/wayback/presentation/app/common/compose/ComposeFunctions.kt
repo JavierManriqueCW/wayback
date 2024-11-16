@@ -8,7 +8,6 @@ import androidx.compose.ui.composed
 import androidx.compose.ui.input.pointer.PointerEventPass
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.LocalFocusManager
-import org.jetbrains.compose.resources.StringResource
 
 fun Modifier.clearFocusOnTap(): Modifier = composed {
     val focusManager = LocalFocusManager.current

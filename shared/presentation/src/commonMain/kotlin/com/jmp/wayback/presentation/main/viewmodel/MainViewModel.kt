@@ -8,9 +8,9 @@ import com.jmp.wayback.domain.interactor.FetchUpdatedParkingInformation
 import com.jmp.wayback.domain.interactor.GetParkingState
 import com.jmp.wayback.domain.interactor.SaveParkingInformation
 import com.jmp.wayback.presentation.app.common.location.checkPermissions
-import com.jmp.wayback.presentation.app.common.state.GeneralUiState
 import com.jmp.wayback.presentation.app.common.location.getLocation
 import com.jmp.wayback.presentation.app.common.location.requestPermissions
+import com.jmp.wayback.presentation.app.common.state.GeneralUiState
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
@@ -78,7 +78,6 @@ class MainViewModel(
     private fun park(detail: String) {
         fun saveParkingInformation() {
             viewModelScope.launch {
-                println("TSST: saveParkingInformation")
                 getLocation()?.let { location ->
                     saveParkingInformation(
                         address = location.address,
@@ -95,12 +94,7 @@ class MainViewModel(
         viewModelScope.launch {
             when (checkPermissions()) {
                 true -> saveParkingInformation()
-                false -> requestPermissions {
-                    println("TSST: pupupú? = $it")
-                    if (it) {
-                        saveParkingInformation()
-                    }
-                }
+                false -> requestPermissions { if (it) { saveParkingInformation() } }
             }
         }
     }

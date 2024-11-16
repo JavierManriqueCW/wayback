@@ -19,8 +19,8 @@ import io.github.alexzhirkevich.compottie.rememberLottiePainter
 import org.jetbrains.compose.resources.ExperimentalResourceApi
 import org.jetbrains.compose.resources.stringResource
 import wayback.shared.presentation.generated.resources.Res
-import wayback.shared.presentation.generated.resources.loading_lottie_path
 import wayback.shared.presentation.generated.resources.loading_content_description
+import wayback.shared.presentation.generated.resources.loading_lottie_path
 
 @OptIn(ExperimentalResourceApi::class)
 @Composable
