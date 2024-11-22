@@ -29,97 +29,58 @@ fun ParkedScreenBodyInformation(
         horizontalAlignment = Alignment.Start,
         verticalArrangement = Arrangement.Top,
     ) {
-        Column(
-            modifier = Modifier
-                .fillMaxWidth()
-                .background(
-                    color = Color.White.copy(alpha = 0.05f),
-                    shape = RoundedCornerShape(10)
-                )
-                .padding(
-                    horizontal = 32.dp,
-                    vertical = 16.dp
-                )
-        ) {
-            Text(
-                text = stringResource(uiState.addressTitle),
-                color = Color.White,
-                fontSize = 15.sp,
-                fontWeight = FontWeight.ExtraBold
-            )
+        Text(
+            text = stringResource(uiState.addressTitle),
+            color = Color.White,
+            fontSize = 15.sp,
+            fontWeight = FontWeight.ExtraBold
+        )
 
-            Spacer(modifier = Modifier.height(8.dp))
+        Spacer(modifier = Modifier.height(8.dp))
 
-            Text(
-                text = uiState.parkingInformation.address,
-                color = Color.White,
-                fontSize = 15.sp,
-                fontWeight = FontWeight.ExtraLight
-            )
-        }
+        Text(
+            text = uiState.parkingInformation.address,
+            color = Color.White,
+            fontSize = 15.sp,
+            fontWeight = FontWeight.ExtraLight
+        )
 
-        Spacer(modifier = Modifier.height(24.dp))
+        Spacer(modifier = Modifier.height(8.dp))
 
-        Column(
-            modifier = Modifier
-                .fillMaxWidth()
-                .background(
-                    color = Color.White.copy(alpha = 0.05f),
-                    shape = RoundedCornerShape(10)
-                )
-                .padding(
-                    horizontal = 32.dp,
-                    vertical = 16.dp
-                )
-        ) {
-            Text(
-                text = stringResource(uiState.dateTitle),
-                color = Color.White,
-                fontSize = 15.sp,
-                fontWeight = FontWeight.ExtraBold
-            )
+        Text(
+            text = stringResource(uiState.dateTitle),
+            color = Color.White,
+            fontSize = 15.sp,
+            fontWeight = FontWeight.ExtraBold
+        )
 
-            Spacer(modifier = Modifier.height(8.dp))
+        Spacer(modifier = Modifier.height(8.dp))
 
-            Text(
-                text = uiState.parkingInformation.parkingTime,
-                color = Color.White,
-                fontSize = 15.sp,
-                fontWeight = FontWeight.ExtraLight
-            )
-        }
+        Text(
+            text = uiState.parkingInformation.parkingTime,
+            color = Color.White,
+            fontSize = 15.sp,
+            fontWeight = FontWeight.ExtraLight
+        )
 
         if (uiState.parkingInformation.detail.isNotEmpty()) {
-            Spacer(modifier = Modifier.height(24.dp))
+            Spacer(modifier = Modifier.height(8.dp))
 
-            Column(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .background(
-                        color = Color.White.copy(alpha = 0.05f),
-                        shape = RoundedCornerShape(10)
-                    )
-                    .padding(
-                        horizontal = 32.dp,
-                        vertical = 16.dp
-                    )
-            ) {
-                Text(
-                    text = stringResource(uiState.detailTitle),
-                    color = Color.White,
-                    fontSize = 16.sp,
-                    fontWeight = FontWeight.ExtraBold
-                )
+            Text(
+                text = stringResource(uiState.detailTitle),
+                color = Color.White,
+                fontSize = 16.sp,
+                fontWeight = FontWeight.ExtraBold
+            )
 
-                Spacer(modifier = Modifier.height(8.dp))
+            Spacer(modifier = Modifier.height(8.dp))
 
-                Text(
-                    text = uiState.parkingInformation.detail,
-                    color = Color.White,
-                    fontSize = 15.sp,
-                    fontWeight = FontWeight.ExtraLight
-                )
-            }
+            Text(
+                text = uiState.parkingInformation.detail,
+                color = Color.White,
+                fontSize = 15.sp,
+                fontWeight = FontWeight.ExtraLight
+            )
         }
     }
 }

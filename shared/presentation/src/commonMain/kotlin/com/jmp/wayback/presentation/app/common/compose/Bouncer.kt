@@ -25,7 +25,7 @@ import kotlin.math.roundToInt
 @Composable
 fun Bouncer(
     modifier: Modifier = Modifier,
-    shimmerColors: List<Color>,
+    shimmerColors: List<Color>? = null,
     button: @Composable () -> Unit
 ) {
     val offsetY = remember { Animatable(0f) }
@@ -79,12 +79,11 @@ fun Bouncer(
         CompositionLocalProvider(
             LocalShimmerTheme provides defaultShimmerTheme.copy(
                 blendMode = BlendMode.DstIn,
-                shaderColors = shimmerColors,
                 animationSpec = keyframes {
                     durationMillis = 1000
                     shimmerAnimation.value
                 }
-            )
+            ).run { shimmerColors?.let { copy(shaderColors = shimmerColors) } ?: this }
         ) {
             button()
         }
