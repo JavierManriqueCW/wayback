@@ -1,4 +1,4 @@
-package com.jmp.wayback.presentation.app.common.location
+package com.jmp.wayback.presentation.app.provider.location
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -9,6 +9,7 @@ import android.content.pm.PackageManager
 import android.location.Address
 import android.location.Geocoder
 import android.net.Uri
+import android.os.Build
 import android.provider.Settings
 import androidx.activity.ComponentActivity
 import androidx.activity.result.ActivityResultLauncher
@@ -18,10 +19,10 @@ import androidx.core.content.ContextCompat
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 import com.jmp.wayback.presentation.R
+import com.jmp.wayback.presentation.app.platform.Location
 import kotlinx.coroutines.suspendCancellableCoroutine
 import java.util.Locale
 import kotlin.coroutines.resume
-import kotlin.coroutines.resumeWithException
 
 class LocationProvider {
 
@@ -56,7 +57,6 @@ class LocationProvider {
         permissionCallback = callback
 
         when {
-            // Permission is already granted
             ContextCompat.checkSelfPermission(
                 context,
                 Manifest.permission.ACCESS_FINE_LOCATION
@@ -64,12 +64,14 @@ class LocationProvider {
                 callback(true)
             }
 
-            // Check if "Don't ask again" is enabled
-            !shouldShowRequestPermissionRationale(activity, Manifest.permission.ACCESS_FINE_LOCATION) -> {
+            shouldShowRequestPermissionRationale(
+                activity,
+                Manifest.permission.ACCESS_FINE_LOCATION
+            ) -> {
+                callback(false)
                 showSettingsDialog()
             }
 
-            // Request permission
             else -> {
                 requestPermissionLauncher.launch(Manifest.permission.ACCESS_FINE_LOCATION)
             }
@@ -94,44 +96,71 @@ class LocationProvider {
     }
 
     @SuppressLint("MissingPermission")
-    suspend fun getUserLocation(): Location =
+    suspend fun getUserLocation(): Location? =
         suspendCancellableCoroutine { continuation ->
             fusedLocationClient.lastLocation
                 .addOnSuccessListener { location ->
                     if (location != null) {
-                        continuation.resume(
-                            Location(
-                                address = getAddressFromLatLong(
-                                    location.latitude,
-                                    location.longitude
-                                ),
-                                latitude = location.latitude,
-                                longitude = location.longitude
+                        getAddressFromLatLong(
+                            context = context,
+                            latitude = location.latitude,
+                            longitude = location.longitude
+                        ) { address ->
+                            continuation.resume(
+                                Location(
+                                    address = address,
+                                    latitude = location.latitude,
+                                    longitude = location.longitude
+                                )
                             )
-                        )
+                        }
                     } else {
-                        continuation.resumeWithException(IllegalStateException("Location is null"))
+                        continuation.resume(null)
                     }
                 }
-                .addOnFailureListener { exception ->
-                    continuation.resumeWithException(exception)
+                .addOnFailureListener {
+                    continuation.resume(null)
                 }
         }
 
-    private fun getAddressFromLatLong(latitude: Double, longitude: Double): String {
+    private fun getAddressFromLatLong(
+        context: Context,
+        latitude: Double,
+        longitude: Double,
+        callback: (String) -> Unit
+    ) {
         val geocoder = Geocoder(context, Locale.getDefault())
-        return try {
-            val addresses: List<Address>? =
-                geocoder.getFromLocation(latitude, longitude, 1)
-            if (!addresses.isNullOrEmpty()) {
-                val address: Address = addresses[0]
-                address.getAddressLine(0)
-            } else {
-                "Address not found"
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            geocoder.getFromLocation(latitude, longitude, 1, object : Geocoder.GeocodeListener {
+                override fun onGeocode(addresses: MutableList<Address>) {
+                    if (addresses.isNotEmpty()) {
+                        val address = addresses[0]
+                        callback(address.getAddressLine(0))
+                    } else {
+                        callback("Address not found")
+                    }
+                }
+
+                override fun onError(errorMessage: String?) {
+                    callback("Address not found")
+                }
+            })
+        } else {
+            // Fallback for older Android versions
+            @Suppress("DEPRECATION")
+            try {
+                val addresses: List<Address>? = geocoder.getFromLocation(latitude, longitude, 1)
+                if (!addresses.isNullOrEmpty()) {
+                    val address: Address = addresses[0]
+                    callback(address.getAddressLine(0))
+                } else {
+                    callback("Address not found")
+                }
+            } catch (e: Exception) {
+                e.printStackTrace()
+                callback("Address not found")
             }
-        } catch (e: Exception) {
-            e.printStackTrace()
-            "Error: Unable to get address"
         }
     }
 }

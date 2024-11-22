@@ -7,7 +7,7 @@ import com.jmp.wayback.domain.interactor.FetchUpdatedParkingInformation
 import com.jmp.wayback.domain.interactor.GetParkingState
 import com.jmp.wayback.domain.interactor.SaveParkingInformation
 import com.jmp.wayback.domain.interactor.ShouldShowOnboarding
-import com.jmp.wayback.presentation.app.common.location.getPlatformPresentationDependencies
+import com.jmp.wayback.presentation.app.platform.getPlatformPresentationDependencies
 import com.jmp.wayback.presentation.app.viewmodel.AppViewModel
 import com.jmp.wayback.presentation.main.viewmodel.MainUiProvider
 import com.jmp.wayback.presentation.main.viewmodel.MainViewModel

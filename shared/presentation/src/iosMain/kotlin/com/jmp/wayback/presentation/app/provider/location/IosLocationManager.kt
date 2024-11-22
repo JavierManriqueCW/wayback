@@ -1,4 +1,4 @@
-package com.jmp.wayback.presentation.app.common.location
+package com.jmp.wayback.presentation.app.provider.location
 
 import kotlinx.coroutines.CancellableContinuation
 import platform.CoreLocation.CLAuthorizationStatus
@@ -12,18 +12,17 @@ import platform.CoreLocation.kCLAuthorizationStatusRestricted
 import platform.Foundation.NSError
 import platform.darwin.NSObject
 import kotlin.coroutines.resume
-import kotlin.coroutines.resumeWithException
 
 class IosLocationManager : NSObject(), CLLocationManagerDelegateProtocol {
 
-    private var locationResultContinuation: (CancellableContinuation<Result<CLLocation>>)? = null
+    private var locationResultContinuation: (CancellableContinuation<Result<CLLocation>?>)? = null
     private var callback: ((Boolean) -> Unit)? = null
 
     fun setCallback(callback: (Boolean) -> Unit) {
         this.callback = callback
     }
 
-    fun setLocationResultContinuation(continuation: CancellableContinuation<Result<CLLocation>>) {
+    fun setLocationResultContinuation(continuation: CancellableContinuation<Result<CLLocation>?>) {
         locationResultContinuation = continuation
     }
 
@@ -62,7 +61,7 @@ class IosLocationManager : NSObject(), CLLocationManagerDelegateProtocol {
     override fun locationManager(manager: CLLocationManager, didFailWithError: NSError) {
         locationResultContinuation?.let {
             if (it.isActive) {
-                it.resumeWithException(Exception("Failed to get location,description:${didFailWithError.localizedDescription},code:${didFailWithError.code}"))
+                it.resume(null)
                 locationResultContinuation = null
             }
         }
@@ -75,7 +74,7 @@ class IosLocationManager : NSObject(), CLLocationManagerDelegateProtocol {
                 if (location != null) {
                     it.resume(Result.success(location))
                 } else {
-                    it.resumeWithException(Exception("No valid location found"))
+                    it.resume(null)
                 }
                 locationResultContinuation = null
             }

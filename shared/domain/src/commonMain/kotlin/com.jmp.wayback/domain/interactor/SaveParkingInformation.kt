@@ -14,7 +14,8 @@ class SaveParkingInformation(
         address: String,
         latitude: Double,
         longitude: Double,
-        detail: String
+        detail: String,
+        imagePath: String?
     ): Either<Failure, Unit> =
         repository.saveParkingInformation(
             ParkingInformation(
@@ -22,6 +23,7 @@ class SaveParkingInformation(
                 latitude = latitude,
                 longitude = longitude,
                 detail = detail,
+                imagePath = imagePath,
                 parkingTime = obtainParkingTime()
             )
         )

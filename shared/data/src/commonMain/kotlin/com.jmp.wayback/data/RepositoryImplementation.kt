@@ -37,6 +37,7 @@ class RepositoryImplementation(
             val longitude = preferences[LONGITUDE]
             val detail = preferences[DETAIL]
             val parkingTime = preferences[PARKING_TIME]
+            val imagePath = preferences[IMAGE_PATH]
 
             if (
                 address != null &&
@@ -46,11 +47,12 @@ class RepositoryImplementation(
             ) {
                 cacheMemory.updateParkingInformation(
                     ParkingInformation(
-                        address,
-                        latitude,
-                        longitude,
-                        detail.orEmpty(),
-                        parkingTime
+                        address = address,
+                        latitude = latitude,
+                        longitude = longitude,
+                        detail = detail.orEmpty(),
+                        imagePath = imagePath,
+                        parkingTime = parkingTime,
                     )
                 )
             } else {
@@ -72,6 +74,9 @@ class RepositoryImplementation(
                 preferences[LONGITUDE] = parkingInformation.longitude
                 preferences[DETAIL] = parkingInformation.detail
                 preferences[PARKING_TIME] = parkingInformation.parkingTime
+                parkingInformation.imagePath?.let { imagePath ->
+                    preferences[IMAGE_PATH] = imagePath
+                }
             }
             Either.Success(Unit)
         } catch (e: Exception) {
@@ -91,6 +96,7 @@ class RepositoryImplementation(
         private val LATITUDE = doublePreferencesKey("Latitude")
         private val LONGITUDE = doublePreferencesKey("Longitude")
         private val DETAIL = stringPreferencesKey("Detail")
+        private val IMAGE_PATH = stringPreferencesKey("ImagePath")
         private val PARKING_TIME = stringPreferencesKey("ParkingTime")
     }
 }

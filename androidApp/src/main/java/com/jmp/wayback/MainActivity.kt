@@ -10,7 +10,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.view.WindowCompat
-import com.jmp.wayback.presentation.app.common.location.LocationProvider
+import com.jmp.wayback.presentation.app.provider.camera.CameraProvider
+import com.jmp.wayback.presentation.app.provider.location.LocationProvider
 import com.jmp.wayback.presentation.app.view.AppScreen
 import org.koin.java.KoinJavaComponent.inject
 
@@ -20,7 +21,9 @@ class MainActivity : ComponentActivity() {
         enableFullyEdgeToEdge()
         super.onCreate(savedInstanceState)
         WindowCompat.setDecorFitsSystemWindows(window, false)
-        setLocationProvider()
+
+        initCameraProvider()
+        initLocationProvider()
 
         setContent {
             AppScreen()
@@ -35,7 +38,16 @@ class MainActivity : ComponentActivity() {
         )
     }
 
-    private fun setLocationProvider(){
+    private fun initCameraProvider() {
+        val cameraProvider: CameraProvider by inject(CameraProvider::class.java)
+        cameraProvider.init(
+            context = this,
+            activity = this
+        )
+    }
+
+
+    private fun initLocationProvider(){
         val locationProvider: LocationProvider by inject(LocationProvider::class.java)
         locationProvider.init(
             context = this,

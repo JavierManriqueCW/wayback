@@ -1,5 +1,6 @@
 package com.jmp.wayback.presentation.main.viewmodel
 
+import org.jetbrains.compose.resources.DrawableResource
 import org.jetbrains.compose.resources.StringResource
 
 data class NonParkedUiState(
@@ -10,5 +11,15 @@ data class NonParkedUiState(
     val detailPlaceholderText: StringResource,
     val detailText: String,
     val maxCharacters: Int,
-    val parkButtonText: StringResource
+    val titleIcon: DrawableResource,
+    val titleIconContentDescription: StringResource,
+    val cameraButtonImage: DrawableResource,
+    val cameraButtonContentDescription: StringResource,
+    val refreshIcon: DrawableResource,
+    val refreshIconContentDescription: StringResource,
+    val closeIcon: DrawableResource = refreshIcon,
+    val closeIconContentDescription: StringResource,
+    val parkButtonText: StringResource,
+    val imagePath: String? = null,
+    val parking: Boolean = false
 )

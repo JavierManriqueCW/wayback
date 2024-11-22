@@ -6,6 +6,6 @@ import java.util.Locale
 
 actual fun obtainParkingTime(): String {
     val date = Date(System.currentTimeMillis())
-    val dateFormat = SimpleDateFormat("MMMM yyyy, EEEE dd\nHH:mm", Locale.getDefault())
+    val dateFormat = SimpleDateFormat("MMMM dd, EEEE - HH:mm", Locale.getDefault())
     return dateFormat.format(date)
 }

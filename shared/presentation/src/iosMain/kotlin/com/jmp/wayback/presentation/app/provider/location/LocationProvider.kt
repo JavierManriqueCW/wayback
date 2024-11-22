@@ -1,4 +1,4 @@
-package com.jmp.wayback.presentation.app.common.location
+package com.jmp.wayback.presentation.app.provider.location
 
 import kotlinx.coroutines.suspendCancellableCoroutine
 import platform.CoreLocation.CLGeocoder
@@ -19,7 +19,6 @@ import platform.UIKit.UIAlertControllerStyleAlert
 import platform.UIKit.UIApplication
 import platform.UIKit.UIApplicationOpenSettingsURLString
 import kotlin.coroutines.resume
-import kotlin.coroutines.resumeWithException
 import kotlin.coroutines.suspendCoroutine
 
 class LocationProvider {
@@ -33,7 +32,7 @@ class LocationProvider {
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
     }
 
-    suspend fun requestCurrentLocation(): Result<CLLocation> =
+    suspend fun requestCurrentLocation(): Result<CLLocation>? =
         suspendCancellableCoroutine { continuation ->
             iosLocationManager.setLocationResultContinuation(continuation)
             locationManager.requestLocation()
@@ -57,7 +56,7 @@ class LocationProvider {
 
                 else -> {
                     this.callback = callback
-                    locationManager.requestWhenInUseAuthorization()
+                    locationManager.requestAlwaysAuthorization()
                 }
             }
         }
@@ -107,11 +106,7 @@ class LocationProvider {
 
         geocoder.reverseGeocodeLocation(location) { placemarks, error ->
             if (error != null) {
-                continuation.resumeWithException(
-                    Exception(
-                        error.localizedDescription ?: "Unknown error"
-                    )
-                )
+                continuation.resume("Unknown location")
                 return@reverseGeocodeLocation
             }
 
@@ -120,7 +115,7 @@ class LocationProvider {
                 val address = buildAddress(placemark)
                 continuation.resume(address)
             } else {
-                continuation.resume("Address not found")
+                continuation.resume("Unknown location")
             }
         }
     }
@@ -140,6 +135,5 @@ class LocationProvider {
 
 enum class LocationPermissionStatus {
     RESTRICTED_OR_DENIED,
-    NOT_DETERMINED,
     ACCEPTED
 }

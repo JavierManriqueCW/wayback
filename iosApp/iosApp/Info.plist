@@ -43,6 +43,8 @@
     <string>We need your location to enable the parking functionality</string>
     <key>NSLocationAlwaysUsageDescription</key>
     <string>We need your location to enable the parking functionality</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>We need your location to enable the parking functionality</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
@@ -56,5 +58,7 @@
     <array>
         <string>UIInterfaceOrientationPortrait</string>
     </array>
+    <key>NSCameraUsageDescription</key>
+    <string>We need access to your camera to take parking pictures</string>
 </dict>
 </plist>

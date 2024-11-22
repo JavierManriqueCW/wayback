@@ -1,4 +1,4 @@
-package com.jmp.wayback.presentation.app.common.location
+package com.jmp.wayback.presentation.app.provider.location
 
 import androidx.activity.result.ActivityResultLauncher
 

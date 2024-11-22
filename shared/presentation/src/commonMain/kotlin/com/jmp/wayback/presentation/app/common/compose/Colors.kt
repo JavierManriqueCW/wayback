@@ -4,5 +4,6 @@ import androidx.compose.ui.graphics.Color
 
 object Colors {
 
-    val PrimaryColor = Color(0xFF49a4be)
+    val DialogActionColor = Color(0xFF4287f5)
+    val DialogContainerColor = Color(0xFA161616)
 }
