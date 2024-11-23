@@ -19,7 +19,7 @@
     <string name="non_parked_screen_animated_text_5">Compass calibrated. You’ll never get lost!</string>
     <string name="non_parked_screen_animated_text_6">Where is my car?</string>
     <string name="parked_screen_stop_parking_dialog_title" comment="Confirmation title">Confirmation</string>
-    <string name="parked_screen_stop_parking_dialog_body">Are you sure you want to stop parking?</string>
+    <string name="parked_screen_stop_parking_dialog_body">Are you sure you want to leave the parking?</string>
     <string name="parked_screen_stop_parking_dialog_positive_action" comment="Accept button">Accept</string>
     <string name="parked_screen_stop_parking_dialog_negative_action" comment="Cancel button">Cancel</string>
     <string name="parked_screen_title" comment="You have parked your vehicle">You are parked</string>
