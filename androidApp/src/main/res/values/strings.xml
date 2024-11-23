@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Wayback</string>
+    <string name="app_name" translatable="false">Wayback</string>
     <string name="permission_required_title">Permission Required</string>
     <string name="location_permission_required_message">Location permission is required for this feature. Please enable it in the app settings.</string>
-    <string name="permission_required_positive_action">Go to Settings</string>
-    <string name="permission_required_negative_action">Cancel</string>
+    <string name="permission_required_positive_action" comment="Go to the system settings">Go to Settings</string>
+    <string name="permission_required_negative_action" comment="Cancel butotn">Cancel</string>
 </resources>

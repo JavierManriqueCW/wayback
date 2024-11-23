@@ -68,6 +68,7 @@ def create_directories(dir_language):
 
 languages_from_translate = INPUT_LANGUAGE
 languages_to_translate = OUTPUT_LANGUAGES.split(",")
+languages_supporting_formality = ["DE", "FR", "IT", "ES", "NL", "PL", "PT-BR", "PT-PT", "JA", "RU"]
 
 for language_name in languages_to_translate:
     language_to_translate = language_name.strip()
@@ -83,14 +84,15 @@ for language_name in languages_to_translate:
             context = root[i].attrib.get('comment')
             if value is not None:
                 params = {
-                    'auth_key' : API_KEY,
-                    'text' : value,
-                    'formality': 'less',
-                    'source_lang' : languages_from_translate,
+                    'auth_key': API_KEY,
+                    'text': value,
+                    'source_lang': languages_from_translate,
                     "target_lang": language_to_translate
                 }
                 if context is not None:
                     params['context'] = context
+                if language_to_translate in languages_supporting_formality:
+                    params["formality"] = "less"
                 request = requests.post("https://api.deepl.com/v2/translate", data=params)
                 result = request.json()
 
