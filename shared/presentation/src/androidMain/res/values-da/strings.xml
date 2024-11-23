@@ -1,0 +1,12 @@
+<resources>
+    <string name="wayback_pin">Wayback-nål</string>
+    <string name="permission_required_title">Tilladelse påkrævet</string>
+    <string name="permission_required_positive_action">Gå til Indstillinger</string>
+    <string name="permission_required_negative_action">Annuller</string>
+    <string name="location_permission_required_message">Lokaliseringstilladelse er påkrævet for denne funktion. Aktivér den i appens indstillinger.</string>
+    <string name="camera_permission_required_message">Der kræves kameratilladelse for at tage et billede. Aktiver det i appens indstillinger.</string>
+    <string name="no_maps_application">Ingen kort-applikation fundet</string>
+    <string name="share_using">Del ved hjælp af</string>
+    <string name="share_location_title">Parkeret på</string>
+    <string name="share_note_title">Bemærk:</string>
+</resources>

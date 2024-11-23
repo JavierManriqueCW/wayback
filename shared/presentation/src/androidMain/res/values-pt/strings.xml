@@ -1,0 +1,12 @@
+<resources>
+    <string name="wayback_pin">Pino de retrocesso</string>
+    <string name="permission_required_title">Permissão necessária</string>
+    <string name="permission_required_positive_action">Ir para Definições</string>
+    <string name="permission_required_negative_action">Cancelar</string>
+    <string name="location_permission_required_message">A permissão de localização é necessária para esta funcionalidade. Active-a nas definições da aplicação.</string>
+    <string name="camera_permission_required_message">É necessária a permissão da câmara para tirar uma fotografia. Active-a nas definições da aplicação.</string>
+    <string name="no_maps_application">Nenhuma aplicação de mapas encontrada</string>
+    <string name="share_using">Partilhar utilizando</string>
+    <string name="share_location_title">Estacionado em</string>
+    <string name="share_note_title">Nota:</string>
+</resources>

@@ -13,12 +13,12 @@
     <string name="non_parked_screen_park_button" comment="Vehicle parking button">パーク</string>
     <string name="non_parked_screen_animated_text_1">駐車位置を保存する</string>
     <string name="non_parked_screen_animated_text_2">UFOをスキャンする</string>
-    <string name="non_parked_screen_animated_text_3">いや、君の車だけだ</string>
+    <string name="non_parked_screen_animated_text_3">何もない。</string>
     <string name="non_parked_screen_animated_text_4">自分の車に戻る道をマッピングする...</string>
     <string name="non_parked_screen_animated_text_5">コンパス調整済み。道に迷うことはない！</string>
     <string name="non_parked_screen_animated_text_6">私の車はどこだ？</string>
     <string name="parked_screen_stop_parking_dialog_title" comment="Confirmation title">確認事項</string>
-    <string name="parked_screen_stop_parking_dialog_body">本当に駐車を止めたいのか？</string>
+    <string name="parked_screen_stop_parking_dialog_body">本当に駐車場から出たいのか？</string>
     <string name="parked_screen_stop_parking_dialog_positive_action" comment="Accept button">承諾する</string>
     <string name="parked_screen_stop_parking_dialog_negative_action" comment="Cancel button">キャンセルする</string>
     <string name="parked_screen_title" comment="You have parked your vehicle">駐車している</string>

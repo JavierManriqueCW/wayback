@@ -1,0 +1,12 @@
+<resources>
+    <string name="wayback_pin">Wayback pin</string>
+    <string name="permission_required_title">Wymagana zgoda</string>
+    <string name="permission_required_positive_action">Przejdź do Ustawień</string>
+    <string name="permission_required_negative_action">Anuluj</string>
+    <string name="location_permission_required_message">Ta funkcja wymaga uprawnień do lokalizacji. Włącz je w ustawieniach aplikacji.</string>
+    <string name="camera_permission_required_message">Do zrobienia zdjęcia wymagane jest zezwolenie na korzystanie z aparatu. Włącz je w ustawieniach aplikacji.</string>
+    <string name="no_maps_application">Nie znaleziono aplikacji map</string>
+    <string name="share_using">Udostępnij za pomocą</string>
+    <string name="share_location_title">Zaparkowany na</string>
+    <string name="share_note_title">Uwaga:</string>
+</resources>

@@ -13,12 +13,12 @@
     <string name="non_parked_screen_park_button" comment="Vehicle parking button">الركن</string>
     <string name="non_parked_screen_animated_text_1">تخزين موقع وقوف السيارات الخاص بك</string>
     <string name="non_parked_screen_animated_text_2">المسح بحثًا عن الأجسام الغريبة...</string>
-    <string name="non_parked_screen_animated_text_3">لا، سيارتك فقط</string>
+    <string name="non_parked_screen_animated_text_3">لا شيء، أرى مركبتك فقط</string>
     <string name="non_parked_screen_animated_text_4">رسم خريطة طريق العودة إلى مركبتك...</string>
     <string name="non_parked_screen_animated_text_5">معايرة البوصلة. لن تضل الطريق أبداً!</string>
     <string name="non_parked_screen_animated_text_6">أين سيارتي؟</string>
     <string name="parked_screen_stop_parking_dialog_title" comment="Confirmation title">التأكيد</string>
-    <string name="parked_screen_stop_parking_dialog_body">هل أنت متأكد من رغبتك في التوقف عن ركن السيارة؟</string>
+    <string name="parked_screen_stop_parking_dialog_body">هل أنت متأكد أنك تريد ترك موقف السيارات؟</string>
     <string name="parked_screen_stop_parking_dialog_positive_action" comment="Accept button">قبول</string>
     <string name="parked_screen_stop_parking_dialog_negative_action" comment="Cancel button">إلغاء</string>
     <string name="parked_screen_title" comment="You have parked your vehicle">لقد أوقفت سيارتك</string>

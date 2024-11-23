@@ -1,0 +1,12 @@
+<resources>
+    <string name="wayback_pin">웨이백 핀</string>
+    <string name="permission_required_title">필요한 권한</string>
+    <string name="permission_required_positive_action">설정으로 이동</string>
+    <string name="permission_required_negative_action">취소</string>
+    <string name="location_permission_required_message">이 기능을 사용하려면 위치 권한이 필요합니다. 앱 설정에서 활성화하세요.</string>
+    <string name="camera_permission_required_message">사진을 찍으려면 카메라 권한이 필요합니다. 앱 설정에서 활성화하세요.</string>
+    <string name="no_maps_application">지도 애플리케이션을 찾을 수 없음</string>
+    <string name="share_using">다음을 사용하여 공유</string>
+    <string name="share_location_title">주차 위치</string>
+    <string name="share_note_title">참고:</string>
+</resources>

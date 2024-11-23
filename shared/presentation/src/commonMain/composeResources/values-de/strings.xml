@@ -13,12 +13,12 @@
     <string name="non_parked_screen_park_button" comment="Vehicle parking button">PARKEN</string>
     <string name="non_parked_screen_animated_text_1">Speichern deines Stellplatzes</string>
     <string name="non_parked_screen_animated_text_2">Scannen nach UFOs...</string>
-    <string name="non_parked_screen_animated_text_3">Nein, nur dein Auto</string>
+    <string name="non_parked_screen_animated_text_3">Nichts, ich sehe nur dein Fahrzeug</string>
     <string name="non_parked_screen_animated_text_4">Zeichne den Weg zurück zu deinem Auto...</string>
     <string name="non_parked_screen_animated_text_5">Der Kompass ist geeicht. Du wirst dich nie verirren!</string>
     <string name="non_parked_screen_animated_text_6">Wo ist mein Auto?</string>
     <string name="parked_screen_stop_parking_dialog_title" comment="Confirmation title">Konfirmation</string>
-    <string name="parked_screen_stop_parking_dialog_body">Bist du sicher, dass du nicht mehr parken willst?</string>
+    <string name="parked_screen_stop_parking_dialog_body">Bist du sicher, dass du den Parkplatz verlassen willst?</string>
     <string name="parked_screen_stop_parking_dialog_positive_action" comment="Accept button">Akzeptieren</string>
     <string name="parked_screen_stop_parking_dialog_negative_action" comment="Cancel button">Abbrechen</string>
     <string name="parked_screen_title" comment="You have parked your vehicle">Du bist geparkt</string>

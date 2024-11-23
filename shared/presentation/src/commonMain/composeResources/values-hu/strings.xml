@@ -13,12 +13,12 @@
     <string name="non_parked_screen_park_button" comment="Vehicle parking button">PARK</string>
     <string name="non_parked_screen_animated_text_1">A parkolási hely tárolása</string>
     <string name="non_parked_screen_animated_text_2">UFO-k keresése...</string>
-    <string name="non_parked_screen_animated_text_3">Nem, csak az autódat.</string>
+    <string name="non_parked_screen_animated_text_3">Semmi, csak a járművét látom.</string>
     <string name="non_parked_screen_animated_text_4">Feltérképezzük az utat vissza a kocsidhoz...</string>
     <string name="non_parked_screen_animated_text_5">Iránytű kalibrálva. Soha nem fog eltévedni!</string>
     <string name="non_parked_screen_animated_text_6">Hol van az autóm?</string>
     <string name="parked_screen_stop_parking_dialog_title" comment="Confirmation title">Megerősítés</string>
-    <string name="parked_screen_stop_parking_dialog_body">Biztos, hogy nem akarsz parkolni?</string>
+    <string name="parked_screen_stop_parking_dialog_body">Biztos, hogy el akarod hagyni a parkolást?</string>
     <string name="parked_screen_stop_parking_dialog_positive_action" comment="Accept button">Elfogadom</string>
     <string name="parked_screen_stop_parking_dialog_negative_action" comment="Cancel button">Cancel</string>
     <string name="parked_screen_title" comment="You have parked your vehicle">Ön parkol</string>

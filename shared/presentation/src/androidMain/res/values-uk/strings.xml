@@ -1,0 +1,12 @@
+<resources>
+    <string name="wayback_pin">Зворотній зв\'язок</string>
+    <string name="permission_required_title">Потрібен дозвіл</string>
+    <string name="permission_required_positive_action">Перейдіть до налаштувань</string>
+    <string name="permission_required_negative_action">Скасувати</string>
+    <string name="location_permission_required_message">Для використання цієї функції потрібен дозвіл на місцезнаходження. Будь ласка, увімкніть його в налаштуваннях програми.</string>
+    <string name="camera_permission_required_message">Для того, щоб зробити знімок, потрібен дозвіл на камеру. Будь ласка, увімкніть його в налаштуваннях програми.</string>
+    <string name="no_maps_application">Не знайдено жодного додатку для мап</string>
+    <string name="share_using">Поділіться, використовуючи</string>
+    <string name="share_location_title">Припарковано за адресою</string>
+    <string name="share_note_title">Зауважте:</string>
+</resources>

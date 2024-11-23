@@ -1,0 +1,12 @@
+<resources>
+    <string name="wayback_pin">Wayback pin</string>
+    <string name="permission_required_title">Toestemming vereist</string>
+    <string name="permission_required_positive_action">Ga naar Instellingen</string>
+    <string name="permission_required_negative_action">Annuleren</string>
+    <string name="location_permission_required_message">Locatietoestemming is vereist voor deze functie. Schakel deze in bij de app-instellingen.</string>
+    <string name="camera_permission_required_message">Cameratoestemming is vereist om een foto te maken. Schakel deze in bij de instellingen van de app.</string>
+    <string name="no_maps_application">Geen kaartentoepassing gevonden</string>
+    <string name="share_using">Delen met</string>
+    <string name="share_location_title">Geparkeerd bij</string>
+    <string name="share_note_title">Opmerking:</string>
+</resources>

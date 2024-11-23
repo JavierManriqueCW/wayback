@@ -13,12 +13,12 @@
     <string name="non_parked_screen_park_button" comment="Vehicle parking button">PARK</string>
     <string name="non_parked_screen_animated_text_1">Αποθήκευση της θέσης στάθμευσής σας</string>
     <string name="non_parked_screen_animated_text_2">Σάρωση για UFO...</string>
-    <string name="non_parked_screen_animated_text_3">Όχι, μόνο το αυτοκίνητό σας</string>
+    <string name="non_parked_screen_animated_text_3">Τίποτα, βλέπω μόνο το όχημά σας</string>
     <string name="non_parked_screen_animated_text_4">Χαρτογραφώντας το δρόμο της επιστροφής στο όχημά σας...</string>
     <string name="non_parked_screen_animated_text_5">Πυξίδα βαθμονομημένη. Δεν θα χαθείτε ποτέ!</string>
     <string name="non_parked_screen_animated_text_6">Πού είναι το αυτοκίνητό μου;</string>
     <string name="parked_screen_stop_parking_dialog_title" comment="Confirmation title">Επιβεβαίωση</string>
-    <string name="parked_screen_stop_parking_dialog_body">Είστε σίγουρος ότι θέλετε να σταματήσετε το παρκάρισμα;</string>
+    <string name="parked_screen_stop_parking_dialog_body">Είσαι σίγουρος ότι θέλεις να φύγεις από το πάρκινγκ;</string>
     <string name="parked_screen_stop_parking_dialog_positive_action" comment="Accept button">Αποδοχή</string>
     <string name="parked_screen_stop_parking_dialog_negative_action" comment="Cancel button">Ακύρωση</string>
     <string name="parked_screen_title" comment="You have parked your vehicle">Έχετε σταθμεύσει</string>

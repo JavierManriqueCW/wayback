@@ -1,0 +1,12 @@
+<resources>
+    <string name="wayback_pin">دبوس الاسترجاع</string>
+    <string name="permission_required_title">الإذن مطلوب</string>
+    <string name="permission_required_positive_action">الانتقال إلى الإعدادات</string>
+    <string name="permission_required_negative_action">إلغاء</string>
+    <string name="location_permission_required_message">إذن الموقع الجغرافي مطلوب لهذه الميزة. يُرجى تمكينه في إعدادات التطبيق.</string>
+    <string name="camera_permission_required_message">إذن الكاميرا مطلوب لالتقاط صورة. يُرجى تمكينه في إعدادات التطبيق.</string>
+    <string name="no_maps_application">لم يتم العثور على تطبيق خرائط</string>
+    <string name="share_using">المشاركة باستخدام</string>
+    <string name="share_location_title">متوقفة في</string>
+    <string name="share_note_title">ملاحظة:</string>
+</resources>

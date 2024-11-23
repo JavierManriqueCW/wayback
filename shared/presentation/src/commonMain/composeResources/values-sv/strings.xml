@@ -13,12 +13,12 @@
     <string name="non_parked_screen_park_button" comment="Vehicle parking button">PARKERA</string>
     <string name="non_parked_screen_animated_text_1">Spara din parkeringsplats</string>
     <string name="non_parked_screen_animated_text_2">Skannar efter UFO:n...</string>
-    <string name="non_parked_screen_animated_text_3">Nej, bara din bil</string>
+    <string name="non_parked_screen_animated_text_3">Inget, jag ser bara ditt fordon</string>
     <string name="non_parked_screen_animated_text_4">Kartlägger vägen tillbaka till din bil...</string>
     <string name="non_parked_screen_animated_text_5">Kompassen är kalibrerad. Du kommer aldrig att gå vilse!</string>
     <string name="non_parked_screen_animated_text_6">Var är min bil?</string>
     <string name="parked_screen_stop_parking_dialog_title" comment="Confirmation title">Bekräftelse</string>
-    <string name="parked_screen_stop_parking_dialog_body">Är du säker på att du vill sluta parkera?</string>
+    <string name="parked_screen_stop_parking_dialog_body">Är du säker på att du vill lämna parkeringen?</string>
     <string name="parked_screen_stop_parking_dialog_positive_action" comment="Accept button">Acceptera</string>
     <string name="parked_screen_stop_parking_dialog_negative_action" comment="Cancel button">Avbryt</string>
     <string name="parked_screen_title" comment="You have parked your vehicle">Du är parkerad</string>

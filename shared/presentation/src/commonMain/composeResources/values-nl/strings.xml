@@ -13,12 +13,12 @@
     <string name="non_parked_screen_park_button" comment="Vehicle parking button">PARKEREN</string>
     <string name="non_parked_screen_animated_text_1">Je parkeerlocatie opslaan</string>
     <string name="non_parked_screen_animated_text_2">Scannen naar UFO\'s...</string>
-    <string name="non_parked_screen_animated_text_3">Nee, alleen je auto</string>
+    <string name="non_parked_screen_animated_text_3">Niets, ik zie alleen je voertuig</string>
     <string name="non_parked_screen_animated_text_4">De weg terug naar je auto in kaart brengen...</string>
     <string name="non_parked_screen_animated_text_5">Kompas gekalibreerd. Je zult nooit verdwalen!</string>
     <string name="non_parked_screen_animated_text_6">Waar is mijn auto?</string>
     <string name="parked_screen_stop_parking_dialog_title" comment="Confirmation title">Bevestiging</string>
-    <string name="parked_screen_stop_parking_dialog_body">Weet je zeker dat je wilt stoppen met parkeren?</string>
+    <string name="parked_screen_stop_parking_dialog_body">Weet je zeker dat je de parkeerplaats wilt verlaten?</string>
     <string name="parked_screen_stop_parking_dialog_positive_action" comment="Accept button">Accepteren</string>
     <string name="parked_screen_stop_parking_dialog_negative_action" comment="Cancel button">Annuleren</string>
     <string name="parked_screen_title" comment="You have parked your vehicle">Je staat geparkeerd</string>

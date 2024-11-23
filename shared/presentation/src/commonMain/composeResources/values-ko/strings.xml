@@ -13,12 +13,12 @@
     <string name="non_parked_screen_park_button" comment="Vehicle parking button">PARK</string>
     <string name="non_parked_screen_animated_text_1">주차 위치 저장</string>
     <string name="non_parked_screen_animated_text_2">UFO 검색...</string>
-    <string name="non_parked_screen_animated_text_3">아니, 내 차만</string>
+    <string name="non_parked_screen_animated_text_3">아무것도, 차량만 보입니다.</string>
     <string name="non_parked_screen_animated_text_4">라이딩으로 돌아가는 길 매핑하기...</string>
     <string name="non_parked_screen_animated_text_5">나침반 보정. 길을 잃을 염려가 없습니다!</string>
     <string name="non_parked_screen_animated_text_6">내 차는 어디에 있나요?</string>
     <string name="parked_screen_stop_parking_dialog_title" comment="Confirmation title">확인</string>
-    <string name="parked_screen_stop_parking_dialog_body">주차를 중지하시겠습니까?</string>
+    <string name="parked_screen_stop_parking_dialog_body">주차장을 떠나시겠습니까?</string>
     <string name="parked_screen_stop_parking_dialog_positive_action" comment="Accept button">동의</string>
     <string name="parked_screen_stop_parking_dialog_negative_action" comment="Cancel button">취소</string>
     <string name="parked_screen_title" comment="You have parked your vehicle">주차됨</string>

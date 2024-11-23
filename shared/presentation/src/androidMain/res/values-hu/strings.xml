@@ -1,0 +1,12 @@
+<resources>
+    <string name="wayback_pin">Wayback pin</string>
+    <string name="permission_required_title">Engedély szükséges</string>
+    <string name="permission_required_positive_action">Menjen a Beállítások menüpontba</string>
+    <string name="permission_required_negative_action">Törölje</string>
+    <string name="location_permission_required_message">Ehhez a funkcióhoz helymeghatározási engedély szükséges. Kérjük, engedélyezze az alkalmazás beállításaiban.</string>
+    <string name="camera_permission_required_message">A fényképezéshez fényképezőgépes engedély szükséges. Kérjük, engedélyezze az alkalmazás beállításaiban.</string>
+    <string name="no_maps_application">Nincs térképalkalmazás</string>
+    <string name="share_using">Megosztás a</string>
+    <string name="share_location_title">Parkolt a</string>
+    <string name="share_note_title">Megjegyzés:</string>
+</resources>

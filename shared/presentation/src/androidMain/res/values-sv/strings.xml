@@ -1,0 +1,12 @@
+<resources>
+    <string name="wayback_pin">Wayback-pin</string>
+    <string name="permission_required_title">Tillstånd krävs</string>
+    <string name="permission_required_positive_action">Gå till Inställningar</string>
+    <string name="permission_required_negative_action">Avbryt</string>
+    <string name="location_permission_required_message">Platsbehörighet krävs för den här funktionen. Aktivera det i appens inställningar.</string>
+    <string name="camera_permission_required_message">Kameratillstånd krävs för att ta en bild. Aktivera det i appens inställningar.</string>
+    <string name="no_maps_application">Ingen kartapplikation hittades</string>
+    <string name="share_using">Dela med hjälp av</string>
+    <string name="share_location_title">Parkerad vid</string>
+    <string name="share_note_title">Obs!</string>
+</resources>

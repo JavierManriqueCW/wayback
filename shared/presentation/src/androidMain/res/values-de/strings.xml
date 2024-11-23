@@ -1,0 +1,12 @@
+<resources>
+    <string name="wayback_pin">Wayback-Pin</string>
+    <string name="permission_required_title">Erlaubnis erforderlich</string>
+    <string name="permission_required_positive_action">Gehe zu Einstellungen</string>
+    <string name="permission_required_negative_action">Abbrechen</string>
+    <string name="location_permission_required_message">Für diese Funktion ist eine Standortgenehmigung erforderlich. Bitte aktiviere sie in den Einstellungen der App.</string>
+    <string name="camera_permission_required_message">Um ein Foto zu machen, ist eine Kameraerlaubnis erforderlich. Bitte aktiviere sie in den Einstellungen der App.</string>
+    <string name="no_maps_application">Keine Kartenanwendung gefunden</string>
+    <string name="share_using">Teilen mit</string>
+    <string name="share_location_title">Geparkt bei</string>
+    <string name="share_note_title">Hinweis:</string>
+</resources>

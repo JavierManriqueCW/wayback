@@ -13,12 +13,12 @@
     <string name="non_parked_screen_park_button" comment="Vehicle parking button">停车</string>
     <string name="non_parked_screen_animated_text_1">存储您的停车位置</string>
     <string name="non_parked_screen_animated_text_2">扫描不明飞行物...</string>
-    <string name="non_parked_screen_animated_text_3">不，只有你的车</string>
+    <string name="non_parked_screen_animated_text_3">没什么，我只看到你的车</string>
     <string name="non_parked_screen_animated_text_4">绘制回程地图...</string>
     <string name="non_parked_screen_animated_text_5">罗盘已校准。你永远不会迷路！</string>
     <string name="non_parked_screen_animated_text_6">我的车呢？</string>
     <string name="parked_screen_stop_parking_dialog_title" comment="Confirmation title">确认</string>
-    <string name="parked_screen_stop_parking_dialog_body">你确定要停止停车吗？</string>
+    <string name="parked_screen_stop_parking_dialog_body">你确定要离开停车场吗？</string>
     <string name="parked_screen_stop_parking_dialog_positive_action" comment="Accept button">接受</string>
     <string name="parked_screen_stop_parking_dialog_negative_action" comment="Cancel button">取消</string>
     <string name="parked_screen_title" comment="You have parked your vehicle">您正在停车</string>

@@ -13,12 +13,12 @@
     <string name="non_parked_screen_park_button" comment="Vehicle parking button">PARK</string>
     <string name="non_parked_screen_animated_text_1">Pysäköintipaikan tallentaminen</string>
     <string name="non_parked_screen_animated_text_2">Ufojen etsintä...</string>
-    <string name="non_parked_screen_animated_text_3">Ei, vain autosi</string>
+    <string name="non_parked_screen_animated_text_3">Ei mitään, näen vain autosi.</string>
     <string name="non_parked_screen_animated_text_4">Kartoitat tien takaisin kyytisi luo...</string>
     <string name="non_parked_screen_animated_text_5">Kompassi kalibroitu. Et koskaan eksy!</string>
     <string name="non_parked_screen_animated_text_6">Missä autoni on?</string>
     <string name="parked_screen_stop_parking_dialog_title" comment="Confirmation title">Vahvistus</string>
-    <string name="parked_screen_stop_parking_dialog_body">Oletko varma, että haluat lopettaa pysäköinnin?</string>
+    <string name="parked_screen_stop_parking_dialog_body">Oletko varma, että haluat lähteä pysäköintialueelta?</string>
     <string name="parked_screen_stop_parking_dialog_positive_action" comment="Accept button">Hyväksy</string>
     <string name="parked_screen_stop_parking_dialog_negative_action" comment="Cancel button">Peruuta</string>
     <string name="parked_screen_title" comment="You have parked your vehicle">olet pysäköinyt</string>

@@ -13,12 +13,12 @@
     <string name="non_parked_screen_park_button" comment="Vehicle parking button">ПАРКОВКА</string>
     <string name="non_parked_screen_animated_text_1">Сохрани место своей парковки</string>
     <string name="non_parked_screen_animated_text_2">Сканирование в поисках НЛО...</string>
-    <string name="non_parked_screen_animated_text_3">Нет, только твоя машина.</string>
+    <string name="non_parked_screen_animated_text_3">Ничего, я вижу только твой автомобиль.</string>
     <string name="non_parked_screen_animated_text_4">Нанеси на карту путь обратно к своей тачке...</string>
     <string name="non_parked_screen_animated_text_5">Компас откалиброван. Ты никогда не заблудишься!</string>
     <string name="non_parked_screen_animated_text_6">Где моя машина?</string>
     <string name="parked_screen_stop_parking_dialog_title" comment="Confirmation title">Подтверждение</string>
-    <string name="parked_screen_stop_parking_dialog_body">Ты уверен, что хочешь прекратить парковаться?</string>
+    <string name="parked_screen_stop_parking_dialog_body">Ты уверен, что хочешь покинуть парковку?</string>
     <string name="parked_screen_stop_parking_dialog_positive_action" comment="Accept button">Принять</string>
     <string name="parked_screen_stop_parking_dialog_negative_action" comment="Cancel button">Отмена</string>
     <string name="parked_screen_title" comment="You have parked your vehicle">Ты припарковался</string>
