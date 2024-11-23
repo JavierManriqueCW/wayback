@@ -1,0 +1,34 @@
+<resources>
+    <string name="loading_lottie_path" translatable="false">files/loading-lottie.json</string>
+    <string name="loading_content_description">Lottie lastausanimaatio</string>
+    <string name="onboarding_button_text">ALOITA</string>
+    <string name="non_parked_screen_title">Mukava nähdä sinua</string>
+    <string name="non_parked_screen_title_icon_content_description">Otsikko</string>
+    <string name="non_parked_screen_refresh_icon_content_description">Päivitä</string>
+    <string name="non_parked_screen_close_button_content_description">Sulje</string>
+    <string name="non_parked_screen_lottie_path" translatable="false">files/car-lottie.json</string>
+    <string name="non_parked_screen_lottie_content_description">Lottie animaatio</string>
+    <string name="non_parked_screen_detail_placeholder">Kirjoita muistiin</string>
+    <string name="non_parked_screen_camera_button_content_description">Kamera</string>
+    <string name="non_parked_screen_park_button">PARK</string>
+    <string name="non_parked_screen_animated_text_1">Pysäköintipaikan tallentaminen</string>
+    <string name="non_parked_screen_animated_text_2">Ufojen etsintä...</string>
+    <string name="non_parked_screen_animated_text_3">Ei, vain autosi</string>
+    <string name="non_parked_screen_animated_text_4">Kartoitat tien takaisin kyytisi luo...</string>
+    <string name="non_parked_screen_animated_text_5">Kompassi kalibroitu. Et koskaan eksy!</string>
+    <string name="non_parked_screen_animated_text_6">Missä autoni on?</string>
+    <string name="parked_screen_stop_parking_dialog_title">Vahvistus</string>
+    <string name="parked_screen_stop_parking_dialog_body">Oletko varma, että haluat lopettaa pysäköinnin?</string>
+    <string name="parked_screen_stop_parking_dialog_positive_action">Hyväksy</string>
+    <string name="parked_screen_stop_parking_dialog_negative_action">Peruuta</string>
+    <string name="parked_screen_title">Olet pysäköity</string>
+    <string name="parked_screen_title_image_description">Emoji</string>
+    <string name="parked_screen_map_icon_content_description">Kartta</string>
+    <string name="parked_screen_eye_icon_content_description">Silmä</string>
+    <string name="parked_screen_forward_icon_content_description">Eteenpäin</string>
+    <string name="parked_screen_address_title">Tässä on ajoneuvosi</string>
+    <string name="parked_screen_lottie_path">files/location-pin-lottie.json</string>
+    <string name="parked_screen_date_title">Koska</string>
+    <string name="parked_screen_detail_title">Sinulla on viesti</string>
+    <string name="parked_screen_stop_parking_button">STOP PARKING</string>
+</resources>

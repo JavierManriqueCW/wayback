@@ -1,0 +1,34 @@
+<resources>
+    <string name="loading_lottie_path" translatable="false">files/loading-lottie.json</string>
+    <string name="loading_content_description">Анімація завантаження Лотті</string>
+    <string name="onboarding_button_text">ПОЧАТИ РОБОТУ</string>
+    <string name="non_parked_screen_title">Радий вас бачити.</string>
+    <string name="non_parked_screen_title_icon_content_description">Назва</string>
+    <string name="non_parked_screen_refresh_icon_content_description">Оновити</string>
+    <string name="non_parked_screen_close_button_content_description">Закрити</string>
+    <string name="non_parked_screen_lottie_path" translatable="false">files/car-lottie.json</string>
+    <string name="non_parked_screen_lottie_content_description">Анімація Лотті</string>
+    <string name="non_parked_screen_detail_placeholder">Візьміть собі на замітку.</string>
+    <string name="non_parked_screen_camera_button_content_description">Камера</string>
+    <string name="non_parked_screen_park_button">ПАРК</string>
+    <string name="non_parked_screen_animated_text_1">Зберігання місця вашого паркування</string>
+    <string name="non_parked_screen_animated_text_2">Сканування на предмет НЛО...</string>
+    <string name="non_parked_screen_animated_text_3">Ні, тільки твоя машина.</string>
+    <string name="non_parked_screen_animated_text_4">Складання мапи зворотного шляху до вашого атракціону...</string>
+    <string name="non_parked_screen_animated_text_5">Компас відкалібрований. Ви ніколи не заблукаєте!</string>
+    <string name="non_parked_screen_animated_text_6">Де моя машина?</string>
+    <string name="parked_screen_stop_parking_dialog_title">Підтвердження</string>
+    <string name="parked_screen_stop_parking_dialog_body">Ви впевнені, що хочете припинити паркування?</string>
+    <string name="parked_screen_stop_parking_dialog_positive_action">Прийняти</string>
+    <string name="parked_screen_stop_parking_dialog_negative_action">Скасувати</string>
+    <string name="parked_screen_title">Ви припарковані</string>
+    <string name="parked_screen_title_image_description">Емодзі</string>
+    <string name="parked_screen_map_icon_content_description">Карта</string>
+    <string name="parked_screen_eye_icon_content_description">Око.</string>
+    <string name="parked_screen_forward_icon_content_description">Вперед.</string>
+    <string name="parked_screen_address_title">Ось ваш автомобіль</string>
+    <string name="parked_screen_lottie_path">files/location-pin-lottie.json</string>
+    <string name="parked_screen_date_title">Оскільки</string>
+    <string name="parked_screen_detail_title">Тобі записка.</string>
+    <string name="parked_screen_stop_parking_button">ПРИПИНИТИ ПАРКУВАННЯ</string>
+</resources>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="loading_lottie_path" translatable="false">files/loading-lottie.json</string>
+    <string name="loading_content_description">Animation de chargement de Lottie</string>
+    <string name="onboarding_button_text">DÉMARRAGE</string>
+    <string name="non_parked_screen_title">Ravi de vous voir</string>
+    <string name="non_parked_screen_title_icon_content_description">Titre</string>
+    <string name="non_parked_screen_refresh_icon_content_description">Rafraîchir</string>
+    <string name="non_parked_screen_close_button_content_description">Fermer</string>
+    <string name="non_parked_screen_lottie_path" translatable="false">files/car-lottie.json</string>
+    <string name="non_parked_screen_lottie_content_description">Animation Lottie</string>
+    <string name="non_parked_screen_detail_placeholder">Prendre note</string>
+    <string name="non_parked_screen_camera_button_content_description">Appareil photo</string>
+    <string name="non_parked_screen_park_button">PARC</string>
+    <string name="non_parked_screen_animated_text_1">Mémoriser l\'emplacement de votre parking</string>
+    <string name="non_parked_screen_animated_text_2">Recherche d\'OVNIs...</string>
+    <string name="non_parked_screen_animated_text_3">Non, juste votre voiture</string>
+    <string name="non_parked_screen_animated_text_4">Cartographier le chemin du retour vers votre véhicule...</string>
+    <string name="non_parked_screen_animated_text_5">Boussole calibrée. Vous ne vous perdrez jamais !</string>
+    <string name="non_parked_screen_animated_text_6">Où est ma voiture ?</string>
+    <string name="parked_screen_stop_parking_dialog_title">Confirmation</string>
+    <string name="parked_screen_stop_parking_dialog_body">Êtes-vous sûr de vouloir arrêter le stationnement ?</string>
+    <string name="parked_screen_stop_parking_dialog_positive_action">Accepter</string>
+    <string name="parked_screen_stop_parking_dialog_negative_action">Annuler</string>
+    <string name="parked_screen_title">Vous êtes garé</string>
+    <string name="parked_screen_title_image_description">Emoji</string>
+    <string name="parked_screen_map_icon_content_description">Carte</string>
+    <string name="parked_screen_eye_icon_content_description">L\'œil</string>
+    <string name="parked_screen_forward_icon_content_description">En avant</string>
+    <string name="parked_screen_address_title">Voici votre véhicule</string>
+    <string name="parked_screen_lottie_path">files/location-pin-lottie.json</string>
+    <string name="parked_screen_date_title">Depuis</string>
+    <string name="parked_screen_detail_title">Vous avez reçu une note</string>
+    <string name="parked_screen_stop_parking_button">STOP PARKING</string>
+</resources>

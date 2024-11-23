@@ -1,0 +1,34 @@
+<resources>
+    <string name="loading_lottie_path" translatable="false">files/loading-lottie.json</string>
+    <string name="loading_content_description">Κινούμενα σχέδια φόρτωσης Lottie</string>
+    <string name="onboarding_button_text">ΞΕΚΙΝΉΣΤΕ</string>
+    <string name="non_parked_screen_title">Χαίρομαι που σε βλέπω</string>
+    <string name="non_parked_screen_title_icon_content_description">Τίτλος</string>
+    <string name="non_parked_screen_refresh_icon_content_description">Ανανέωση</string>
+    <string name="non_parked_screen_close_button_content_description">Κλείστε το</string>
+    <string name="non_parked_screen_lottie_path" translatable="false">files/car-lottie.json</string>
+    <string name="non_parked_screen_lottie_content_description">Lottie animation</string>
+    <string name="non_parked_screen_detail_placeholder">Σημειώστε</string>
+    <string name="non_parked_screen_camera_button_content_description">Κάμερα</string>
+    <string name="non_parked_screen_park_button">PARK</string>
+    <string name="non_parked_screen_animated_text_1">Αποθήκευση της θέσης στάθμευσής σας</string>
+    <string name="non_parked_screen_animated_text_2">Σάρωση για UFO...</string>
+    <string name="non_parked_screen_animated_text_3">Όχι, μόνο το αυτοκίνητό σας</string>
+    <string name="non_parked_screen_animated_text_4">Χαρτογραφώντας το δρόμο της επιστροφής στο όχημά σας...</string>
+    <string name="non_parked_screen_animated_text_5">Πυξίδα βαθμονομημένη. Δεν θα χαθείτε ποτέ!</string>
+    <string name="non_parked_screen_animated_text_6">Πού είναι το αυτοκίνητό μου;</string>
+    <string name="parked_screen_stop_parking_dialog_title">Επιβεβαίωση</string>
+    <string name="parked_screen_stop_parking_dialog_body">Είστε σίγουρος ότι θέλετε να σταματήσετε το παρκάρισμα;</string>
+    <string name="parked_screen_stop_parking_dialog_positive_action">Αποδοχή</string>
+    <string name="parked_screen_stop_parking_dialog_negative_action">Ακύρωση</string>
+    <string name="parked_screen_title">Είστε σταθμευμένοι</string>
+    <string name="parked_screen_title_image_description">Emoji</string>
+    <string name="parked_screen_map_icon_content_description">Χάρτης</string>
+    <string name="parked_screen_eye_icon_content_description">Μάτι</string>
+    <string name="parked_screen_forward_icon_content_description">Εμπρός</string>
+    <string name="parked_screen_address_title">Εδώ είναι το όχημά σας</string>
+    <string name="parked_screen_lottie_path">files/location-pin-lottie.json</string>
+    <string name="parked_screen_date_title">Από το</string>
+    <string name="parked_screen_detail_title">Έχεις ένα σημείωμα</string>
+    <string name="parked_screen_stop_parking_button">STOP PARKING</string>
+</resources>

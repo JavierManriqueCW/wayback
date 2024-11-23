@@ -1,0 +1,34 @@
+<resources>
+    <string name="loading_lottie_path" translatable="false">files/loading-lottie.json</string>
+    <string name="loading_content_description">Lottie indlæser animation</string>
+    <string name="onboarding_button_text">KOM GODT I GANG</string>
+    <string name="non_parked_screen_title">Godt at se dig</string>
+    <string name="non_parked_screen_title_icon_content_description">Titel</string>
+    <string name="non_parked_screen_refresh_icon_content_description">Opdatering</string>
+    <string name="non_parked_screen_close_button_content_description">Luk</string>
+    <string name="non_parked_screen_lottie_path" translatable="false">files/car-lottie.json</string>
+    <string name="non_parked_screen_lottie_content_description">Lottie-animation</string>
+    <string name="non_parked_screen_detail_placeholder">Tag en note</string>
+    <string name="non_parked_screen_camera_button_content_description">Kamera</string>
+    <string name="non_parked_screen_park_button">PARK</string>
+    <string name="non_parked_screen_animated_text_1">Gemmer din parkeringsplads</string>
+    <string name="non_parked_screen_animated_text_2">Scanning efter UFO\'er...</string>
+    <string name="non_parked_screen_animated_text_3">Nej, kun din bil</string>
+    <string name="non_parked_screen_animated_text_4">Kortlæg vejen tilbage til din bil...</string>
+    <string name="non_parked_screen_animated_text_5">Kompasset er kalibreret. Du farer aldrig vild!</string>
+    <string name="non_parked_screen_animated_text_6">Hvor er min bil?</string>
+    <string name="parked_screen_stop_parking_dialog_title">Bekræftelse</string>
+    <string name="parked_screen_stop_parking_dialog_body">Er du sikker på, at du vil stoppe med at parkere?</string>
+    <string name="parked_screen_stop_parking_dialog_positive_action">Accepter</string>
+    <string name="parked_screen_stop_parking_dialog_negative_action">Annuller</string>
+    <string name="parked_screen_title">Du er parkeret</string>
+    <string name="parked_screen_title_image_description">Emoji</string>
+    <string name="parked_screen_map_icon_content_description">Kort</string>
+    <string name="parked_screen_eye_icon_content_description">Øje</string>
+    <string name="parked_screen_forward_icon_content_description">Fremadrettet</string>
+    <string name="parked_screen_address_title">Her er dit køretøj</string>
+    <string name="parked_screen_lottie_path">files/location-pin-lottie.json</string>
+    <string name="parked_screen_date_title">Siden</string>
+    <string name="parked_screen_detail_title">Du har fået en besked</string>
+    <string name="parked_screen_stop_parking_button">STOP PARKERING</string>
+</resources>
