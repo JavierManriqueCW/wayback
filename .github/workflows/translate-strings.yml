@@ -29,14 +29,14 @@ jobs:
           OUTPUT_LANGUAGES: "ES,FR,DE,ZH,UK,JA,RU,AR,PT,IT,KO,NL,SV,PL,TR,DA,FI,EL,HU"
           INPUT_FOLDER: "./shared/presentation/src/commonMain/composeResources/values"
 
-      - name: Add strings.xml to Git
-        run: git add app/src/main/res/*
+      - name: Add common strings.xml to Git
+        run: git add ./shared/presentation/src/commonMain/composeResources/values/*
 
       - name: Commit files
         run: |
           git config --local user.email ${{ vars.COMMITER_EMAIL }}
           git config --local user.name ${{ vars.COMMITER_NAME }}
-          git commit -a -m "Github Action automatic translations of general strings"
+          git commit -a -m "Github Action automatic translation of common strings"
 
       - name: GitHub Push
         uses: ad-m/github-push-action@v0.8.0
