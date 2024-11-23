@@ -1,8 +1,8 @@
 <resources>
     <string name="loading_lottie_path" translatable="false">files/loading-lottie.json</string>
     <string name="loading_content_description">로티 로딩 애니메이션</string>
-    <string name="onboarding_button_text">시작하기</string>
-    <string name="non_parked_screen_title">반갑습니다</string>
+    <string name="onboarding_button_text" comment="Start doing something">시작하기</string>
+    <string name="non_parked_screen_title" comment="Title text without final period">반갑습니다</string>
     <string name="non_parked_screen_title_icon_content_description">제목</string>
     <string name="non_parked_screen_refresh_icon_content_description">새로 고침</string>
     <string name="non_parked_screen_close_button_content_description">닫기</string>
@@ -10,25 +10,25 @@
     <string name="non_parked_screen_lottie_content_description">로티 애니메이션</string>
     <string name="non_parked_screen_detail_placeholder">메모하기</string>
     <string name="non_parked_screen_camera_button_content_description">카메라</string>
-    <string name="non_parked_screen_park_button">PARK</string>
+    <string name="non_parked_screen_park_button" comment="Vehicle parking button">PARK</string>
     <string name="non_parked_screen_animated_text_1">주차 위치 저장</string>
     <string name="non_parked_screen_animated_text_2">UFO 검색...</string>
     <string name="non_parked_screen_animated_text_3">아니, 내 차만</string>
     <string name="non_parked_screen_animated_text_4">라이딩으로 돌아가는 길 매핑하기...</string>
     <string name="non_parked_screen_animated_text_5">나침반 보정. 길을 잃을 염려가 없습니다!</string>
     <string name="non_parked_screen_animated_text_6">내 차는 어디에 있나요?</string>
-    <string name="parked_screen_stop_parking_dialog_title">확인</string>
+    <string name="parked_screen_stop_parking_dialog_title" comment="Confirmation title">확인</string>
     <string name="parked_screen_stop_parking_dialog_body">주차를 중지하시겠습니까?</string>
-    <string name="parked_screen_stop_parking_dialog_positive_action">수락</string>
-    <string name="parked_screen_stop_parking_dialog_negative_action">취소</string>
-    <string name="parked_screen_title">주차 중입니다.</string>
+    <string name="parked_screen_stop_parking_dialog_positive_action" comment="Accept button">동의</string>
+    <string name="parked_screen_stop_parking_dialog_negative_action" comment="Cancel button">취소</string>
+    <string name="parked_screen_title" comment="You have parked your vehicle">주차됨</string>
     <string name="parked_screen_title_image_description">이모티콘</string>
     <string name="parked_screen_map_icon_content_description">지도</string>
     <string name="parked_screen_eye_icon_content_description">눈</string>
-    <string name="parked_screen_forward_icon_content_description">앞으로</string>
+    <string name="parked_screen_forward_icon_content_description" comment="Forward synonym of sending">Forward</string>
     <string name="parked_screen_address_title">차량은 다음과 같습니다.</string>
-    <string name="parked_screen_lottie_path">파일/위치 핀 로티.json</string>
+    <string name="parked_screen_lottie_path" translatable="false">files/location-pin-lottie.json</string>
     <string name="parked_screen_date_title">이후</string>
     <string name="parked_screen_detail_title">메모가 있습니다.</string>
-    <string name="parked_screen_stop_parking_button">주차 중지</string>
+    <string name="parked_screen_stop_parking_button" comment="Stop vehicle parking">주차 중지</string>
 </resources>

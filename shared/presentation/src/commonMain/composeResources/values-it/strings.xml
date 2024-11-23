@@ -1,8 +1,8 @@
 <resources>
     <string name="loading_lottie_path" translatable="false">files/loading-lottie.json</string>
     <string name="loading_content_description">Animazione di caricamento di Lottie</string>
-    <string name="onboarding_button_text">INIZIARE</string>
-    <string name="non_parked_screen_title">Piacere di vederti</string>
+    <string name="onboarding_button_text" comment="Start doing something">INIZIARE</string>
+    <string name="non_parked_screen_title" comment="Title text without final period">Piacere di vederti</string>
     <string name="non_parked_screen_title_icon_content_description">Titolo</string>
     <string name="non_parked_screen_refresh_icon_content_description">Aggiornare</string>
     <string name="non_parked_screen_close_button_content_description">Chiudere</string>
@@ -10,25 +10,25 @@
     <string name="non_parked_screen_lottie_content_description">Animazione Lottie</string>
     <string name="non_parked_screen_detail_placeholder">Prendere nota</string>
     <string name="non_parked_screen_camera_button_content_description">Macchina fotografica</string>
-    <string name="non_parked_screen_park_button">PARCO</string>
+    <string name="non_parked_screen_park_button" comment="Vehicle parking button">PARCHEGGIO</string>
     <string name="non_parked_screen_animated_text_1">Memorizzazione della posizione del parcheggio</string>
     <string name="non_parked_screen_animated_text_2">Scansione per gli UFO...</string>
     <string name="non_parked_screen_animated_text_3">No, solo la vostra auto</string>
     <string name="non_parked_screen_animated_text_4">Mappatura della strada per tornare al vostro mezzo...</string>
     <string name="non_parked_screen_animated_text_5">Bussola calibrata. Non vi perderete mai!</string>
     <string name="non_parked_screen_animated_text_6">Dov\'è la mia macchina?</string>
-    <string name="parked_screen_stop_parking_dialog_title">Conferma</string>
+    <string name="parked_screen_stop_parking_dialog_title" comment="Confirmation title">Conferma</string>
     <string name="parked_screen_stop_parking_dialog_body">È sicuro di voler smettere di parcheggiare?</string>
-    <string name="parked_screen_stop_parking_dialog_positive_action">Accettare</string>
-    <string name="parked_screen_stop_parking_dialog_negative_action">Annullamento</string>
-    <string name="parked_screen_title">Siete parcheggiati</string>
+    <string name="parked_screen_stop_parking_dialog_positive_action" comment="Accept button">Accettare</string>
+    <string name="parked_screen_stop_parking_dialog_negative_action" comment="Cancel button">Annullamento</string>
+    <string name="parked_screen_title" comment="You have parked your vehicle">Siete parcheggiati</string>
     <string name="parked_screen_title_image_description">Emoji</string>
     <string name="parked_screen_map_icon_content_description">Mappa</string>
     <string name="parked_screen_eye_icon_content_description">Occhio</string>
-    <string name="parked_screen_forward_icon_content_description">In avanti</string>
+    <string name="parked_screen_forward_icon_content_description" comment="Forward synonym of sending">Inoltrare</string>
     <string name="parked_screen_address_title">Ecco il vostro veicolo</string>
-    <string name="parked_screen_lottie_path">files/location-pin-lottie.json</string>
+    <string name="parked_screen_lottie_path" translatable="false">files/location-pin-lottie.json</string>
     <string name="parked_screen_date_title">Da quando</string>
     <string name="parked_screen_detail_title">Hai ricevuto una nota</string>
-    <string name="parked_screen_stop_parking_button">STOP AL PARCHEGGIO</string>
+    <string name="parked_screen_stop_parking_button" comment="Stop vehicle parking">sosta parcheggio</string>
 </resources>

@@ -1,8 +1,8 @@
 <resources>
     <string name="loading_lottie_path" translatable="false">files/loading-lottie.json</string>
     <string name="loading_content_description">Анимация загрузки Лотти</string>
-    <string name="onboarding_button_text">НАЧНИТЕ РАБОТАТЬ</string>
-    <string name="non_parked_screen_title">Рад вас видеть.</string>
+    <string name="onboarding_button_text" comment="Start doing something">НАЧАТЬ</string>
+    <string name="non_parked_screen_title" comment="Title text without final period">Приятно видеть вас</string>
     <string name="non_parked_screen_title_icon_content_description">Название</string>
     <string name="non_parked_screen_refresh_icon_content_description">Обновить</string>
     <string name="non_parked_screen_close_button_content_description">Закрыть</string>
@@ -10,25 +10,25 @@
     <string name="non_parked_screen_lottie_content_description">Анимация Лотти</string>
     <string name="non_parked_screen_detail_placeholder">Возьмите на заметку</string>
     <string name="non_parked_screen_camera_button_content_description">Камера</string>
-    <string name="non_parked_screen_park_button">ПАРК</string>
+    <string name="non_parked_screen_park_button" comment="Vehicle parking button">ПАРКОВКА</string>
     <string name="non_parked_screen_animated_text_1">Сохранение места парковки</string>
     <string name="non_parked_screen_animated_text_2">Сканирование в поисках НЛО...</string>
     <string name="non_parked_screen_animated_text_3">Нет, только ваша машина.</string>
     <string name="non_parked_screen_animated_text_4">Нанесите на карту путь к вашей машине...</string>
     <string name="non_parked_screen_animated_text_5">Компас откалиброван. Вы никогда не заблудитесь!</string>
     <string name="non_parked_screen_animated_text_6">Где моя машина?</string>
-    <string name="parked_screen_stop_parking_dialog_title">Подтверждение</string>
+    <string name="parked_screen_stop_parking_dialog_title" comment="Confirmation title">Подтверждение</string>
     <string name="parked_screen_stop_parking_dialog_body">Вы уверены, что хотите прекратить парковку?</string>
-    <string name="parked_screen_stop_parking_dialog_positive_action">Принять</string>
-    <string name="parked_screen_stop_parking_dialog_negative_action">Отмена</string>
-    <string name="parked_screen_title">Вы припаркованы</string>
+    <string name="parked_screen_stop_parking_dialog_positive_action" comment="Accept button">Принять</string>
+    <string name="parked_screen_stop_parking_dialog_negative_action" comment="Cancel button">Отмена</string>
+    <string name="parked_screen_title" comment="You have parked your vehicle">Вы припаркованы</string>
     <string name="parked_screen_title_image_description">Emoji</string>
     <string name="parked_screen_map_icon_content_description">Карта</string>
     <string name="parked_screen_eye_icon_content_description">Глаз</string>
-    <string name="parked_screen_forward_icon_content_description">Вперед</string>
+    <string name="parked_screen_forward_icon_content_description" comment="Forward synonym of sending">Вперед</string>
     <string name="parked_screen_address_title">Вот ваш автомобиль</string>
-    <string name="parked_screen_lottie_path">files/location-pin-lottie.json</string>
+    <string name="parked_screen_lottie_path" translatable="false">files/location-pin-lottie.json</string>
     <string name="parked_screen_date_title">Поскольку</string>
     <string name="parked_screen_detail_title">Вы получили записку</string>
-    <string name="parked_screen_stop_parking_button">ОСТАНОВКА ПАРКОВКИ</string>
+    <string name="parked_screen_stop_parking_button" comment="Stop vehicle parking">остановка парковки</string>
 </resources>

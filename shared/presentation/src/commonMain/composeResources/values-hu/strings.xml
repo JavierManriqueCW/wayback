@@ -1,8 +1,8 @@
 <resources>
     <string name="loading_lottie_path" translatable="false">files/loading-lottie.json</string>
     <string name="loading_content_description">Lottie betöltési animáció</string>
-    <string name="onboarding_button_text">KEZDJÜNK HOZZÁ</string>
-    <string name="non_parked_screen_title">Örülök, hogy látlak</string>
+    <string name="onboarding_button_text" comment="Start doing something">KEZDJE EL</string>
+    <string name="non_parked_screen_title" comment="Title text without final period">Örülök, hogy látlak</string>
     <string name="non_parked_screen_title_icon_content_description">Cím</string>
     <string name="non_parked_screen_refresh_icon_content_description">Frissítés</string>
     <string name="non_parked_screen_close_button_content_description">Zárja be a</string>
@@ -10,25 +10,25 @@
     <string name="non_parked_screen_lottie_content_description">Lottie animáció</string>
     <string name="non_parked_screen_detail_placeholder">Jegyezd fel</string>
     <string name="non_parked_screen_camera_button_content_description">Kamera</string>
-    <string name="non_parked_screen_park_button">PARK</string>
+    <string name="non_parked_screen_park_button" comment="Vehicle parking button">PARK</string>
     <string name="non_parked_screen_animated_text_1">A parkolási hely tárolása</string>
     <string name="non_parked_screen_animated_text_2">UFO-k keresése...</string>
     <string name="non_parked_screen_animated_text_3">Nem, csak az autódat.</string>
     <string name="non_parked_screen_animated_text_4">Feltérképezzük az utat vissza a kocsidhoz...</string>
     <string name="non_parked_screen_animated_text_5">Iránytű kalibrálva. Soha nem fog eltévedni!</string>
     <string name="non_parked_screen_animated_text_6">Hol van az autóm?</string>
-    <string name="parked_screen_stop_parking_dialog_title">Megerősítés</string>
+    <string name="parked_screen_stop_parking_dialog_title" comment="Confirmation title">Megerősítés</string>
     <string name="parked_screen_stop_parking_dialog_body">Biztos, hogy nem akarsz parkolni?</string>
-    <string name="parked_screen_stop_parking_dialog_positive_action">Elfogadom</string>
-    <string name="parked_screen_stop_parking_dialog_negative_action">Törölje</string>
-    <string name="parked_screen_title">Ön parkol</string>
+    <string name="parked_screen_stop_parking_dialog_positive_action" comment="Accept button">Elfogadom</string>
+    <string name="parked_screen_stop_parking_dialog_negative_action" comment="Cancel button">Cancel</string>
+    <string name="parked_screen_title" comment="You have parked your vehicle">Ön parkol</string>
     <string name="parked_screen_title_image_description">Emoji</string>
     <string name="parked_screen_map_icon_content_description">Térkép</string>
     <string name="parked_screen_eye_icon_content_description">Szem</string>
-    <string name="parked_screen_forward_icon_content_description">Előre</string>
+    <string name="parked_screen_forward_icon_content_description" comment="Forward synonym of sending">Forward</string>
     <string name="parked_screen_address_title">Itt van a járműve</string>
-    <string name="parked_screen_lottie_path">files/location-pin-lottie.json</string>
+    <string name="parked_screen_lottie_path" translatable="false">files/location-pin-lottie.json</string>
     <string name="parked_screen_date_title">Mivel</string>
     <string name="parked_screen_detail_title">Kaptál egy üzenetet</string>
-    <string name="parked_screen_stop_parking_button">STOP PARKOLÁS</string>
+    <string name="parked_screen_stop_parking_button" comment="Stop vehicle parking">parkolás megállítása</string>
 </resources>

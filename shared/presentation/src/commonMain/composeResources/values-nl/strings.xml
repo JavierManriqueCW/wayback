@@ -1,8 +1,8 @@
 <resources>
     <string name="loading_lottie_path" translatable="false">files/loading-lottie.json</string>
     <string name="loading_content_description">Lottie laadanimatie</string>
-    <string name="onboarding_button_text">STARTEN</string>
-    <string name="non_parked_screen_title">Leuk je te zien</string>
+    <string name="onboarding_button_text" comment="Start doing something">STARTEN</string>
+    <string name="non_parked_screen_title" comment="Title text without final period">Leuk je te zien</string>
     <string name="non_parked_screen_title_icon_content_description">Titel</string>
     <string name="non_parked_screen_refresh_icon_content_description">Vernieuw</string>
     <string name="non_parked_screen_close_button_content_description">Sluit</string>
@@ -10,25 +10,25 @@
     <string name="non_parked_screen_lottie_content_description">Lottie animatie</string>
     <string name="non_parked_screen_detail_placeholder">Notitie maken</string>
     <string name="non_parked_screen_camera_button_content_description">Camera</string>
-    <string name="non_parked_screen_park_button">PARK</string>
+    <string name="non_parked_screen_park_button" comment="Vehicle parking button">PARKEREN</string>
     <string name="non_parked_screen_animated_text_1">Uw parkeerlocatie opslaan</string>
     <string name="non_parked_screen_animated_text_2">Scannen naar UFO\'s...</string>
     <string name="non_parked_screen_animated_text_3">Nee, alleen je auto</string>
     <string name="non_parked_screen_animated_text_4">De weg terug naar je auto in kaart brengen...</string>
     <string name="non_parked_screen_animated_text_5">Kompas gekalibreerd. Je zult nooit verdwalen!</string>
     <string name="non_parked_screen_animated_text_6">Waar is mijn auto?</string>
-    <string name="parked_screen_stop_parking_dialog_title">Bevestiging</string>
+    <string name="parked_screen_stop_parking_dialog_title" comment="Confirmation title">Bevestiging</string>
     <string name="parked_screen_stop_parking_dialog_body">Weet je zeker dat je wilt stoppen met parkeren?</string>
-    <string name="parked_screen_stop_parking_dialog_positive_action">Accepteer</string>
-    <string name="parked_screen_stop_parking_dialog_negative_action">Annuleren</string>
-    <string name="parked_screen_title">U staat geparkeerd</string>
+    <string name="parked_screen_stop_parking_dialog_positive_action" comment="Accept button">Accepteren</string>
+    <string name="parked_screen_stop_parking_dialog_negative_action" comment="Cancel button">Annuleren</string>
+    <string name="parked_screen_title" comment="You have parked your vehicle">U staat geparkeerd</string>
     <string name="parked_screen_title_image_description">Emoji</string>
     <string name="parked_screen_map_icon_content_description">Kaart</string>
     <string name="parked_screen_eye_icon_content_description">Oog</string>
-    <string name="parked_screen_forward_icon_content_description">Vooruit</string>
+    <string name="parked_screen_forward_icon_content_description" comment="Forward synonym of sending">Doorsturen</string>
     <string name="parked_screen_address_title">Hier is uw voertuig</string>
-    <string name="parked_screen_lottie_path">bestanden/locatie-pin-lottie.json</string>
+    <string name="parked_screen_lottie_path" translatable="false">files/location-pin-lottie.json</string>
     <string name="parked_screen_date_title">Sinds</string>
     <string name="parked_screen_detail_title">Je hebt een briefje</string>
-    <string name="parked_screen_stop_parking_button">STOPPEN MET PARKEREN</string>
+    <string name="parked_screen_stop_parking_button" comment="Stop vehicle parking">stoppen met parkeren</string>
 </resources>

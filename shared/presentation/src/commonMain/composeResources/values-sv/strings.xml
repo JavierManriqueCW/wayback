@@ -1,8 +1,8 @@
 <resources>
     <string name="loading_lottie_path" translatable="false">files/loading-lottie.json</string>
     <string name="loading_content_description">Lottie laddar animation</string>
-    <string name="onboarding_button_text">KOM IGÅNG</string>
-    <string name="non_parked_screen_title">Trevligt att se dig</string>
+    <string name="onboarding_button_text" comment="Start doing something">KOM IGÅNG</string>
+    <string name="non_parked_screen_title" comment="Title text without final period">Trevligt att se dig</string>
     <string name="non_parked_screen_title_icon_content_description">Titel</string>
     <string name="non_parked_screen_refresh_icon_content_description">Uppdatera</string>
     <string name="non_parked_screen_close_button_content_description">Nära</string>
@@ -10,25 +10,25 @@
     <string name="non_parked_screen_lottie_content_description">Lottie animation</string>
     <string name="non_parked_screen_detail_placeholder">Gör en anteckning</string>
     <string name="non_parked_screen_camera_button_content_description">Kamera</string>
-    <string name="non_parked_screen_park_button">PARK</string>
+    <string name="non_parked_screen_park_button" comment="Vehicle parking button">PARKERA</string>
     <string name="non_parked_screen_animated_text_1">Spara din parkeringsplats</string>
     <string name="non_parked_screen_animated_text_2">Skannar efter UFO:n...</string>
     <string name="non_parked_screen_animated_text_3">Nej, bara din bil</string>
     <string name="non_parked_screen_animated_text_4">Kartlägger vägen tillbaka till din bil...</string>
     <string name="non_parked_screen_animated_text_5">Kompassen är kalibrerad. Du kommer aldrig att gå vilse!</string>
     <string name="non_parked_screen_animated_text_6">Var är min bil?</string>
-    <string name="parked_screen_stop_parking_dialog_title">Bekräftelse</string>
+    <string name="parked_screen_stop_parking_dialog_title" comment="Confirmation title">Bekräftelse</string>
     <string name="parked_screen_stop_parking_dialog_body">Är du säker på att du vill sluta parkera?</string>
-    <string name="parked_screen_stop_parking_dialog_positive_action">Acceptera</string>
-    <string name="parked_screen_stop_parking_dialog_negative_action">Avbryt</string>
-    <string name="parked_screen_title">Du är parkerad</string>
+    <string name="parked_screen_stop_parking_dialog_positive_action" comment="Accept button">Acceptera</string>
+    <string name="parked_screen_stop_parking_dialog_negative_action" comment="Cancel button">Avbryt</string>
+    <string name="parked_screen_title" comment="You have parked your vehicle">Du är parkerad</string>
     <string name="parked_screen_title_image_description">Emoji</string>
     <string name="parked_screen_map_icon_content_description">Karta</string>
     <string name="parked_screen_eye_icon_content_description">Ögon</string>
-    <string name="parked_screen_forward_icon_content_description">Framåt</string>
+    <string name="parked_screen_forward_icon_content_description" comment="Forward synonym of sending">Vidarebefordra</string>
     <string name="parked_screen_address_title">Här är ditt fordon</string>
-    <string name="parked_screen_lottie_path">filer/placering-pin-lottie.json</string>
+    <string name="parked_screen_lottie_path" translatable="false">files/location-pin-lottie.json</string>
     <string name="parked_screen_date_title">Sedan</string>
     <string name="parked_screen_detail_title">Du fick en lapp</string>
-    <string name="parked_screen_stop_parking_button">STOPPA PARKERING</string>
+    <string name="parked_screen_stop_parking_button" comment="Stop vehicle parking">Stoppa parkering</string>
 </resources>
