@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name" translatable="false">Wayback</string>
-    <string name="permission_required_title">Потрібен дозвіл</string>
-    <string name="location_permission_required_message">Для використання цієї функції потрібен дозвіл на місцезнаходження. Будь ласка, увімкніть його в налаштуваннях програми.</string>
-    <string name="permission_required_positive_action" comment="Go to the system settings">Перейдіть до налаштувань</string>
-    <string name="permission_required_negative_action" comment="Cancel butotn">Скасувати</string>
-</resources>

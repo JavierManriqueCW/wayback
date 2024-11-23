@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name" translatable="false">Wayback</string>
-    <string name="permission_required_title">許可が必要</string>
-    <string name="location_permission_required_message">この機能には位置情報の許可が必要。アプリの設定で有効にしてね。</string>
-    <string name="permission_required_positive_action" comment="Go to the system settings">設定に進む</string>
-    <string name="permission_required_negative_action" comment="Cancel butotn">キャンセル</string>
-</resources>

@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name" translatable="false">Wayback</string>
-    <string name="permission_required_title">Toestemming vereist</string>
-    <string name="location_permission_required_message">Locatietoestemming is vereist voor deze functie. Schakel deze in bij de app-instellingen.</string>
-    <string name="permission_required_positive_action" comment="Go to the system settings">Ga naar instellingen</string>
-    <string name="permission_required_negative_action" comment="Cancel butotn">Annuleren</string>
-</resources>

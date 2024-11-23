@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name" translatable="false">Wayback</string>
-    <string name="permission_required_title">الإذن مطلوب</string>
-    <string name="location_permission_required_message">إذن الموقع الجغرافي مطلوب لهذه الميزة. يُرجى تمكينه في إعدادات التطبيق.</string>
-    <string name="permission_required_positive_action" comment="Go to the system settings">الانتقال إلى الإعدادات</string>
-    <string name="permission_required_negative_action" comment="Cancel butotn">إلغاء</string>
-</resources>

@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name" translatable="false">Wayback</string>
-    <string name="permission_required_title">Engedély szükséges</string>
-    <string name="location_permission_required_message">Ehhez a funkcióhoz helymeghatározási engedély szükséges. Kérjük, engedélyezze az alkalmazás beállításaiban.</string>
-    <string name="permission_required_positive_action" comment="Go to the system settings">Válassza a Beállítások menüpontot</string>
-    <string name="permission_required_negative_action" comment="Cancel butotn">Mégsem</string>
-</resources>

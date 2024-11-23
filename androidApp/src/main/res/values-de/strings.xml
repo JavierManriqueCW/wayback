@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name" translatable="false">Wayback</string>
-    <string name="permission_required_title">Erlaubnis erforderlich</string>
-    <string name="location_permission_required_message">Für diese Funktion ist eine Standortgenehmigung erforderlich. Bitte aktiviere sie in den Einstellungen der App.</string>
-    <string name="permission_required_positive_action" comment="Go to the system settings">Gehe zu Einstellungen</string>
-    <string name="permission_required_negative_action" comment="Cancel butotn">Abbrechen</string>
-</resources>

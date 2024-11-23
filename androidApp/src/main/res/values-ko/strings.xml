@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name" translatable="false">Wayback</string>
-    <string name="permission_required_title">필요한 권한</string>
-    <string name="location_permission_required_message">이 기능을 사용하려면 위치 권한이 필요합니다. 앱 설정에서 활성화하세요.</string>
-    <string name="permission_required_positive_action" comment="Go to the system settings">설정으로 이동합니다.</string>
-    <string name="permission_required_negative_action" comment="Cancel butotn">취소</string>
-</resources>

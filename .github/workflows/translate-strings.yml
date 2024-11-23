@@ -29,7 +29,7 @@ jobs:
           OUTPUT_LANGUAGES: "ES,FR,DE,ZH,UK,JA,RU,AR,PT,IT,KO,NL,SV,PL,TR,DA,FI,EL,HU"
           INPUT_FOLDER: "./shared/presentation/src/commonMain/composeResources/values"
 
-      - name: Translate androidApp/src/main/res/values/strings.xml to supported languages
+      - name: Translate shared/presentation/src/androidMain/res/values/strings.xml to supported languages
         run: |
           python translator.py \
             --api_key $API_KEY \
@@ -38,10 +38,10 @@ jobs:
         env:
           API_KEY: ${{ secrets.DEEPL_API_KEY }}
           OUTPUT_LANGUAGES: "ES,FR,DE,ZH,UK,JA,RU,AR,PT,IT,KO,NL,SV,PL,TR,DA,FI,EL,HU"
-          INPUT_FOLDER: "./androidApp/src/main/res/values"
+          INPUT_FOLDER: "./shared/presentation/src/androidMain/res/values"
 
       - name: Add common strings.xml to Git
-        run: git add androidApp/src/main/res/values*
+        run: git add shared/presentation/src/androidMain/res/values*
 
       - name: Commit files
         run: |

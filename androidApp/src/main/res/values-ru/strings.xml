@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name" translatable="false">Wayback</string>
-    <string name="permission_required_title">Требуется разрешение</string>
-    <string name="location_permission_required_message">Для этой функции требуется разрешение на определение местоположения. Включи его в настройках приложения.</string>
-    <string name="permission_required_positive_action" comment="Go to the system settings">Перейдите в раздел "Настройки".</string>
-    <string name="permission_required_negative_action" comment="Cancel butotn">Отменить</string>
-</resources>

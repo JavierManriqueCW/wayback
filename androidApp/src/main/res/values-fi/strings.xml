@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name" translatable="false">Wayback</string>
-    <string name="permission_required_title">Lupa vaaditaan</string>
-    <string name="location_permission_required_message">Tämä toiminto edellyttää sijaintilupaa. Ota se käyttöön sovelluksen asetuksissa.</string>
-    <string name="permission_required_positive_action" comment="Go to the system settings">Siirry kohtaan Asetukset</string>
-    <string name="permission_required_negative_action" comment="Cancel butotn">Peruuta</string>
-</resources>
