@@ -80,7 +80,7 @@ for language_name in languages_to_translate:
     for i in range(len(root)):
         if 'translatable' not in root[i].attrib:
             value = root[i].text
-            context = root[i].comment
+            context = root[i].attrib.get('comment')
             if value is not None:
                 params = {
                     'auth_key' : API_KEY,
