@@ -97,7 +97,7 @@ fun ParkedScreen(
         ) {
             Text(
                 modifier = Modifier.padding(vertical = 8.dp),
-                text = stringResource(uiState.stopParkingButtonText),
+                text = stringResource(uiState.stopParkingButtonText).uppercase(),
                 color = Color.Black,
                 fontWeight = FontWeight.ExtraBold
             )

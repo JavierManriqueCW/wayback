@@ -80,6 +80,7 @@ for language_name in languages_to_translate:
     for i in range(len(root)):
         if 'translatable' not in root[i].attrib:
             value = root[i].text
+            context = root[i].comment
             if value is not None:
                 params = {
                     'auth_key' : API_KEY,
@@ -87,6 +88,8 @@ for language_name in languages_to_translate:
                     'source_lang' : languages_from_translate,
                     "target_lang": language_to_translate
                 }
+                if context is not None:
+                    params['context'] = context
                 request = requests.post("https://api.deepl.com/v2/translate", data=params)
                 result = request.json()
 

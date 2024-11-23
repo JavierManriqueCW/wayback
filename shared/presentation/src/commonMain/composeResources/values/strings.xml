@@ -2,8 +2,8 @@
 <resources>
     <string name="loading_lottie_path" translatable="false">files/loading-lottie.json</string>
     <string name="loading_content_description">Lottie loading animation</string>
-    <string name="onboarding_button_text">GET STARTED</string>
-    <string name="non_parked_screen_title">Nice to see you</string>
+    <string name="onboarding_button_text" comment="Start doing something">GET STARTED</string>
+    <string name="non_parked_screen_title" comment="Title text without final period">Nice to see you</string>
     <string name="non_parked_screen_title_icon_content_description">Title</string>
     <string name="non_parked_screen_refresh_icon_content_description">Refresh</string>
     <string name="non_parked_screen_close_button_content_description">Close</string>
@@ -11,25 +11,25 @@
     <string name="non_parked_screen_lottie_content_description">Lottie animation</string>
     <string name="non_parked_screen_detail_placeholder">Take a note</string>
     <string name="non_parked_screen_camera_button_content_description">Camera</string>
-    <string name="non_parked_screen_park_button">PARK</string>
+    <string name="non_parked_screen_park_button" comment="Vehicle parking button">PARK</string>
     <string name="non_parked_screen_animated_text_1">Storing your parking location</string>
     <string name="non_parked_screen_animated_text_2">Scanning for UFOs...</string>
     <string name="non_parked_screen_animated_text_3">Nope, just your car</string>
     <string name="non_parked_screen_animated_text_4">Mapping the way back to your ride...</string>
     <string name="non_parked_screen_animated_text_5">Compass calibrated. You’ll never get lost!</string>
     <string name="non_parked_screen_animated_text_6">Where is my car?</string>
-    <string name="parked_screen_stop_parking_dialog_title">Confirmation</string>
+    <string name="parked_screen_stop_parking_dialog_title" comment="Confirmation title">Confirmation</string>
     <string name="parked_screen_stop_parking_dialog_body">Are you sure you want to stop parking?</string>
-    <string name="parked_screen_stop_parking_dialog_positive_action">Accept</string>
-    <string name="parked_screen_stop_parking_dialog_negative_action">Cancel</string>
-    <string name="parked_screen_title">You are parked</string>
+    <string name="parked_screen_stop_parking_dialog_positive_action" comment="Accept button">Accept</string>
+    <string name="parked_screen_stop_parking_dialog_negative_action" comment="Cancel button">Cancel</string>
+    <string name="parked_screen_title" comment="You have parked your vehicle">You are parked</string>
     <string name="parked_screen_title_image_description">Emoji</string>
     <string name="parked_screen_map_icon_content_description">Map</string>
     <string name="parked_screen_eye_icon_content_description">Eye</string>
-    <string name="parked_screen_forward_icon_content_description">Forward</string>
+    <string name="parked_screen_forward_icon_content_description" comment="Forward synonym of sending">Forward</string>
     <string name="parked_screen_address_title">Here is your vehicle</string>
-    <string name="parked_screen_lottie_path">files/location-pin-lottie.json</string>
+    <string name="parked_screen_lottie_path" translatable="false">files/location-pin-lottie.json</string>
     <string name="parked_screen_date_title">Since</string>
     <string name="parked_screen_detail_title">You got a note</string>
-    <string name="parked_screen_stop_parking_button">STOP PARKING</string>
+    <string name="parked_screen_stop_parking_button" comment="Stop vehicle parking">stop parking</string>
 </resources>
