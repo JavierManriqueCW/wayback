@@ -13,6 +13,12 @@
     <string name="non_parked_screen_detail_placeholder">Take a note</string>
     <string name="non_parked_screen_camera_button_content_description">Camera</string>
     <string name="non_parked_screen_park_button">PARK</string>
+    <string name="non_parked_screen_animated_text_1">Storing your parking location</string>
+    <string name="non_parked_screen_animated_text_2">Scanning for UFOs...</string>
+    <string name="non_parked_screen_animated_text_3">Nope, just your car</string>
+    <string name="non_parked_screen_animated_text_4">Mapping the way back to your ride...</string>
+    <string name="non_parked_screen_animated_text_5">Compass calibrated. You’ll never get lost!</string>
+    <string name="non_parked_screen_animated_text_6">Where is my car?</string>
     <string name="parked_screen_stop_parking_dialog_title">Confirmation</string>
     <string name="parked_screen_stop_parking_dialog_body">Are you sure you want to stop parking?</string>
     <string name="parked_screen_stop_parking_dialog_positive_action">Accept</string>

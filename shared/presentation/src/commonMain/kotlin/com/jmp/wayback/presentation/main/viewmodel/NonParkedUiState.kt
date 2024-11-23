@@ -21,5 +21,6 @@ data class NonParkedUiState(
     val closeIconContentDescription: StringResource,
     val parkButtonText: StringResource,
     val imagePath: String? = null,
-    val parking: Boolean = false
+    val parking: Boolean = false,
+    val animatedTexts: List<StringResource>
 )

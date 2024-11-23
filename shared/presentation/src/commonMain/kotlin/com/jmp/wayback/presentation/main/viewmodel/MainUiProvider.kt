@@ -11,6 +11,12 @@ import wayback.shared.presentation.generated.resources.ic_map
 import wayback.shared.presentation.generated.resources.ic_refresh
 import wayback.shared.presentation.generated.resources.ic_sparkles
 import wayback.shared.presentation.generated.resources.main_background
+import wayback.shared.presentation.generated.resources.non_parked_screen_animated_text_1
+import wayback.shared.presentation.generated.resources.non_parked_screen_animated_text_2
+import wayback.shared.presentation.generated.resources.non_parked_screen_animated_text_3
+import wayback.shared.presentation.generated.resources.non_parked_screen_animated_text_4
+import wayback.shared.presentation.generated.resources.non_parked_screen_animated_text_5
+import wayback.shared.presentation.generated.resources.non_parked_screen_animated_text_6
 import wayback.shared.presentation.generated.resources.non_parked_screen_camera_button_content_description
 import wayback.shared.presentation.generated.resources.non_parked_screen_close_button_content_description
 import wayback.shared.presentation.generated.resources.non_parked_screen_description
@@ -62,7 +68,15 @@ class MainUiProvider {
             refreshIconContentDescription = Res.string.non_parked_screen_refresh_icon_content_description,
             closeIcon = Res.drawable.ic_close,
             closeIconContentDescription = Res.string.non_parked_screen_close_button_content_description,
-            parkButtonText = Res.string.non_parked_screen_park_button
+            parkButtonText = Res.string.non_parked_screen_park_button,
+            animatedTexts = listOf(
+                Res.string.non_parked_screen_animated_text_1,
+                Res.string.non_parked_screen_animated_text_2,
+                Res.string.non_parked_screen_animated_text_3,
+                Res.string.non_parked_screen_animated_text_4,
+                Res.string.non_parked_screen_animated_text_5,
+                Res.string.non_parked_screen_animated_text_6
+            )
         )
 
     private fun provideParkedUiState(parkingInformation: ParkingInformation): ParkedUiState =

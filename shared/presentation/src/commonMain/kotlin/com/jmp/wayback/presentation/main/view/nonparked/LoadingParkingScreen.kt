@@ -1,14 +1,12 @@
 package com.jmp.wayback.presentation.main.view.nonparked
 
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.width
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import androidx.constraintlayout.compose.ConstraintLayout
 import com.jmp.wayback.presentation.main.viewmodel.NonParkedUiState
 import io.github.alexzhirkevich.compottie.Compottie
 import io.github.alexzhirkevich.compottie.LottieCompositionSpec
@@ -25,10 +23,9 @@ fun LoadingParkingScreen(
     modifier: Modifier,
     uiState: NonParkedUiState
 ) {
-    Column(
-        modifier = modifier,
-        verticalArrangement = Arrangement.Center
-    ) {
+    ConstraintLayout(modifier = modifier) {
+        val (lottie, animatedTexts) = createRefs()
+
         val lottiePath = stringResource(uiState.lottiePath)
         val composition by rememberLottieComposition {
             LottieCompositionSpec.JsonString(
@@ -42,13 +39,28 @@ fun LoadingParkingScreen(
 
         Image(
             modifier = Modifier
-                .align(Alignment.CenterHorizontally)
-                .width(300.dp),
+                .width(300.dp)
+                .constrainAs(lottie) {
+                    top.linkTo(parent.top)
+                    start.linkTo(parent.start)
+                    end.linkTo(parent.end)
+                    bottom.linkTo(parent.bottom)
+                },
             painter = rememberLottiePainter(
                 composition = composition,
                 progress = { progress },
             ),
             contentDescription = stringResource(uiState.lottieContentDescription)
+        )
+
+        LoopingAnimatedTexts(
+            texts = uiState.animatedTexts,
+            modifier = Modifier
+                .constrainAs(animatedTexts) {
+                    start.linkTo(parent.start)
+                    top.linkTo(lottie.bottom, margin = 16.dp)
+                    end.linkTo(parent.end)
+                }
         )
     }
 }

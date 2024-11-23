@@ -3,7 +3,9 @@ package com.jmp.wayback.presentation.main.view.nonparked
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.Button
 import androidx.compose.material.ButtonDefaults
 import androidx.compose.material.Text
@@ -13,6 +15,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.constraintlayout.compose.ConstraintLayout
+import androidx.constraintlayout.compose.Dimension
+import com.jmp.wayback.presentation.app.common.compose.fadingEdge
 import com.jmp.wayback.presentation.main.viewmodel.NonParkedUiState
 import org.jetbrains.compose.resources.stringResource
 
@@ -35,19 +39,27 @@ fun NonParkedScreen(
                     top.linkTo(parent.top)
                     start.linkTo(parent.start)
                     end.linkTo(parent.end)
-                },
+                    width = Dimension.fillToConstraints
+                }
+                .padding(start = 32.dp),
             uiState = uiState
         )
 
         NonParkedScreenBody(
             modifier = Modifier
-                .fillMaxWidth()
+                .fadingEdge(
+                    topStartFadingPoint = 0.1f,
+                    bottomStartFadingPoint = 0.9f
+                )
+                .verticalScroll(rememberScrollState())
                 .constrainAs(body) {
                     top.linkTo(header.bottom)
                     start.linkTo(parent.start)
                     end.linkTo(parent.end)
                     bottom.linkTo(footer.top)
+                    height = Dimension.fillToConstraints
                 }
+                .fillMaxWidth()
                 .padding(vertical = 32.dp)
                 .navigationBarsPadding(),
             uiState = uiState,

@@ -29,7 +29,7 @@ fun NonParkedScreenHeader(
         Box(
             modifier = Modifier.constrainAs(title) {
                 start.linkTo(parent.start)
-                end.linkTo(icon.end)
+                end.linkTo(icon.start, 16.dp)
             }
         ) {
             Text(
@@ -37,6 +37,7 @@ fun NonParkedScreenHeader(
                 text = stringResource(uiState.title),
                 color = Color.White,
                 fontSize = 40.sp,
+                lineHeight = 48.sp,
                 fontWeight = FontWeight.Bold,
                 textAlign = TextAlign.Start
             )

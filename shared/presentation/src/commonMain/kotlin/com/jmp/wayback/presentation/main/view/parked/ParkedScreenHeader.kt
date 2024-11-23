@@ -30,7 +30,7 @@ fun ParkedScreenHeader(
             modifier = Modifier.constrainAs(title) {
                 start.linkTo(parent.start)
                 top.linkTo(icon.top)
-                end.linkTo(icon.end)
+                end.linkTo(icon.start, 16.dp)
                 bottom.linkTo(icon.bottom)
             }
         ) {

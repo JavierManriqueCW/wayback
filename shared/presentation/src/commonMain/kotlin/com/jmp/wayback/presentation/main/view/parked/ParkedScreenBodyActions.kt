@@ -3,25 +3,19 @@ package com.jmp.wayback.presentation.main.view.parked
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.sizeIn
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Icon
 import androidx.compose.material.IconButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
 import androidx.constraintlayout.compose.ConstraintLayout
-import com.jmp.wayback.presentation.app.common.compose.Bouncer
 import com.jmp.wayback.presentation.app.platform.openMap
 import com.jmp.wayback.presentation.app.platform.shareParkingInformation
 import com.jmp.wayback.presentation.app.platform.showPicture
@@ -59,7 +53,7 @@ fun ParkedScreenBodyActions(
                     modifier = Modifier.size(30.dp),
                     painter = painterResource(uiState.mapIcon),
                     contentDescription = stringResource(uiState.mapIconContentDescription),
-                    tint = Color.White
+                    tint = Color.White,
                 )
             }
 
@@ -77,11 +71,11 @@ fun ParkedScreenBodyActions(
                 imageBitmap?.let {
                     Image(
                         modifier = Modifier
-                            .size(80.dp)
+                            .size(160.dp)
                             .clip(RoundedCornerShape(50))
                             .clickable { imagePath?.let { showPicture(imagePath) } }
                             .border(
-                                width = 1.dp,
+                                width = 3.dp,
                                 color = Color.White,
                                 shape = RoundedCornerShape(50)
                             ),

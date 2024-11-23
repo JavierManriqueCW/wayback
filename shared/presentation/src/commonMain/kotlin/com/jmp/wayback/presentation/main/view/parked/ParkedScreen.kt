@@ -50,12 +50,12 @@ fun ParkedScreen(
             modifier = Modifier
                 .fillMaxWidth()
                 .statusBarsPadding()
-                .padding(top = 64.dp)
                 .constrainAs(headerContainer) {
                     start.linkTo(parent.start)
                     top.linkTo(parent.top)
                     end.linkTo(parent.end)
-                },
+                }
+                .padding(start = 32.dp, top = 64.dp),
             uiState = uiState
         )
 

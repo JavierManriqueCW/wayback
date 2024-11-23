@@ -6,10 +6,8 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardActions
-import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.Icon
 import androidx.compose.material.IconButton
 import androidx.compose.material.Text
@@ -48,9 +46,7 @@ fun NonParkedScreenBody(
 ) {
     Box(modifier = modifier) {
         ConstraintLayout(
-            modifier = Modifier
-                .align(Alignment.Center)
-                .verticalScroll(rememberScrollState())
+            modifier = Modifier.align(Alignment.Center)
         ) {
             val (cameraComponent, detailTextField) = createRefs()
 
@@ -178,7 +174,7 @@ fun NonParkedScreenBody(
                     focusedIndicatorColor = Color.Transparent,
                     backgroundColor = Color.Transparent
                 ),
-                maxLines = 1,
+                maxLines = 4,
                 shape = RoundedCornerShape(45),
                 textStyle = TextStyle.Default.copy(
                     textAlign = TextAlign.Center,
