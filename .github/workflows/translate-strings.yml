@@ -30,7 +30,7 @@ jobs:
           INPUT_FOLDER: "./shared/presentation/src/commonMain/composeResources/values"
 
       - name: Add common strings.xml to Git
-        run: git add shared/presentation/src/commonMain/composeResources/values/*
+        run: git add shared/presentation/src/commonMain/composeResources/values*
 
       - name: Commit files
         run: |
