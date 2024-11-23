@@ -85,6 +85,7 @@ for language_name in languages_to_translate:
                 params = {
                     'auth_key' : API_KEY,
                     'text' : value,
+                    'formality': 'less',
                     'source_lang' : languages_from_translate,
                     "target_lang": language_to_translate
                 }
