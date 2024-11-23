@@ -18,6 +18,8 @@ import com.jmp.wayback.presentation.app.platform.takeCameraPicture
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.suspendCancellableCoroutine
+import kotlin.coroutines.resume
 
 typealias UiState = GeneralUiState<MainUiState>
 
@@ -108,9 +110,7 @@ class MainViewModel(
         detail: String,
         imagePath: String?
     ) {
-        updateUiStateToLoadingParking(true)
-
-        fun saveParkingInformation() {
+        fun saveParkingInformation(image: String) {
             viewModelScope.launch {
                 getLocation()?.let { location ->
                     saveParkingInformation(
@@ -118,7 +118,7 @@ class MainViewModel(
                         latitude = location.latitude,
                         longitude = location.longitude,
                         detail = detail,
-                        imagePath = imagePath
+                        imagePath = image
                     ).doOnSuccess {
                         updateUiStateToLoadingParking(false)
                     }.doOnError {
@@ -129,11 +129,24 @@ class MainViewModel(
         }
 
         viewModelScope.launch {
-            when (checkLocationPermissions()) {
-                true -> saveParkingInformation()
-                false -> requestLocationPermissions {
-                    if (it) { saveParkingInformation() }
-                    else updateUiStateToLoadingParking(false)
+            val image = suspendCancellableCoroutine { continuation ->
+                imagePath?.let {
+                    continuation.resume(imagePath)
+                } ?: run {
+                    takePicture { continuation.resume(it) }
+                }
+            }
+
+            image?.let {
+                updateUiStateToLoadingParking(true)
+
+                when (checkLocationPermissions()) {
+                    true -> saveParkingInformation(image)
+                    false -> requestLocationPermissions {
+                        if (it) {
+                            saveParkingInformation(image)
+                        } else updateUiStateToLoadingParking(false)
+                    }
                 }
             }
         }
@@ -145,7 +158,7 @@ class MainViewModel(
         }
     }
 
-    private fun takePicture() {
+    private fun takePicture(callback: ((String?) -> Unit)? = null) {
         fun takePicture() {
             viewModelScope.launch {
                 takeCameraPicture { imagePath ->
@@ -159,6 +172,7 @@ class MainViewModel(
                                 )
                             )
                         )
+                        callback?.invoke(imagePath)
                     }
                 }
             }

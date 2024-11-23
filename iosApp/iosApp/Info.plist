@@ -36,15 +36,13 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>NSLocationWhenInUseUsageDescription</key>
-    <string>We need your location to enable the parking functionality</string>
-    <key>NSLocationAlwaysUsageDescription</key>
-    <string>We need your location to enable the parking functionality</string>
-    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-    <string>We need your location to enable the parking functionality</string>
+	<string>$(location_permission_required_message)</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>$(location_permission_required_message)</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>$(location_permission_required_message)</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
@@ -54,11 +52,7 @@
 	</array>
 	<key>UIUserInterfaceStyle</key>
 	<string>Dark</string>
-	<key>UISupportedInterfaceOrientations</key>
-    <array>
-        <string>UIInterfaceOrientationPortrait</string>
-    </array>
-    <key>NSCameraUsageDescription</key>
-    <string>We need access to your camera to take parking pictures</string>
+	<key>NSCameraUsageDescription</key>
+	<string>$(camera_permission_required_message)</string>
 </dict>
 </plist>

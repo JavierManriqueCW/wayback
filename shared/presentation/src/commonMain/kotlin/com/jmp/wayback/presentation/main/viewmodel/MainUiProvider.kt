@@ -19,7 +19,6 @@ import wayback.shared.presentation.generated.resources.non_parked_screen_animate
 import wayback.shared.presentation.generated.resources.non_parked_screen_animated_text_6
 import wayback.shared.presentation.generated.resources.non_parked_screen_camera_button_content_description
 import wayback.shared.presentation.generated.resources.non_parked_screen_close_button_content_description
-import wayback.shared.presentation.generated.resources.non_parked_screen_description
 import wayback.shared.presentation.generated.resources.non_parked_screen_detail_placeholder
 import wayback.shared.presentation.generated.resources.non_parked_screen_lottie_content_description
 import wayback.shared.presentation.generated.resources.non_parked_screen_lottie_path
@@ -54,7 +53,6 @@ class MainUiProvider {
     private fun provideNonParkedUiState(): NonParkedUiState =
         NonParkedUiState(
             title = Res.string.non_parked_screen_title,
-            description = Res.string.non_parked_screen_description,
             lottiePath = Res.string.non_parked_screen_lottie_path,
             lottieContentDescription = Res.string.non_parked_screen_lottie_content_description,
             detailPlaceholderText = Res.string.non_parked_screen_detail_placeholder,

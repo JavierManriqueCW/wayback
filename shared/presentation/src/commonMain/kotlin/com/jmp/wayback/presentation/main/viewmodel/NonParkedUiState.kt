@@ -5,7 +5,6 @@ import org.jetbrains.compose.resources.StringResource
 
 data class NonParkedUiState(
     val title: StringResource,
-    val description: StringResource,
     val lottiePath: StringResource,
     val lottieContentDescription: StringResource,
     val detailPlaceholderText: StringResource,

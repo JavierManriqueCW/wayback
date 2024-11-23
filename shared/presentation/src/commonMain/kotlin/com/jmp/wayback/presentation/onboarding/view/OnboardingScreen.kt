@@ -92,7 +92,7 @@ fun OnboardingScreen(
                     fontSize = 22.dp.value.sp,
                     fontWeight = FontWeight.Light,
                     color = Color.White,
-                    text = stringResource(uiState.value.buttonText)
+                    text = stringResource(uiState.value.buttonText).uppercase()
                 )
             }
         }

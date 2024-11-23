@@ -90,7 +90,7 @@ fun NonParkedScreenBody(
                                 .clip(RoundedCornerShape(50))
                                 .clickable { imagePath?.let { showPicture(imagePath) } }
                                 .border(
-                                    width = 1.dp,
+                                    width = 3.dp,
                                     color = Color.White,
                                     shape = RoundedCornerShape(50)
                                 )

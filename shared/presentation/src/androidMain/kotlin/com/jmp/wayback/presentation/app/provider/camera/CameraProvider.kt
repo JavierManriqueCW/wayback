@@ -13,6 +13,7 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.core.app.ActivityCompat.shouldShowRequestPermissionRationale
 import androidx.core.content.ContextCompat
+import com.jmp.wayback.presentation.R
 import com.jmp.wayback.presentation.app.utils.Utils.getContentUri
 import com.jmp.wayback.presentation.app.utils.Utils.uriToBitmap
 
@@ -77,15 +78,15 @@ class CameraProvider {
 
     private fun showSettingsDialog() {
         AlertDialog.Builder(activity)
-            .setTitle("Permission Required")
-            .setMessage("Camera permission is required to take a picture. Please enable it in the app settings.")
-            .setPositiveButton("Go to settings") { _, _ ->
+            .setTitle(context.getString(R.string.permission_required_title))
+            .setMessage(context.getString(R.string.camera_permission_required_message))
+            .setPositiveButton(context.getString(R.string.permission_required_positive_action)) { _, _ ->
                 val intent = Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS).apply {
                     data = Uri.fromParts("package", context.packageName, null)
                 }
                 activity.startActivity(intent)
             }
-            .setNegativeButton("Cancel") { dialog, _ ->
+            .setNegativeButton(context.getString(R.string.permission_required_negative_action)) { dialog, _ ->
                 dialog.dismiss()
                 permissionCallback?.invoke(false)
             }

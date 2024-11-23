@@ -1,0 +1,113 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "camera_permission_required_message" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We need access to your camera to take parking pictures"
+          }
+        }
+      }
+    },
+    "location_permission_required_message" : {
+      "comment" : "Location authorisation request dialog message",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Location authorisation is required for this feature. Please enable it in the app settings."
+          }
+        }
+      }
+    },
+    "permission_required_negative_action" : {
+      "comment" : "Authorisation request dialog negative action",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        }
+      }
+    },
+    "permission_required_positive_action" : {
+      "comment" : "Authorisation request dialog positive action",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go to settings"
+          }
+        }
+      }
+    },
+    "permission_required_title" : {
+      "comment" : "Authorisation request dialog title",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorisation required"
+          }
+        }
+      }
+    },
+    "share_location_title" : {
+      "comment" : "Location sharing title",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parked at"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aparcado en"
+          }
+        }
+      }
+    },
+    "share_note_title" : {
+      "comment" : "Note sharing title",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Note:"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nota:"
+          }
+        }
+      }
+    },
+    "unknown_location" : {
+      "comment" : "Unknown location",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unknown location"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

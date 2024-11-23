@@ -81,7 +81,7 @@ class LocationProvider {
     private fun showSettingsDialog() {
         AlertDialog.Builder(activity)
             .setTitle(context.getString(R.string.permission_required_title))
-            .setMessage(context.getString(R.string.permission_required_message))
+            .setMessage(context.getString(R.string.location_permission_required_message))
             .setPositiveButton(context.getString(R.string.permission_required_positive_action)) { _, _ ->
                 val intent = Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS).apply {
                     data = Uri.fromParts("package", context.packageName, null)

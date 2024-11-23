@@ -1,5 +1,6 @@
 package com.jmp.wayback.presentation.app.provider.location
 
+import com.jmp.wayback.presentation.app.util.localized
 import kotlinx.coroutines.suspendCancellableCoroutine
 import platform.CoreLocation.CLGeocoder
 import platform.CoreLocation.CLLocation
@@ -64,14 +65,14 @@ class LocationProvider {
 
     private fun showSettingsAlert() {
         val alert = UIAlertController.alertControllerWithTitle(
-            title = "Location Permission Required",
-            message = "Location access is required for this feature. Please enable it in the app settings.",
+            title = permissionRequiredTitle,
+            message = locationPermissionRequiredMessage,
             preferredStyle = UIAlertControllerStyleAlert
         )
 
         alert.addAction(
             UIAlertAction.actionWithTitle(
-                title = "Go to Settings",
+                title = permissionRequiredPositiveAction,
                 style = UIAlertActionStyleDefault
             ) {
                 val settingsUrl = NSURL(string = UIApplicationOpenSettingsURLString)
@@ -85,7 +86,7 @@ class LocationProvider {
 
         alert.addAction(
             UIAlertAction.actionWithTitle(
-                title = "Cancel",
+                title = permissionRequiredNegativeAction,
                 style = UIAlertActionStyleCancel
             ) {
                 alert.dismissViewControllerAnimated(true, null)
@@ -106,7 +107,7 @@ class LocationProvider {
 
         geocoder.reverseGeocodeLocation(location) { placemarks, error ->
             if (error != null) {
-                continuation.resume("Unknown location")
+                continuation.resume(unknownLocation)
                 return@reverseGeocodeLocation
             }
 
@@ -115,7 +116,7 @@ class LocationProvider {
                 val address = buildAddress(placemark)
                 continuation.resume(address)
             } else {
-                continuation.resume("Unknown location")
+                continuation.resume(unknownLocation)
             }
         }
     }
@@ -130,6 +131,14 @@ class LocationProvider {
         return listOf(street, city, state, postalCode, country)
             .filter { it.isNotEmpty() }
             .joinToString(", ")
+    }
+
+    private companion object {
+        private val permissionRequiredTitle = "permission_required_title".localized()
+        private val locationPermissionRequiredMessage = "location_permission_required_message".localized()
+        private val permissionRequiredPositiveAction = "permission_required_positive_action".localized()
+        private val permissionRequiredNegativeAction = "permission_required_negative_action".localized()
+        private val unknownLocation = "unknown_location".localized()
     }
 }
 

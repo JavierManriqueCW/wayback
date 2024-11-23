@@ -3,6 +3,7 @@ package com.jmp.wayback.presentation.app.platform
 import android.content.Context
 import android.content.Intent
 import com.jmp.wayback.common.ParkingInformation
+import com.jmp.wayback.presentation.R
 import com.jmp.wayback.presentation.app.utils.Utils.getContentUri
 import org.koin.mp.KoinPlatform
 
@@ -11,7 +12,7 @@ actual fun shareParkingInformation(parkingInformation: ParkingInformation) {
         startActivity(
             Intent.createChooser(
                 getIntent(this, parkingInformation),
-                "Share via"
+                getString(R.string.share_using)
             ).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_GRANT_READ_URI_PERMISSION)
         )
     }
@@ -24,10 +25,10 @@ private fun getIntent(
     Intent(Intent.ACTION_SEND).apply {
         putExtra(
             Intent.EXTRA_TEXT,
-            "Parked at ${parkingInformation.address}, " +
+            "${context.getString(R.string.share_location_title)} ${parkingInformation.address}, " +
                     parkingInformation.parkingTime.apply {
                         if (parkingInformation.detail.isNotEmpty()) {
-                            plus("    Note: ${parkingInformation.detail}")
+                            plus("    ${context.getString(R.string.share_note_title)} ${parkingInformation.detail}")
                         }
                     }
         )
