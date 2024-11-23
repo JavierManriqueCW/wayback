@@ -1,18 +1,101 @@
-*.iml
+# Kotlin Multiplatform
 .kotlin
-.gradle
+/build/
+/.gradle/
+/.idea/
+/out/
+/local.properties
+*.iml
+*.hprof
+*.log
+*.keystore
+*.lock
+
+# Gradle
+.gradle/
+build/
+gradle-app.setting
+
+# Kotlin-specific
+*.kotlin_module
+*.class
+
+# IntelliJ IDEA
+.idea/
+*.ipr
+*.iws
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/libraries
+.idea/vcs.xml
+.idea/artifacts/
+.idea/dictionaries/
+.idea/assetWizardSettings.xml
+.idea/encodings.xml
+.idea/httpRequests
+.idea/scopes/
+.idea/codeStyles
+.idea/codeStyles/
+.idea/inspectionProfiles
+.idea/modules/
+.idea/workspace/
+.idea/workspace.xml
+
+# Android-specific
 **/build/
-xcuserdata
-!src/**/build/
-local.properties
-.idea
+**/captures/
+**/outputs/
+*.apk
+*.ap_
+*.dex
+*.so
+*.manifest
+*.db
+*.lock
+*.log
+*.bin
+*.settings/
+*.properties
+
+# Xcode-specific
+xcuserdata/
+DerivedData/
+*.xcworkspace
+*.pbxuser
+project.pbxproj
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+*.xcscmblueprint
+build/
+xcshareddata/
+
+# macOS-specific
 .DS_Store
-captures
-.externalNativeBuild
-.cxx
-*.xcodeproj/*
-!*.xcodeproj/project.pbxproj
-!*.xcodeproj/xcshareddata/
-!*.xcodeproj/project.xcworkspace/
-!*.xcworkspace/contents.xcworkspacedata
-**/xcshareddata/WorkspaceSettings.xcsettings
+.AppleDouble
+.LSOverride
+
+# macOS Finder
+Icon?
+._*
+
+# System files
+*.swp
+*.swm
+*.swn
+*.swx
+*.swo
+*.tmp
+*.bak
+*.old
+*.orig
+*.rej
+
+# Logs
+*.log
+logs/
+*.stacktrace
