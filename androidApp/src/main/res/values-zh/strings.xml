@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="false">Wayback</string>
+    <string name="permission_required_title">需要许可</string>
+    <string name="location_permission_required_message">此功能需要位置权限。请在应用设置中启用。</string>
+    <string name="permission_required_positive_action" comment="Go to the system settings">转到设置</string>
+    <string name="permission_required_negative_action" comment="Cancel butotn">取消</string>
+</resources>

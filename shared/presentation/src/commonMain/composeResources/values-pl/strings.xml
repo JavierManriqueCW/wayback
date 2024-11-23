@@ -1,20 +1,20 @@
 <resources>
     <string name="loading_lottie_path" translatable="false">files/loading-lottie.json</string>
     <string name="loading_content_description">Animacja ładowania Lottie</string>
-    <string name="onboarding_button_text" comment="Start doing something">ZACZĄĆ DZIAŁAĆ</string>
+    <string name="onboarding_button_text" comment="Start doing something">ZACZNIJ DZIAŁAĆ</string>
     <string name="non_parked_screen_title" comment="Title text without final period">Miło cię widzieć</string>
     <string name="non_parked_screen_title_icon_content_description">Tytuł</string>
-    <string name="non_parked_screen_refresh_icon_content_description">Odświeżanie</string>
+    <string name="non_parked_screen_refresh_icon_content_description">Odśwież</string>
     <string name="non_parked_screen_close_button_content_description">Zamknij</string>
     <string name="non_parked_screen_lottie_path" translatable="false">files/car-lottie.json</string>
     <string name="non_parked_screen_lottie_content_description">Animacja Lottie</string>
-    <string name="non_parked_screen_detail_placeholder">Zanotuj</string>
+    <string name="non_parked_screen_detail_placeholder">Zrób notatkę</string>
     <string name="non_parked_screen_camera_button_content_description">Kamera</string>
     <string name="non_parked_screen_park_button" comment="Vehicle parking button">PARK</string>
     <string name="non_parked_screen_animated_text_1">Zapisywanie lokalizacji parkowania</string>
     <string name="non_parked_screen_animated_text_2">Skanowanie w poszukiwaniu UFO...</string>
-    <string name="non_parked_screen_animated_text_3">Nie, tylko samochód</string>
-    <string name="non_parked_screen_animated_text_4">Mapowanie drogi powrotnej do jazdy...</string>
+    <string name="non_parked_screen_animated_text_3">Nie, tylko twój samochód</string>
+    <string name="non_parked_screen_animated_text_4">Mapowanie drogi powrotnej do Twojej jazdy...</string>
     <string name="non_parked_screen_animated_text_5">Skalibrowany kompas. Nigdy się nie zgubisz!</string>
     <string name="non_parked_screen_animated_text_6">Gdzie jest mój samochód?</string>
     <string name="parked_screen_stop_parking_dialog_title" comment="Confirmation title">Potwierdzenie</string>
@@ -25,10 +25,10 @@
     <string name="parked_screen_title_image_description">Emoji</string>
     <string name="parked_screen_map_icon_content_description">Mapa</string>
     <string name="parked_screen_eye_icon_content_description">Oko</string>
-    <string name="parked_screen_forward_icon_content_description" comment="Forward synonym of sending">Forward</string>
+    <string name="parked_screen_forward_icon_content_description" comment="Forward synonym of sending">Naprzód</string>
     <string name="parked_screen_address_title">Oto twój pojazd</string>
     <string name="parked_screen_lottie_path" translatable="false">files/location-pin-lottie.json</string>
     <string name="parked_screen_date_title">Od</string>
-    <string name="parked_screen_detail_title">Otrzymałeś notatkę</string>
-    <string name="parked_screen_stop_parking_button" comment="Stop vehicle parking">zatrzymać parkowanie</string>
+    <string name="parked_screen_detail_title">Masz notatkę</string>
+    <string name="parked_screen_stop_parking_button" comment="Stop vehicle parking">zatrzymaj parkowanie</string>
 </resources>

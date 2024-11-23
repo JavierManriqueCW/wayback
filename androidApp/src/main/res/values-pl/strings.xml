@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="false">Wayback</string>
+    <string name="permission_required_title">Wymagana zgoda</string>
+    <string name="location_permission_required_message">Ta funkcja wymaga uprawnień do lokalizacji. Włącz je w ustawieniach aplikacji.</string>
+    <string name="permission_required_positive_action" comment="Go to the system settings">Przejdź do Ustawień</string>
+    <string name="permission_required_negative_action" comment="Cancel butotn">Anuluj</string>
+</resources>

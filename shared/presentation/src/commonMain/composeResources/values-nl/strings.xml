@@ -8,10 +8,10 @@
     <string name="non_parked_screen_close_button_content_description">Sluit</string>
     <string name="non_parked_screen_lottie_path" translatable="false">files/car-lottie.json</string>
     <string name="non_parked_screen_lottie_content_description">Lottie animatie</string>
-    <string name="non_parked_screen_detail_placeholder">Notitie maken</string>
+    <string name="non_parked_screen_detail_placeholder">Noteer</string>
     <string name="non_parked_screen_camera_button_content_description">Camera</string>
     <string name="non_parked_screen_park_button" comment="Vehicle parking button">PARKEREN</string>
-    <string name="non_parked_screen_animated_text_1">Uw parkeerlocatie opslaan</string>
+    <string name="non_parked_screen_animated_text_1">Je parkeerlocatie opslaan</string>
     <string name="non_parked_screen_animated_text_2">Scannen naar UFO\'s...</string>
     <string name="non_parked_screen_animated_text_3">Nee, alleen je auto</string>
     <string name="non_parked_screen_animated_text_4">De weg terug naar je auto in kaart brengen...</string>
@@ -21,12 +21,12 @@
     <string name="parked_screen_stop_parking_dialog_body">Weet je zeker dat je wilt stoppen met parkeren?</string>
     <string name="parked_screen_stop_parking_dialog_positive_action" comment="Accept button">Accepteren</string>
     <string name="parked_screen_stop_parking_dialog_negative_action" comment="Cancel button">Annuleren</string>
-    <string name="parked_screen_title" comment="You have parked your vehicle">U staat geparkeerd</string>
+    <string name="parked_screen_title" comment="You have parked your vehicle">Je staat geparkeerd</string>
     <string name="parked_screen_title_image_description">Emoji</string>
     <string name="parked_screen_map_icon_content_description">Kaart</string>
     <string name="parked_screen_eye_icon_content_description">Oog</string>
     <string name="parked_screen_forward_icon_content_description" comment="Forward synonym of sending">Doorsturen</string>
-    <string name="parked_screen_address_title">Hier is uw voertuig</string>
+    <string name="parked_screen_address_title">Hier is je voertuig</string>
     <string name="parked_screen_lottie_path" translatable="false">files/location-pin-lottie.json</string>
     <string name="parked_screen_date_title">Sinds</string>
     <string name="parked_screen_detail_title">Je hebt een briefje</string>

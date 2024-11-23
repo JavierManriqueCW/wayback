@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="false">Wayback</string>
+    <string name="permission_required_title">Απαιτείται άδεια</string>
+    <string name="location_permission_required_message">Για αυτή τη λειτουργία απαιτείται άδεια τοποθεσίας. Παρακαλούμε ενεργοποιήστε την στις ρυθμίσεις της εφαρμογής.</string>
+    <string name="permission_required_positive_action" comment="Go to the system settings">Μεταβείτε στις Ρυθμίσεις</string>
+    <string name="permission_required_negative_action" comment="Cancel butotn">Ακύρωση</string>
+</resources>

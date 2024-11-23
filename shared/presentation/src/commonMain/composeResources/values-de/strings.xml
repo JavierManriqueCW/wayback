@@ -2,33 +2,33 @@
     <string name="loading_lottie_path" translatable="false">files/loading-lottie.json</string>
     <string name="loading_content_description">Lottie Ladeanimation</string>
     <string name="onboarding_button_text" comment="Start doing something">ANFANGEN</string>
-    <string name="non_parked_screen_title" comment="Title text without final period">Schön, Sie zu sehen</string>
+    <string name="non_parked_screen_title" comment="Title text without final period">Schön, dich zu sehen</string>
     <string name="non_parked_screen_title_icon_content_description">Titel</string>
-    <string name="non_parked_screen_refresh_icon_content_description">Aktualisieren</string>
-    <string name="non_parked_screen_close_button_content_description">Schließen Sie</string>
+    <string name="non_parked_screen_refresh_icon_content_description">Auffrischen</string>
+    <string name="non_parked_screen_close_button_content_description">Schließen</string>
     <string name="non_parked_screen_lottie_path" translatable="false">files/car-lottie.json</string>
-    <string name="non_parked_screen_lottie_content_description">Lottie-Animation</string>
+    <string name="non_parked_screen_lottie_content_description">Lottie Animation</string>
     <string name="non_parked_screen_detail_placeholder">Notieren Sie sich</string>
     <string name="non_parked_screen_camera_button_content_description">Kamera</string>
     <string name="non_parked_screen_park_button" comment="Vehicle parking button">PARKEN</string>
-    <string name="non_parked_screen_animated_text_1">Speichern Ihres Parkplatzes</string>
+    <string name="non_parked_screen_animated_text_1">Speichern deines Stellplatzes</string>
     <string name="non_parked_screen_animated_text_2">Scannen nach UFOs...</string>
-    <string name="non_parked_screen_animated_text_3">Nein, nur Ihr Auto</string>
-    <string name="non_parked_screen_animated_text_4">Den Weg zurück zu deinem Auto kartieren...</string>
-    <string name="non_parked_screen_animated_text_5">Kompass geeicht. Sie werden sich nie verirren!</string>
+    <string name="non_parked_screen_animated_text_3">Nein, nur dein Auto</string>
+    <string name="non_parked_screen_animated_text_4">Zeichne den Weg zurück zu deinem Auto...</string>
+    <string name="non_parked_screen_animated_text_5">Der Kompass ist geeicht. Du wirst dich nie verirren!</string>
     <string name="non_parked_screen_animated_text_6">Wo ist mein Auto?</string>
     <string name="parked_screen_stop_parking_dialog_title" comment="Confirmation title">Konfirmation</string>
-    <string name="parked_screen_stop_parking_dialog_body">Sind Sie sicher, dass Sie nicht mehr parken wollen?</string>
+    <string name="parked_screen_stop_parking_dialog_body">Bist du sicher, dass du nicht mehr parken willst?</string>
     <string name="parked_screen_stop_parking_dialog_positive_action" comment="Accept button">Akzeptieren</string>
     <string name="parked_screen_stop_parking_dialog_negative_action" comment="Cancel button">Abbrechen</string>
-    <string name="parked_screen_title" comment="You have parked your vehicle">Sie sind geparkt</string>
+    <string name="parked_screen_title" comment="You have parked your vehicle">Du bist geparkt</string>
     <string name="parked_screen_title_image_description">Emoji</string>
     <string name="parked_screen_map_icon_content_description">Karte</string>
     <string name="parked_screen_eye_icon_content_description">Auge</string>
     <string name="parked_screen_forward_icon_content_description" comment="Forward synonym of sending">Weiterleiten</string>
-    <string name="parked_screen_address_title">Hier ist Ihr Fahrzeug</string>
+    <string name="parked_screen_address_title">Hier ist dein Fahrzeug</string>
     <string name="parked_screen_lottie_path" translatable="false">files/location-pin-lottie.json</string>
     <string name="parked_screen_date_title">Seit</string>
-    <string name="parked_screen_detail_title">Sie haben eine Nachricht erhalten</string>
+    <string name="parked_screen_detail_title">Du hast einen Zettel</string>
     <string name="parked_screen_stop_parking_button" comment="Stop vehicle parking">Parken stoppen</string>
 </resources>

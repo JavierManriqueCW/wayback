@@ -1,34 +1,34 @@
 <resources>
     <string name="loading_lottie_path" translatable="false">files/loading-lottie.json</string>
-    <string name="loading_content_description">ロッテ・ローディング・アニメーション</string>
+    <string name="loading_content_description">ロッティ・ローディング・アニメーション</string>
     <string name="onboarding_button_text" comment="Start doing something">始める</string>
-    <string name="non_parked_screen_title" comment="Title text without final period">お会いできてうれしいです</string>
+    <string name="non_parked_screen_title" comment="Title text without final period">会えて嬉しいよ</string>
     <string name="non_parked_screen_title_icon_content_description">タイトル</string>
-    <string name="non_parked_screen_refresh_icon_content_description">リフレッシュ</string>
+    <string name="non_parked_screen_refresh_icon_content_description">リフレッシュする</string>
     <string name="non_parked_screen_close_button_content_description">閉じる</string>
     <string name="non_parked_screen_lottie_path" translatable="false">files/car-lottie.json</string>
     <string name="non_parked_screen_lottie_content_description">ロティ・アニメーション</string>
     <string name="non_parked_screen_detail_placeholder">メモを取る</string>
     <string name="non_parked_screen_camera_button_content_description">カメラ</string>
     <string name="non_parked_screen_park_button" comment="Vehicle parking button">パーク</string>
-    <string name="non_parked_screen_animated_text_1">駐車場所の保管</string>
-    <string name="non_parked_screen_animated_text_2">UFOスキャン...</string>
-    <string name="non_parked_screen_animated_text_3">いいえ、あなたの車だけです</string>
+    <string name="non_parked_screen_animated_text_1">駐車位置を保存する</string>
+    <string name="non_parked_screen_animated_text_2">UFOをスキャンする</string>
+    <string name="non_parked_screen_animated_text_3">いや、君の車だけだ</string>
     <string name="non_parked_screen_animated_text_4">自分の車に戻る道をマッピングする...</string>
     <string name="non_parked_screen_animated_text_5">コンパス調整済み。道に迷うことはない！</string>
-    <string name="non_parked_screen_animated_text_6">私の車はどこ？</string>
+    <string name="non_parked_screen_animated_text_6">私の車はどこだ？</string>
     <string name="parked_screen_stop_parking_dialog_title" comment="Confirmation title">確認事項</string>
     <string name="parked_screen_stop_parking_dialog_body">本当に駐車を止めたいのか？</string>
     <string name="parked_screen_stop_parking_dialog_positive_action" comment="Accept button">承諾する</string>
-    <string name="parked_screen_stop_parking_dialog_negative_action" comment="Cancel button">キャンセル</string>
-    <string name="parked_screen_title" comment="You have parked your vehicle">駐車中</string>
+    <string name="parked_screen_stop_parking_dialog_negative_action" comment="Cancel button">キャンセルする</string>
+    <string name="parked_screen_title" comment="You have parked your vehicle">駐車している</string>
     <string name="parked_screen_title_image_description">絵文字</string>
     <string name="parked_screen_map_icon_content_description">地図</string>
     <string name="parked_screen_eye_icon_content_description">アイ</string>
-    <string name="parked_screen_forward_icon_content_description" comment="Forward synonym of sending">前進</string>
-    <string name="parked_screen_address_title">これがあなたの車です</string>
+    <string name="parked_screen_forward_icon_content_description" comment="Forward synonym of sending">送る</string>
+    <string name="parked_screen_address_title">これがあなたの車だ</string>
     <string name="parked_screen_lottie_path" translatable="false">files/location-pin-lottie.json</string>
-    <string name="parked_screen_date_title">以来</string>
+    <string name="parked_screen_date_title">それ以来</string>
     <string name="parked_screen_detail_title">メモを受け取った</string>
     <string name="parked_screen_stop_parking_button" comment="Stop vehicle parking">ストップパーキング</string>
 </resources>
