@@ -10,7 +10,7 @@
     <string name="non_parked_screen_lottie_content_description">Анимация Лотти</string>
     <string name="non_parked_screen_detail_placeholder">Возьми на заметку</string>
     <string name="non_parked_screen_camera_button_content_description">Камера</string>
-    <string name="non_parked_screen_park_button" comment="Vehicle parking button">ПАРКОВКА</string>
+    <string name="non_parked_screen_park_button" comment="Parking vehicle verb">припарковаться</string>
     <string name="non_parked_screen_animated_text_1">Сохрани место своей парковки</string>
     <string name="non_parked_screen_animated_text_2">Сканирование в поисках НЛО...</string>
     <string name="non_parked_screen_animated_text_3">Ничего, я вижу только твой автомобиль.</string>

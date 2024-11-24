@@ -10,7 +10,7 @@
     <string name="non_parked_screen_lottie_content_description">Lottie animasyonu</string>
     <string name="non_parked_screen_detail_placeholder">Not alın</string>
     <string name="non_parked_screen_camera_button_content_description">Kamera</string>
-    <string name="non_parked_screen_park_button" comment="Vehicle parking button">PARK</string>
+    <string name="non_parked_screen_park_button" comment="Parking vehicle verb">park</string>
     <string name="non_parked_screen_animated_text_1">Park yerinizi kaydetme</string>
     <string name="non_parked_screen_animated_text_2">UFO\'ları tarıyorum.</string>
     <string name="non_parked_screen_animated_text_3">Hiçbir şey, sadece aracını görüyorum.</string>

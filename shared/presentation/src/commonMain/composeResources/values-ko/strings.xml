@@ -10,7 +10,7 @@
     <string name="non_parked_screen_lottie_content_description">로티 애니메이션</string>
     <string name="non_parked_screen_detail_placeholder">메모하기</string>
     <string name="non_parked_screen_camera_button_content_description">카메라</string>
-    <string name="non_parked_screen_park_button" comment="Vehicle parking button">PARK</string>
+    <string name="non_parked_screen_park_button" comment="Parking vehicle verb">park</string>
     <string name="non_parked_screen_animated_text_1">주차 위치 저장</string>
     <string name="non_parked_screen_animated_text_2">UFO 검색...</string>
     <string name="non_parked_screen_animated_text_3">아무것도, 차량만 보입니다.</string>

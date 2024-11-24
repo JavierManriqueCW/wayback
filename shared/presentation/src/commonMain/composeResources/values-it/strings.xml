@@ -10,7 +10,7 @@
     <string name="non_parked_screen_lottie_content_description">Animazione Lottie</string>
     <string name="non_parked_screen_detail_placeholder">Prendi nota</string>
     <string name="non_parked_screen_camera_button_content_description">Macchina fotografica</string>
-    <string name="non_parked_screen_park_button" comment="Vehicle parking button">PARCHEGGIO</string>
+    <string name="non_parked_screen_park_button" comment="Parking vehicle verb">parcheggiare</string>
     <string name="non_parked_screen_animated_text_1">Memorizzare la posizione del parcheggio</string>
     <string name="non_parked_screen_animated_text_2">Scansione per gli UFO...</string>
     <string name="non_parked_screen_animated_text_3">Niente, vedo solo il tuo veicolo</string>

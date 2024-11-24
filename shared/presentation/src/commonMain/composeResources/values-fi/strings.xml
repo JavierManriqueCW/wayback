@@ -8,9 +8,9 @@
     <string name="non_parked_screen_close_button_content_description">Sulje</string>
     <string name="non_parked_screen_lottie_path" translatable="false">files/car-lottie.json</string>
     <string name="non_parked_screen_lottie_content_description">Lottie animaatio</string>
-    <string name="non_parked_screen_detail_placeholder">Ota muistiin</string>
+    <string name="non_parked_screen_detail_placeholder">Kirjoita muistiin</string>
     <string name="non_parked_screen_camera_button_content_description">Kamera</string>
-    <string name="non_parked_screen_park_button" comment="Vehicle parking button">PARK</string>
+    <string name="non_parked_screen_park_button" comment="Parking vehicle verb">pysäköidä</string>
     <string name="non_parked_screen_animated_text_1">Pysäköintipaikan tallentaminen</string>
     <string name="non_parked_screen_animated_text_2">Ufojen etsintä...</string>
     <string name="non_parked_screen_animated_text_3">Ei mitään, näen vain autosi.</string>

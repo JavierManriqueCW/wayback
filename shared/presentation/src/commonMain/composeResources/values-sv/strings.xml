@@ -10,7 +10,7 @@
     <string name="non_parked_screen_lottie_content_description">Lottie animation</string>
     <string name="non_parked_screen_detail_placeholder">Gör en anteckning</string>
     <string name="non_parked_screen_camera_button_content_description">Kamera</string>
-    <string name="non_parked_screen_park_button" comment="Vehicle parking button">PARKERA</string>
+    <string name="non_parked_screen_park_button" comment="Parking vehicle verb">parkera</string>
     <string name="non_parked_screen_animated_text_1">Spara din parkeringsplats</string>
     <string name="non_parked_screen_animated_text_2">Skannar efter UFO:n...</string>
     <string name="non_parked_screen_animated_text_3">Inget, jag ser bara ditt fordon</string>

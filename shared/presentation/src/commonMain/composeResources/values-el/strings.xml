@@ -10,7 +10,7 @@
     <string name="non_parked_screen_lottie_content_description">Lottie animation</string>
     <string name="non_parked_screen_detail_placeholder">Σημειώστε</string>
     <string name="non_parked_screen_camera_button_content_description">Κάμερα</string>
-    <string name="non_parked_screen_park_button" comment="Vehicle parking button">PARK</string>
+    <string name="non_parked_screen_park_button" comment="Parking vehicle verb">παρκάρω</string>
     <string name="non_parked_screen_animated_text_1">Αποθήκευση της θέσης στάθμευσής σας</string>
     <string name="non_parked_screen_animated_text_2">Σάρωση για UFO...</string>
     <string name="non_parked_screen_animated_text_3">Τίποτα, βλέπω μόνο το όχημά σας</string>
