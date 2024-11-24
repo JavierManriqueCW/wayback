@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="wayback_pin">Wayback pin</string>
+    <string name="wayback_pin" translatable="false">Wayback pin</string>
     <string name="permission_required_title">Permission Required</string>
     <string name="permission_required_positive_action">Go to Settings</string>
-    <string name="permission_required_negative_action">Cancel</string>
+    <string name="permission_required_negative_action" comment="Cancel an action">Cancel</string>
     <string name="location_permission_required_message">Location permission is required for this feature. Please enable it in the app settings.</string>
     <string name="camera_permission_required_message">Camera permission is required to take a picture. Please enable it in the app settings.</string>
     <string name="no_maps_application">No maps application found</string>
     <string name="share_using">Share using</string>
-    <string name="share_location_title">Parked at</string>
+    <string name="share_location_title" comment="Vehicle parking location">Parked at</string>
     <string name="share_note_title">Note:</string>
 </resources>
