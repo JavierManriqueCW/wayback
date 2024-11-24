@@ -148,37 +148,35 @@ def translate_ios_strings():
 def translate_android_or_common_strings():
     for language_name in languages_to_translate:
         language_to_translate = language_name.strip()
+        translated_file_directory = create_android_directories(language_to_translate)
+        print(" -> " + language_to_translate + " =========================")
+        tree = ElementTree.parse(INPUT_FILE)
+        root = tree.getroot()
 
-    translated_file_directory = create_android_directories(language_to_translate)
-    print(" -> " + language_to_translate + " =========================")
+        for i in range(len(root)):
+            if 'translatable' not in root[i].attrib:
+                value = root[i].text
+                context = root[i].attrib.get('comment')
+                if value is not None:
+                    params = {
+                        'auth_key': API_KEY,
+                        'text': value,
+                        'source_lang': languages_from_translate,
+                        "target_lang": language_to_translate
+                    }
+                    if context is not None:
+                        params['context'] = context
+                    if language_to_translate in languages_supporting_formality:
+                        params["formality"] = "less"
+                    request = requests.post("https://api.deepl.com/v2/translate", data=params)
+                    result = request.json()
 
-    tree = ElementTree.parse(INPUT_FILE)
-    root = tree.getroot()
-    for i in range(len(root)):
-        if 'translatable' not in root[i].attrib:
-            value = root[i].text
-            context = root[i].attrib.get('comment')
-            if value is not None:
-                params = {
-                    'auth_key': API_KEY,
-                    'text': value,
-                    'source_lang': languages_from_translate,
-                    "target_lang": language_to_translate
-                }
-                if context is not None:
-                    params['context'] = context
-                if language_to_translate in languages_supporting_formality:
-                    params["formality"] = "less"
-                request = requests.post("https://api.deepl.com/v2/translate", data=params)
-                result = request.json()
+                    translated_text = result["translations"][0]["text"].strip()
+                    root[i].text = translated_text.replace("'", "\\'")
+                    print(value + "-->" + root[i].text)
 
-                translated_text = result["translations"][0]["text"].strip()
-                root[i].text = translated_text.replace("'", "\\'")
-                print(value + "-->" + root[i].text)
-
-    translated_file = translated_file_directory + "/strings.xml"
-
-    tree.write(translated_file, encoding='utf-8')
+        translated_file = translated_file_directory + "/strings.xml"
+        tree.write(translated_file, encoding='utf-8')
 
 
 if PLATFORM != 'ios':
