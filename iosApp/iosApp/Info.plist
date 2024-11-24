@@ -22,6 +22,14 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>$(camera_permission_required_message)</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>$(location_permission_required_message)</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>$(location_permission_required_message)</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>$(location_permission_required_message)</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -33,26 +41,13 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDarkContent</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>$(location_permission_required_message)</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>$(location_permission_required_message)</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>$(location_permission_required_message)</string>
-	<key>UISupportedInterfaceOrientations~ipad</key>
-	<array>
-		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationPortraitUpsideDown</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
-	</array>
 	<key>UIUserInterfaceStyle</key>
 	<string>Dark</string>
-	<key>NSCameraUsageDescription</key>
-	<string>$(camera_permission_required_message)</string>
 </dict>
 </plist>

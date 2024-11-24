@@ -86,7 +86,7 @@ fun NonParkedScreen(
         ) {
             Text(
                 modifier = Modifier.padding(vertical = 8.dp),
-                text = stringResource(uiState.parkButtonText),
+                text = stringResource(uiState.parkButtonText).uppercase(),
                 color = Color.Black,
                 fontWeight = FontWeight.ExtraBold
             )
