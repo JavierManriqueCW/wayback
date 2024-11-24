@@ -1,12 +1,12 @@
 <resources>
-    <string name="wayback_pin">Pin de retroceso</string>
+    <string name="wayback_pin" translatable="false">Wayback pin</string>
     <string name="permission_required_title">Permiso necesario</string>
     <string name="permission_required_positive_action">Ir a Ajustes</string>
-    <string name="permission_required_negative_action">Cancela</string>
+    <string name="permission_required_negative_action" comment="Cancel an action">Cancelar</string>
     <string name="location_permission_required_message">Esta función requiere permiso de localización. Actívalo en los ajustes de la aplicación.</string>
     <string name="camera_permission_required_message">Se necesita permiso de cámara para hacer una foto. Actívalo en los ajustes de la aplicación.</string>
     <string name="no_maps_application">No se ha encontrado ninguna aplicación de mapas</string>
     <string name="share_using">Compartir utilizando</string>
-    <string name="share_location_title">Aparcado en</string>
+    <string name="share_location_title" comment="Vehicle parking location">Aparcado en</string>
     <string name="share_note_title">Nota:</string>
 </resources>

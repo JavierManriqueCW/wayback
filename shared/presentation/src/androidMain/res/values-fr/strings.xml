@@ -1,12 +1,12 @@
 <resources>
-    <string name="wayback_pin">Broche Wayback</string>
+    <string name="wayback_pin" translatable="false">Wayback pin</string>
     <string name="permission_required_title">Permission requise</string>
     <string name="permission_required_positive_action">Va dans Paramètres</string>
-    <string name="permission_required_negative_action">Annuler</string>
+    <string name="permission_required_negative_action" comment="Cancel an action">Annuler</string>
     <string name="location_permission_required_message">L\'autorisation de localisation est requise pour cette fonctionnalité. Tu dois l\'activer dans les paramètres de l\'application.</string>
     <string name="camera_permission_required_message">L\'autorisation de l\'appareil photo est nécessaire pour prendre une photo. Tu dois l\'activer dans les paramètres de l\'appli.</string>
     <string name="no_maps_application">Aucune application de cartes n\'a été trouvée</string>
     <string name="share_using">Partager en utilisant</string>
-    <string name="share_location_title">Stationné à</string>
+    <string name="share_location_title" comment="Vehicle parking location">Stationné à</string>
     <string name="share_note_title">Note :</string>
 </resources>
