@@ -1,12 +1,12 @@
 <resources>
-    <string name="wayback_pin">Wayback iğnesi</string>
+    <string name="wayback_pin" translatable="false">Wayback pin</string>
     <string name="permission_required_title">İzin Gerekli</string>
     <string name="permission_required_positive_action">Ayarlar\'a gidin</string>
-    <string name="permission_required_negative_action">İptal</string>
+    <string name="permission_required_negative_action" comment="Cancel an action">İptal</string>
     <string name="location_permission_required_message">Bu özellik için konum izni gereklidir. Lütfen uygulama ayarlarından etkinleştirin.</string>
     <string name="camera_permission_required_message">Fotoğraf çekmek için kamera izni gereklidir. Lütfen uygulama ayarlarından etkinleştirin.</string>
     <string name="no_maps_application">Harita uygulaması bulunamadı</string>
     <string name="share_using">Kullanarak paylaşın</string>
-    <string name="share_location_title">Park yeri</string>
+    <string name="share_location_title" comment="Vehicle parking location">Park yeri</string>
     <string name="share_note_title">Not:</string>
 </resources>

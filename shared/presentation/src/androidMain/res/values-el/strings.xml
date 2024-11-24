@@ -1,12 +1,12 @@
 <resources>
-    <string name="wayback_pin">Καρφίτσα Wayback</string>
+    <string name="wayback_pin" translatable="false">Wayback pin</string>
     <string name="permission_required_title">Απαιτείται άδεια</string>
     <string name="permission_required_positive_action">Μεταβείτε στις Ρυθμίσεις</string>
-    <string name="permission_required_negative_action">Ακύρωση</string>
+    <string name="permission_required_negative_action" comment="Cancel an action">Ακύρωση</string>
     <string name="location_permission_required_message">Για αυτή τη λειτουργία απαιτείται άδεια τοποθεσίας. Παρακαλούμε ενεργοποιήστε την στις ρυθμίσεις της εφαρμογής.</string>
     <string name="camera_permission_required_message">Για να τραβήξετε μια φωτογραφία απαιτείται άδεια φωτογραφικής μηχανής. Παρακαλούμε ενεργοποιήστε την στις ρυθμίσεις της εφαρμογής.</string>
     <string name="no_maps_application">Δεν βρέθηκε καμία εφαρμογή χαρτών</string>
     <string name="share_using">Μοιραστείτε χρησιμοποιώντας</string>
-    <string name="share_location_title">Παρκαρισμένο στο</string>
+    <string name="share_location_title" comment="Vehicle parking location">Στάθμευση σε</string>
     <string name="share_note_title">Σημείωση:</string>
 </resources>

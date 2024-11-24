@@ -1,12 +1,12 @@
 <resources>
-    <string name="wayback_pin">Wayback tappi</string>
+    <string name="wayback_pin" translatable="false">Wayback pin</string>
     <string name="permission_required_title">Lupa vaaditaan</string>
     <string name="permission_required_positive_action">Siirry kohtaan Asetukset</string>
-    <string name="permission_required_negative_action">Peruuta</string>
+    <string name="permission_required_negative_action" comment="Cancel an action">Peruuta</string>
     <string name="location_permission_required_message">Tämä toiminto edellyttää sijaintilupaa. Ota se käyttöön sovelluksen asetuksissa.</string>
     <string name="camera_permission_required_message">Kuvan ottamiseen tarvitaan kuvauslupa. Ota se käyttöön sovelluksen asetuksissa.</string>
     <string name="no_maps_application">Karttasovellusta ei löytynyt</string>
     <string name="share_using">Jaa käyttämällä</string>
-    <string name="share_location_title">Pysäköity osoitteessa</string>
+    <string name="share_location_title" comment="Vehicle parking location">Pysäköity osoitteessa</string>
     <string name="share_note_title">Huom:</string>
 </resources>

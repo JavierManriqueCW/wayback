@@ -1,12 +1,12 @@
 <resources>
-    <string name="wayback_pin">回退针</string>
+    <string name="wayback_pin" translatable="false">Wayback pin</string>
     <string name="permission_required_title">需要许可</string>
     <string name="permission_required_positive_action">转到设置</string>
-    <string name="permission_required_negative_action">取消</string>
-    <string name="location_permission_required_message">此功能需要位置权限。请在应用设置中启用。</string>
+    <string name="permission_required_negative_action" comment="Cancel an action">取消</string>
+    <string name="location_permission_required_message">此功能需要位置权限。请在应用程序设置中启用。</string>
     <string name="camera_permission_required_message">拍照需要相机权限。请在应用程序设置中启用。</string>
     <string name="no_maps_application">未找到地图应用程序</string>
     <string name="share_using">分享使用</string>
-    <string name="share_location_title">停放在</string>
+    <string name="share_location_title" comment="Vehicle parking location">停放地点</string>
     <string name="share_note_title">请注意：</string>
 </resources>

@@ -1,12 +1,12 @@
 <resources>
-    <string name="wayback_pin">Spilla Wayback</string>
+    <string name="wayback_pin" translatable="false">Wayback pin</string>
     <string name="permission_required_title">Permesso richiesto</string>
     <string name="permission_required_positive_action">Vai alle Impostazioni</string>
-    <string name="permission_required_negative_action">Annullamento</string>
+    <string name="permission_required_negative_action" comment="Cancel an action">Annulla</string>
     <string name="location_permission_required_message">Per questa funzione è necessaria l\'autorizzazione alla localizzazione. Abilitalo nelle impostazioni dell\'app.</string>
     <string name="camera_permission_required_message">Per scattare una foto è necessaria l\'autorizzazione della fotocamera. Abilitala nelle impostazioni dell\'app.</string>
     <string name="no_maps_application">Nessuna applicazione di mappe trovata</string>
     <string name="share_using">Condividi utilizzando</string>
-    <string name="share_location_title">Parcheggiato a</string>
+    <string name="share_location_title" comment="Vehicle parking location">Parcheggiato presso</string>
     <string name="share_note_title">Nota:</string>
 </resources>
