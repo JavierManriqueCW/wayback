@@ -111,6 +111,8 @@ class MainViewModel(
         imagePath: String?
     ) {
         fun saveParkingInformation(image: String) {
+            updateUiStateToLoadingParking(true)
+
             viewModelScope.launch {
                 getLocation()?.let { location ->
                     saveParkingInformation(
@@ -138,8 +140,6 @@ class MainViewModel(
             }
 
             image?.let {
-                updateUiStateToLoadingParking(true)
-
                 when (checkLocationPermissions()) {
                     true -> saveParkingInformation(image)
                     false -> requestLocationPermissions {

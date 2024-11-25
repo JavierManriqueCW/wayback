@@ -18,6 +18,7 @@ actual suspend fun checkCameraPermissions(): Boolean =
 actual suspend fun requestCameraPermissions(callback: (Boolean) -> Unit) {
     KoinPlatform.getKoin().inject<CameraProvider>().value.run {
         requestAuthorization { granted ->
+            println("TSST: requestCameraPermissions granted: $granted")
             callback(granted)
         }
     }

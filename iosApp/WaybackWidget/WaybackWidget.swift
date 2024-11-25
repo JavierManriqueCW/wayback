@@ -9,51 +9,12 @@
 import WidgetKit
 import SwiftUI
 
-struct Provider: TimelineProvider {
-    func placeholder(in context: Context) -> SimpleEntry {
-        SimpleEntry(date: Date(), emoji: "😀")
-    }
-
-    func getSnapshot(in context: Context, completion: @escaping (SimpleEntry) -> ()) {
-        let entry = SimpleEntry(date: Date(), emoji: "😀")
-        completion(entry)
-    }
-
-    func getTimeline(in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
-        var entries: [SimpleEntry] = []
-
-        // Generate a timeline consisting of five entries an hour apart, starting from the current date.
-        let currentDate = Date()
-        for hourOffset in 0 ..< 5 {
-            let entryDate = Calendar.current.date(byAdding: .hour, value: hourOffset, to: currentDate)!
-            let entry = SimpleEntry(date: entryDate, emoji: "😀")
-            entries.append(entry)
-        }
-
-        let timeline = Timeline(entries: entries, policy: .atEnd)
-        completion(timeline)
-    }
-
-//    func relevances() async -> WidgetRelevances<Void> {
-//        // Generate a list containing the contexts this widget is relevant in.
-//    }
-}
-
-struct SimpleEntry: TimelineEntry {
-    let date: Date
-    let emoji: String
-}
-
 struct WaybackWidgetEntryView : View {
-    var entry: Provider.Entry
-
     var body: some View {
-        VStack {
-            Text("Time:")
-            Text(entry.date, style: .time)
-
-            Text("Emoji:")
-            Text(entry.emoji)
+        VStack{}.widgetBackground {
+            Image("WidgetBackground")
+                .resizable()
+                .scaledToFill()
         }
     }
 }
@@ -62,24 +23,50 @@ struct WaybackWidget: Widget {
     let kind: String = "WaybackWidget"
 
     var body: some WidgetConfiguration {
-        StaticConfiguration(kind: kind, provider: Provider()) { entry in
+        StaticConfiguration(kind: kind, provider: SimpleProvider()) { entry in
             if #available(iOS 17.0, *) {
-                WaybackWidgetEntryView(entry: entry)
-                    .containerBackground(.fill.tertiary, for: .widget)
+                WaybackWidgetEntryView()
             } else {
-                WaybackWidgetEntryView(entry: entry)
-                    .padding()
+                WaybackWidgetEntryView()
                     .background()
             }
         }
-        .configurationDisplayName("My Widget")
-        .description("This is an example widget.")
+        .configurationDisplayName(localizedStringForKey("widget_title"))
+        .description(localizedStringForKey("widget_description"))
+        .supportedFamilies([.systemSmall])
+        .contentMarginsDisabled()
+    }
+}
+                            
+                            
+struct SimpleProvider: TimelineProvider {
+    func placeholder(in context: Context) -> PlaceholderEntry {
+        PlaceholderEntry()
+    }
+
+    func getSnapshot(in context: Context, completion: @escaping (PlaceholderEntry) -> ()) {
+        completion(PlaceholderEntry())
+    }
+
+    func getTimeline(in context: Context, completion: @escaping (Timeline<PlaceholderEntry>) -> ()) {
+        completion(Timeline(entries: [PlaceholderEntry()], policy: .never))
     }
 }
 
-#Preview(as: .systemSmall) {
-    WaybackWidget()
-} timeline: {
-    SimpleEntry(date: .now, emoji: "😀")
-    SimpleEntry(date: .now, emoji: "🤩")
+struct PlaceholderEntry: TimelineEntry {
+    let date = Date()
+}
+
+extension View {
+    @ViewBuilder func widgetBackground<T: View>(@ViewBuilder content: () -> T) -> some View {
+        if #available(iOS 17.0, *) {
+            containerBackground(for: .widget, content: content)
+        }else {
+            background(content())
+        }
+    }
+}
+
+func localizedStringForKey(_ key: String, comment: String = "") -> String {
+    return NSLocalizedString(key, tableName: nil, bundle: .main, comment: comment)
 }

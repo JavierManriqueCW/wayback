@@ -36,7 +36,14 @@
 		<false/>
 	</dict>
 	<key>UILaunchScreen</key>
-	<dict/>
+	<dict>
+		<key>UILaunchScreen</key>
+		<string></string>
+		<key>UIImageName</key>
+		<string>SplashImage</string>
+		<key>UIColorName</key>
+		<string>SplashColor</string>
+	</dict>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

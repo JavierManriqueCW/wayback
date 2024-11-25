@@ -2,34 +2,30 @@ package com.jmp.wayback.presentation.app.provider.camera
 
 import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.graphics.toComposeImageBitmap
+import com.jmp.wayback.presentation.app.util.localized
 import kotlinx.cinterop.ByteVar
 import kotlinx.cinterop.CPointer
 import kotlinx.cinterop.ExperimentalForeignApi
 import kotlinx.cinterop.get
 import kotlinx.cinterop.reinterpret
 import kotlinx.coroutines.suspendCancellableCoroutine
-import org.jetbrains.skia.ColorAlphaType
-import org.jetbrains.skia.ColorSpace
-import org.jetbrains.skia.ColorType
 import org.jetbrains.skia.Image
-import org.jetbrains.skia.ImageInfo
 import platform.AVFoundation.AVAuthorizationStatusAuthorized
+import platform.AVFoundation.AVAuthorizationStatusDenied
+import platform.AVFoundation.AVAuthorizationStatusRestricted
 import platform.AVFoundation.AVCaptureDevice
 import platform.AVFoundation.AVMediaTypeVideo
 import platform.AVFoundation.authorizationStatusForMediaType
 import platform.AVFoundation.requestAccessForMediaType
-import platform.CoreFoundation.CFDataGetBytePtr
-import platform.CoreFoundation.CFDataGetLength
-import platform.CoreFoundation.CFRelease
-import platform.CoreGraphics.CGDataProviderCopyData
-import platform.CoreGraphics.CGImageAlphaInfo
-import platform.CoreGraphics.CGImageGetAlphaInfo
-import platform.CoreGraphics.CGImageGetBytesPerRow
-import platform.CoreGraphics.CGImageGetDataProvider
-import platform.CoreGraphics.CGImageGetHeight
-import platform.CoreGraphics.CGImageGetWidth
-import platform.CoreGraphics.CGImageRelease
 import platform.Foundation.NSFileManager
+import platform.Foundation.NSURL
+import platform.UIKit.UIAlertAction
+import platform.UIKit.UIAlertActionStyleCancel
+import platform.UIKit.UIAlertActionStyleDefault
+import platform.UIKit.UIAlertController
+import platform.UIKit.UIAlertControllerStyleAlert
+import platform.UIKit.UIApplication
+import platform.UIKit.UIApplicationOpenSettingsURLString
 import platform.UIKit.UIImage
 import platform.UIKit.UIImageJPEGRepresentation
 import platform.UIKit.UIImagePickerController
@@ -58,8 +54,10 @@ class CameraProvider {
 
     fun requestAuthorization(callback: (Boolean) -> Unit) {
         val status = AVCaptureDevice.authorizationStatusForMediaType(AVMediaTypeVideo)
+        println("TSST: requestAuthorization status: $")
         when (status) {
             AVAuthorizationStatusAuthorized -> callback(true)
+            AVAuthorizationStatusDenied, AVAuthorizationStatusRestricted -> showSettingsAlert()
             else -> {
                 AVCaptureDevice.requestAccessForMediaType(AVMediaTypeVideo) { granted ->
                     callback(granted)
@@ -105,7 +103,48 @@ class CameraProvider {
         }
     }
 
+    private fun showSettingsAlert() {
+        val alert = UIAlertController.alertControllerWithTitle(
+            title = permissionRequiredTitle,
+            message = cameraPermissionRequiredMessage,
+            preferredStyle = UIAlertControllerStyleAlert
+        )
+
+        alert.addAction(
+            UIAlertAction.actionWithTitle(
+                title = permissionRequiredPositiveAction,
+                style = UIAlertActionStyleDefault
+            ) {
+                val settingsUrl = NSURL(string = UIApplicationOpenSettingsURLString)
+                UIApplication.sharedApplication.openURL(
+                    settingsUrl,
+                    options = emptyMap<Any?, Any>(),
+                    completionHandler = {}
+                )
+            }
+        )
+
+        alert.addAction(
+            UIAlertAction.actionWithTitle(
+                title = permissionRequiredNegativeAction,
+                style = UIAlertActionStyleCancel
+            ) {
+                alert.dismissViewControllerAnimated(true, null)
+            }
+        )
+
+        UIApplication.sharedApplication.keyWindow?.rootViewController?.presentViewController(
+            alert,
+            animated = true,
+            completion = null
+        )
+    }
+
     private companion object {
         const val COMPRESSION_QUALITY = 0.99
+        val permissionRequiredTitle = "permission_required_title".localized()
+        val cameraPermissionRequiredMessage = "camera_permission_required_message".localized()
+        val permissionRequiredPositiveAction = "permission_required_positive_action".localized()
+        val permissionRequiredNegativeAction = "permission_required_negative_action".localized()
     }
 }

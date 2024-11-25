@@ -47,4 +47,5 @@ dependencies {
     implementation(libs.compose.uitoolingpreview)
     implementation(libs.koin.core)
     implementation(libs.koin.core.android)
+    implementation(libs.androidx.core.splashscreen)
 }
