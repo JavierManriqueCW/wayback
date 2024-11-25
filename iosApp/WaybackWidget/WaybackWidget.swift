@@ -11,8 +11,9 @@ import SwiftUI
 
 struct WaybackWidgetEntryView : View {
     var body: some View {
+        let image = UIImage(named: "WidgetBackground")!
         VStack{}.widgetBackground {
-            Image("WidgetBackground")
+            Image(uiImage: image.resized(toWidth: 200)!)
                 .resizable()
                 .scaledToFill()
         }
@@ -69,4 +70,15 @@ extension View {
 
 func localizedStringForKey(_ key: String, comment: String = "") -> String {
     return NSLocalizedString(key, tableName: nil, bundle: .main, comment: comment)
+}
+
+extension UIImage {
+  func resized(toWidth width: CGFloat, isOpaque: Bool = true) -> UIImage? {
+    let canvas = CGSize(width: width, height: CGFloat(ceil(width/size.width * size.height)))
+    let format = imageRendererFormat
+    format.opaque = isOpaque
+    return UIGraphicsImageRenderer(size: canvas, format: format).image {
+      _ in draw(in: CGRect(origin: .zero, size: canvas))
+    }
+  }
 }
