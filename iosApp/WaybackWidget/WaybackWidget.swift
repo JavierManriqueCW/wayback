@@ -9,26 +9,15 @@
 import WidgetKit
 import SwiftUI
 
-struct WaybackWidgetEntryView : View {
-    var body: some View {
-        let image = UIImage(named: "WidgetBackground")!
-        VStack{}.widgetBackground {
-            Image(uiImage: image.resized(toWidth: 200)!)
-                .resizable()
-                .scaledToFill()
-        }
-    }
-}
-
 struct WaybackWidget: Widget {
     let kind: String = "WaybackWidget"
 
     var body: some WidgetConfiguration {
-        StaticConfiguration(kind: kind, provider: SimpleProvider()) { entry in
+        StaticConfiguration(kind: kind, provider: Provider()) { entry in
             if #available(iOS 17.0, *) {
-                WaybackWidgetEntryView()
+                WaybackWidgetEntryView(entry: entry)
             } else {
-                WaybackWidgetEntryView()
+                WaybackWidgetEntryView(entry: entry)
                     .background()
             }
         }
@@ -38,24 +27,50 @@ struct WaybackWidget: Widget {
         .contentMarginsDisabled()
     }
 }
-                            
-                            
-struct SimpleProvider: TimelineProvider {
-    func placeholder(in context: Context) -> PlaceholderEntry {
-        PlaceholderEntry()
-    }
 
-    func getSnapshot(in context: Context, completion: @escaping (PlaceholderEntry) -> ()) {
-        completion(PlaceholderEntry())
-    }
-
-    func getTimeline(in context: Context, completion: @escaping (Timeline<PlaceholderEntry>) -> ()) {
-        completion(Timeline(entries: [PlaceholderEntry()], policy: .never))
+struct WaybackWidgetEntryView: View {
+    let entry: SimpleEntry
+    var body: some View {
+        let backgroundImage = UIImage(named: "WidgetBackground")!
+        let title = entry.isParked ? localizedStringForKey("widget_parked_title") : localizedStringForKey("widget_not_parked_title")
+        
+        VStack {
+            Text(title)
+                .font(Font.custom("AvenirNext-Bold", size: 16))
+                .foregroundColor(.white)
+                .padding(.top, 32)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top) // Align content to the top
+        .widgetBackground {
+            Image(uiImage: backgroundImage.resized(toWidth: 200)!)
+                .resizable()
+                .scaledToFill()
+        }
     }
 }
 
-struct PlaceholderEntry: TimelineEntry {
-    let date = Date()
+struct SimpleEntry: TimelineEntry {
+    let isParked: Bool
+    let date: Date
+}
+                            
+struct Provider: TimelineProvider {
+    func placeholder(in context: Context) -> SimpleEntry {
+        SimpleEntry(isParked: false, date: Date())
+    }
+
+    func getSnapshot(in context: Context, completion: @escaping (SimpleEntry) -> ()) {
+        let entry = SimpleEntry(isParked: false, date: Date())
+        completion(entry)
+    }
+
+    func getTimeline(in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
+        let sharedDefaults = UserDefaults(suiteName: "group.com.jmp.wayback")
+        let isParked = sharedDefaults?.integer(forKey: "is_parked") == 1
+        let entry: SimpleEntry = SimpleEntry(isParked: isParked, date: Date())
+        let timeline = Timeline(entries: [entry], policy: .never)
+        completion(timeline)
+    }
 }
 
 extension View {

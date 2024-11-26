@@ -15,6 +15,7 @@ import com.jmp.wayback.presentation.app.platform.getLocation
 import com.jmp.wayback.presentation.app.platform.requestCameraPermissions
 import com.jmp.wayback.presentation.app.platform.requestLocationPermissions
 import com.jmp.wayback.presentation.app.platform.takeCameraPicture
+import com.jmp.wayback.presentation.app.platform.updatePlatformSpecificIsParkedStatus
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
@@ -122,6 +123,7 @@ class MainViewModel(
                         detail = detail,
                         imagePath = image
                     ).doOnSuccess {
+                        updatePlatformSpecificIsParkedStatus(isParked = true)
                         updateUiStateToLoadingParking(false)
                     }.doOnError {
                         updateUiStateToLoadingParking(false)
@@ -155,6 +157,7 @@ class MainViewModel(
     private fun stopParking() {
         viewModelScope.launch {
             clearParkingInformation()
+            updatePlatformSpecificIsParkedStatus(isParked = false)
         }
     }
 
