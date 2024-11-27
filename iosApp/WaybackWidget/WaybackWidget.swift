@@ -33,14 +33,21 @@ struct WaybackWidgetEntryView: View {
     var body: some View {
         let backgroundImage = UIImage(named: "WidgetBackground")!
         let title = entry.isParked ? localizedStringForKey("widget_parked_title") : localizedStringForKey("widget_not_parked_title")
+        let emojiImage = entry.isParked ? UIImage(named: "AsleepEmoji")! : UIImage(named: "SparklesEmoji")!
         
         VStack {
-            Text(title)
-                .font(Font.custom("AvenirNext-Bold", size: 16))
+            Image(uiImage: emojiImage)
+                .resizable()
+                .foregroundColor(.white.opacity(0.6))
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 15, height: 15)
+                .padding(.top, 16)
+            
+            Text(title.uppercased())
+                .font(Font.custom("Futura-Medium", size: 12))
                 .foregroundColor(.white)
-                .padding(.top, 32)
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top) // Align content to the top
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         .widgetBackground {
             Image(uiImage: backgroundImage.resized(toWidth: 200)!)
                 .resizable()

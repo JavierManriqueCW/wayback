@@ -11,6 +11,7 @@ import com.jmp.wayback.domain.interactor.SaveParkingInformation
 import com.jmp.wayback.presentation.app.common.state.GeneralUiState
 import com.jmp.wayback.presentation.app.platform.checkCameraPermissions
 import com.jmp.wayback.presentation.app.platform.checkLocationPermissions
+import com.jmp.wayback.presentation.app.platform.deleteCameraPicture
 import com.jmp.wayback.presentation.app.platform.getLocation
 import com.jmp.wayback.presentation.app.platform.requestCameraPermissions
 import com.jmp.wayback.presentation.app.platform.requestLocationPermissions
@@ -46,7 +47,7 @@ class MainViewModel(
     }
 
     private fun updateUiStateToLoadingParking(loading: Boolean) {
-        (_uiState.value as GeneralUiState.Loaded).data.also { state ->
+        _uiState.asLoaded()?.data?.also { state ->
             updateUiState(
                 GeneralUiState.Loaded(
                     state.copy(nonParkedUiState = state.nonParkedUiState.copy(parking = loading))
@@ -56,23 +57,25 @@ class MainViewModel(
     }
 
     private fun updateDetail(detail: String) {
-        val state: MainUiState = (_uiState.value as GeneralUiState.Loaded).data
-        updateUiState(
-            GeneralUiState.Loaded(
-                state.copy(nonParkedUiState = state.nonParkedUiState.copy(detailText = detail))
+        _uiState.asLoaded()?.data?.let { state ->
+            updateUiState(
+                GeneralUiState.Loaded(
+                    state.copy(nonParkedUiState = state.nonParkedUiState.copy(detailText = detail))
+                )
             )
-        )
+        }
     }
 
     private fun updateStopDialogVisibility(visible: Boolean) {
-        val state: MainUiState = (_uiState.value as GeneralUiState.Loaded).data
-        updateUiState(
-            GeneralUiState.Loaded(
-                state.copy(
-                    parkedUiState = state.parkedUiState?.stopParkingDialogState?.copy(visible = visible)
-                    ?.let { state.parkedUiState.copy(stopParkingDialogState = it) })
+        _uiState.asLoaded()?.data?.let { state ->
+            updateUiState(
+                GeneralUiState.Loaded(
+                    state.copy(
+                        parkedUiState = state.parkedUiState?.stopParkingDialogState?.copy(visible = visible)
+                            ?.let { state.parkedUiState.copy(stopParkingDialogState = it) })
+                )
             )
-        )
+        }
     }
 
     fun sendIntent(intent: MainIntent) {
@@ -156,6 +159,9 @@ class MainViewModel(
 
     private fun stopParking() {
         viewModelScope.launch {
+            _uiState.asLoaded()?.data?.parkedUiState?.parkingInformation?.imagePath?.let { picturePath ->
+                deleteCameraPicture(picturePath)
+            }
             clearParkingInformation()
             updatePlatformSpecificIsParkedStatus(isParked = false)
         }
@@ -165,7 +171,7 @@ class MainViewModel(
         fun takePicture() {
             viewModelScope.launch {
                 takeCameraPicture { imagePath ->
-                    (_uiState.value as GeneralUiState.Loaded).data.also { state ->
+                    _uiState.asLoaded()?.data?.also { state ->
                         updateUiState(
                             GeneralUiState.Loaded(
                                 state.copy(
@@ -190,7 +196,8 @@ class MainViewModel(
     }
 
     private fun removePicture() {
-        (_uiState.value as GeneralUiState.Loaded).data.also { state ->
+        _uiState.asLoaded()?.data?.also { state ->
+            state.nonParkedUiState.imagePath?.let { deleteCameraPicture(it) }
             updateUiState(
                 GeneralUiState.Loaded(
                     state.copy(nonParkedUiState = state.nonParkedUiState.copy(imagePath = null))
@@ -198,4 +205,7 @@ class MainViewModel(
             )
         }
     }
+
+    private fun StateFlow<UiState>.asLoaded(): GeneralUiState.Loaded<MainUiState>? =
+        this.value as? GeneralUiState.Loaded
 }

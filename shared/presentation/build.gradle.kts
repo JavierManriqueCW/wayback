@@ -17,6 +17,7 @@ kotlin {
         iosSimulatorArm64()
     ).forEach { iosTarget ->
         iosTarget.binaries.framework {
+            freeCompilerArgs += "-Xbinary=bundleId=com.jmp.wayback"
             baseName = "SharedApp"
             isStatic = true
         }

@@ -16,6 +16,7 @@ import androidx.core.content.ContextCompat
 import com.jmp.wayback.presentation.R
 import com.jmp.wayback.presentation.app.utils.Utils.getContentUri
 import com.jmp.wayback.presentation.app.utils.Utils.uriToBitmap
+import java.io.File
 
 class CameraProvider {
 
@@ -97,5 +98,22 @@ class CameraProvider {
         takePictureCallback = callback
         picturePath = "${context.filesDir}/${System.currentTimeMillis()}.jpg"
         takePictureLauncher.launch(context.getContentUri(picturePath))
+    }
+
+    fun deleteFile(filePath: String) {
+        File(filePath).let { file ->
+            if (file.exists()) {
+                val isDeleted = file.delete()
+                if (isDeleted) {
+                    println("File deleted successfully.")
+                } else {
+                    println("Failed to delete the file.")
+                }
+                isDeleted
+            } else {
+                println("File not found at: $filePath")
+                false
+            }
+        }
     }
 }

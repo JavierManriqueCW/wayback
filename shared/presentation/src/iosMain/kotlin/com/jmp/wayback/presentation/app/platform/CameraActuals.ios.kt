@@ -2,6 +2,7 @@ package com.jmp.wayback.presentation.app.platform
 
 import androidx.compose.ui.graphics.ImageBitmap
 import com.jmp.wayback.presentation.app.provider.camera.CameraProvider
+import com.jmp.wayback.presentation.deleteFile
 import kotlinx.coroutines.suspendCancellableCoroutine
 import org.koin.mp.KoinPlatform
 import kotlin.coroutines.resume
@@ -18,7 +19,6 @@ actual suspend fun checkCameraPermissions(): Boolean =
 actual suspend fun requestCameraPermissions(callback: (Boolean) -> Unit) {
     KoinPlatform.getKoin().inject<CameraProvider>().value.run {
         requestAuthorization { granted ->
-            println("TSST: requestCameraPermissions granted: $granted")
             callback(granted)
         }
     }
@@ -27,6 +27,12 @@ actual suspend fun requestCameraPermissions(callback: (Boolean) -> Unit) {
 actual suspend fun takeCameraPicture(callback: (String?) -> Unit) {
     KoinPlatform.getKoin().inject<CameraProvider>().value.run {
         callback(takePicture())
+    }
+}
+
+actual fun deleteCameraPicture(picturePath: String) {
+    KoinPlatform.getKoin().inject<CameraProvider>().value.run {
+        deleteFile?.invoke(picturePath)
     }
 }
 

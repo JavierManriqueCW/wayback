@@ -18,6 +18,10 @@ actual suspend fun takeCameraPicture(callback: (String?) -> Unit) {
     KoinPlatform.getKoin().get<CameraProvider>().takePicture(callback)
 }
 
+actual fun deleteCameraPicture(picturePath: String) {
+    KoinPlatform.getKoin().get<CameraProvider>().deleteFile(picturePath)
+}
+
 actual fun String.toImageBitmap(): ImageBitmap? =
     KoinPlatform.getKoin().get<Context>().run {
         getContentUri(this@toImageBitmap)?.let { uri ->

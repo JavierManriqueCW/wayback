@@ -1,1515 +1,1514 @@
 {
-  "sourceLanguage": "en",
-  "strings": {
-    "camera_permission_required_message": {
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "نحتاج إلى الوصول إلى الكاميرا الخاصة بك لالتقاط صور لوقوف السيارات"
+  "sourceLanguage" : "en",
+  "strings" : {
+    "camera_permission_required_message" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نحتاج إلى الوصول إلى الكاميرا الخاصة بك لالتقاط صور لوقوف السيارات"
           }
         },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Vi skal have adgang til dit kamera for at tage parkeringsbilleder"
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vi skal have adgang til dit kamera for at tage parkeringsbilleder"
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Wir brauchen Zugang zu deiner Kamera, um Fotos vom Parkplatz zu machen"
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wir brauchen Zugang zu deiner Kamera, um Fotos vom Parkplatz zu machen"
           }
         },
-        "el": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Χρειαζόμαστε πρόσβαση στη φωτογραφική σας μηχανή για να τραβήξουμε φωτογραφίες στάθμευσης"
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρειαζόμαστε πρόσβαση στη φωτογραφική σας μηχανή για να τραβήξουμε φωτογραφίες στάθμευσης"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "We need access to your camera to take parking pictures"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We need access to your camera to take parking pictures"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Necesitamos acceder a tu cámara para hacer fotos del aparcamiento"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Necesitamos acceder a tu cámara para hacer fotos del aparcamiento"
           }
         },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tarvitsemme pääsyn kameraan, jotta voimme ottaa pysäköintikuvia."
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tarvitsemme pääsyn kameraan, jotta voimme ottaa pysäköintikuvia."
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nous devons avoir accès à ton appareil photo pour prendre des photos du parking"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nous devons avoir accès à ton appareil photo pour prendre des photos du parking"
           }
         },
-        "hu": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hozzáférésre van szükségünk a fényképezőgépéhez, hogy parkolási képeket készíthessünk."
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hozzáférésre van szükségünk a fényképezőgépéhez, hogy parkolási képeket készíthessünk."
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Abbiamo bisogno di accedere alla tua macchina fotografica per scattare le foto del parcheggio"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abbiamo bisogno di accedere alla tua macchina fotografica per scattare le foto del parcheggio"
           }
         },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "駐車場の写真を撮るために、あなたのカメラにアクセスする必要がある。"
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "駐車場の写真を撮るために、あなたのカメラにアクセスする必要がある。"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "주차 사진을 찍으려면 카메라에 액세스해야 합니다."
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "주차 사진을 찍으려면 카메라에 액세스해야 합니다."
           }
         },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "We hebben toegang tot je camera nodig om parkeerfoto's te maken"
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We hebben toegang tot je camera nodig om parkeerfoto's te maken"
           }
         },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Potrzebujemy dostępu do Twojego aparatu, aby wykonać zdjęcia parkingowe"
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Potrzebujemy dostępu do Twojego aparatu, aby wykonać zdjęcia parkingowe"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Precisamos de acesso à sua câmara para tirar fotografias do estacionamento"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Precisamos de acesso à sua câmara para tirar fotografias do estacionamento"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Нам нужен доступ к твоей камере, чтобы сделать снимки парковки"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нам нужен доступ к твоей камере, чтобы сделать снимки парковки"
           }
         },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Vi behöver tillgång till din kamera för att ta parkeringsbilder"
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vi behöver tillgång till din kamera för att ta parkeringsbilder"
           }
         },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Park fotoğraflarını çekmek için kameranıza erişmemiz gerekiyor"
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Park fotoğraflarını çekmek için kameranıza erişmemiz gerekiyor"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Нам потрібен доступ до вашої камери, щоб сфотографувати парковку"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нам потрібен доступ до вашої камери, щоб сфотографувати парковку"
           }
         },
-        "zh": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "我们需要使用您的相机拍摄停车照片"
-          }
-        }
-      }
-    },
-    "location_permission_required_message": {
-      "comment": "Location authorisation request dialog message",
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "تفويض الموقع مطلوب لهذه الميزة. يرجى تمكينها في إعدادات التطبيق."
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lokaliseringsgodkendelse er påkrævet for denne funktion. Aktivér det venligst i appens indstillinger."
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Für diese Funktion ist eine Standortautorisierung erforderlich. Bitte aktiviere sie in den Einstellungen der App."
-          }
-        },
-        "el": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Για αυτή τη λειτουργία απαιτείται εξουσιοδότηση τοποθεσίας. Παρακαλούμε ενεργοποιήστε την στις ρυθμίσεις της εφαρμογής."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Location authorisation is required for this feature. Please enable it in the app settings."
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Esta función requiere autorización de ubicación. Actívala en los ajustes de la aplicación."
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tämä toiminto edellyttää sijaintilupaa. Ota se käyttöön sovelluksen asetuksissa."
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "L'autorisation de localisation est requise pour cette fonctionnalité. Tu dois l'activer dans les paramètres de l'appli."
-          }
-        },
-        "hu": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ehhez a funkcióhoz helymeghatározási engedély szükséges. Kérjük, engedélyezze az alkalmazás beállításaiban."
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "L'autorizzazione alla localizzazione è necessaria per questa funzione. Abilitala nelle impostazioni dell'app."
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "この機能には位置情報の認証が必要だ。アプリの設定で有効にしてください。"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "이 기능을 사용하려면 위치 인증이 필요합니다. 앱 설정에서 활성화하세요."
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Locatieautorisatie is vereist voor deze functie. Schakel dit in bij de app-instellingen."
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ta funkcja wymaga autoryzacji lokalizacji. Włącz ją w ustawieniach aplikacji."
-          }
-        },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "A autorização de localização é necessária para esta funcionalidade. Active-a nas definições da aplicação."
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Для этой функции требуется авторизация по местоположению. Включи ее в настройках приложения."
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Platsgodkännande krävs för den här funktionen. Aktivera det i appens inställningar."
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bu özellik için konum yetkilendirmesi gereklidir. Lütfen uygulama ayarlarından etkinleştirin."
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Для використання цієї функції потрібна авторизація місцезнаходження. Будь ласка, увімкніть її в налаштуваннях програми."
-          }
-        },
-        "zh": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "此功能需要位置授权。请在应用程序设置中启用。"
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我们需要使用您的相机拍摄停车照片"
           }
         }
       }
     },
-    "permission_required_negative_action": {
-      "comment": "Authorisation request dialog negative action",
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "إلغاء"
+    "location_permission_required_message" : {
+      "comment" : "Location authorisation request dialog message",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تفويض الموقع مطلوب لهذه الميزة. يرجى تمكينها في إعدادات التطبيق."
           }
         },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Annuller"
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lokaliseringsgodkendelse er påkrævet for denne funktion. Aktivér det venligst i appens indstillinger."
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Abbrechen"
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Für diese Funktion ist eine Standortautorisierung erforderlich. Bitte aktiviere sie in den Einstellungen der App."
           }
         },
-        "el": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ακύρωση"
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Για αυτή τη λειτουργία απαιτείται εξουσιοδότηση τοποθεσίας. Παρακαλούμε ενεργοποιήστε την στις ρυθμίσεις της εφαρμογής."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cancel"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Location authorisation is required for this feature. Please enable it in the app settings."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cancelar"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta función requiere autorización de ubicación. Actívala en los ajustes de la aplicación."
           }
         },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Peruuta"
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tämä toiminto edellyttää sijaintilupaa. Ota se käyttöön sovelluksen asetuksissa."
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Annuler"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L'autorisation de localisation est requise pour cette fonctionnalité. Tu dois l'activer dans les paramètres de l'appli."
           }
         },
-        "hu": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cancel"
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ehhez a funkcióhoz helymeghatározási engedély szükséges. Kérjük, engedélyezze az alkalmazás beállításaiban."
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Annulla"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L'autorizzazione alla localizzazione è necessaria per questa funzione. Abilitala nelle impostazioni dell'app."
           }
         },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "キャンセルする"
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この機能には位置情報の認証が必要だ。アプリの設定で有効にしてください。"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "취소"
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 기능을 사용하려면 위치 인증이 필요합니다. 앱 설정에서 활성화하세요."
           }
         },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Annuleren"
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Locatieautorisatie is vereist voor deze functie. Schakel dit in bij de app-instellingen."
           }
         },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Anuluj"
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta funkcja wymaga autoryzacji lokalizacji. Włącz ją w ustawieniach aplikacji."
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cancelar"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A autorização de localização é necessária para esta funcionalidade. Active-a nas definições da aplicação."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Отмена"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Для этой функции требуется авторизация по местоположению. Включи ее в настройках приложения."
           }
         },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Avbryt"
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Platsgodkännande krävs för den här funktionen. Aktivera det i appens inställningar."
           }
         },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "İptal"
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu özellik için konum yetkilendirmesi gereklidir. Lütfen uygulama ayarlarından etkinleştirin."
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Скасувати"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Для використання цієї функції потрібна авторизація місцезнаходження. Будь ласка, увімкніть її в налаштуваннях програми."
           }
         },
-        "zh": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "取消"
-          }
-        }
-      }
-    },
-    "permission_required_positive_action": {
-      "comment": "Authorisation request dialog positive action",
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "الانتقال إلى الإعدادات"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gå til indstillinger"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Zu den Einstellungen gehen"
-          }
-        },
-        "el": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Μετάβαση στις ρυθμίσεις"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Go to settings"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ir a configuración"
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Siirry asetuksiin"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aller aux paramètres"
-          }
-        },
-        "hu": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Menjen a beállításokhoz"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Vai alle impostazioni"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "設定に進む"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "설정으로 이동"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ga naar instellingen"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Przejdź do ustawień"
-          }
-        },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ir para as definições"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Перейдите к настройкам"
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gå till inställningar"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ayarlara git"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Перейти до налаштувань"
-          }
-        },
-        "zh": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "转到设置"
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此功能需要位置授权。请在应用程序设置中启用。"
           }
         }
       }
     },
-    "permission_required_title": {
-      "comment": "Authorisation request dialog title",
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "مطلوب تفويض"
+    "permission_required_negative_action" : {
+      "comment" : "Authorisation request dialog negative action",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إلغاء"
           }
         },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Autorisation påkrævet"
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuller"
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Erforderliche Autorisierung"
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abbrechen"
           }
         },
-        "el": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Απαιτούμενη εξουσιοδότηση"
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ακύρωση"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Authorisation required"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Autorización requerida"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
           }
         },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tarvittava valtuutus"
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peruuta"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Autorisation requise"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuler"
           }
         },
-        "hu": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Engedélyezés szükséges"
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Autorizzazione richiesta"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annulla"
           }
         },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "認証が必要"
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キャンセルする"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "인증 필요"
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "취소"
           }
         },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Vereiste autorisatie"
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuleren"
           }
         },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Wymagana autoryzacja"
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anuluj"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Autorização requerida"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Требуется авторизация"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отмена"
           }
         },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Auktorisering krävs"
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt"
           }
         },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Yetkilendirme gerekli"
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İptal"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Потрібна авторизація"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скасувати"
           }
         },
-        "zh": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "需要授权"
-          }
-        }
-      }
-    },
-    "share_location_title": {
-      "comment": "Location sharing title",
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "متوقفة في"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Parkeret ved"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Geparkt bei"
-          }
-        },
-        "el": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Παρκαρισμένο σε"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Parked at"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aparcado en"
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pysäköity osoitteessa"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Stationné à"
-          }
-        },
-        "hu": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Parkolt"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Parcheggiato a"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "駐車場"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "주차 위치"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Geparkeerd bij"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Zaparkowany pod adresem"
-          }
-        },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Estacionado em"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Припарковался у"
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Parkerad vid"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Park yeri"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Припарковано за адресою"
-          }
-        },
-        "zh": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "停车地点"
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消"
           }
         }
       }
     },
-    "share_note_title": {
-      "comment": "Note sharing title",
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "الملاحظة"
+    "permission_required_positive_action" : {
+      "comment" : "Authorisation request dialog positive action",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الانتقال إلى الإعدادات"
           }
         },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bemærk:"
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gå til indstillinger"
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hinweis:"
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zu den Einstellungen gehen"
           }
         },
-        "el": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Σημείωση:"
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μετάβαση στις ρυθμίσεις"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Note:"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go to settings"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nota:"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ir a configuración"
           }
         },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Huom:"
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siirry asetuksiin"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Note :"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aller aux paramètres"
           }
         },
-        "hu": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Megjegyzés:"
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menjen a beállításokhoz"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nota:"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vai alle impostazioni"
           }
         },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ノート"
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定に進む"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "참고:"
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "설정으로 이동"
           }
         },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Opmerking:"
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ga naar instellingen"
           }
         },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Uwaga:"
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przejdź do ustawień"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nota:"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ir para as definições"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Примечание:"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейдите к настройкам"
           }
         },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Notera:"
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gå till inställningar"
           }
         },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Not:"
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayarlara git"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Нотатка:"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейти до налаштувань"
           }
         },
-        "zh": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "注释"
-          }
-        }
-      }
-    },
-    "unknown_location": {
-      "comment": "Unknown location",
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "موقع غير معروف"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ukendt sted"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Unbekannter Ort"
-          }
-        },
-        "el": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Άγνωστη τοποθεσία"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Unknown location"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lugar desconocido"
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tuntematon sijainti"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Lieu inconnu"
-          }
-        },
-        "hu": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ismeretlen hely"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Posizione sconosciuta"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "所在地不明"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "알 수 없는 위치"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Onbekende locatie"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nieznana lokalizacja"
-          }
-        },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Local desconhecido"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Неизвестное место"
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Okänd plats"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bilinmeyen yer"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Невідоме місцезнаходження"
-          }
-        },
-        "zh": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "未知地点"
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "转到设置"
           }
         }
       }
     },
-    "widget_description": {
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ألق نظرة سريعة على مساعد ركن السيارات المفضل لديك"
+    "permission_required_title" : {
+      "comment" : "Authorisation request dialog title",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مطلوب تفويض"
           }
         },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tag et hurtigt kig på din foretrukne parkeringsassistent"
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autorisation påkrævet"
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Wirf einen kurzen Blick auf deinen Lieblings-Parkassistenten"
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erforderliche Autorisierung"
           }
         },
-        "el": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ρίξτε μια γρήγορη ματιά στον αγαπημένο σας βοηθό στάθμευσης"
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Απαιτούμενη εξουσιοδότηση"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Take a quick look at your favourite parking assistant"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authorisation required"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Echa un vistazo a tu asistente de aparcamiento favorito"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autorización requerida"
           }
         },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tutustu nopeasti suosikkipysäköintiassistenttiisi"
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tarvittava valtuutus"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jette un coup d'œil rapide à ton assistant de stationnement préféré."
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autorisation requise"
           }
         },
-        "hu": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Vessen egy gyors pillantást kedvenc parkolóasszisztensére"
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Engedélyezés szükséges"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dai un'occhiata al tuo assistente di parcheggio preferito"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autorizzazione richiesta"
           }
         },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "お気に入りのパーキングアシスタントをちょっと見てみよう"
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "認証が必要"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "좋아하는 주차 도우미에 대해 간단히 살펴보세요."
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "인증 필요"
           }
         },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kijk snel naar je favoriete parkeerhulp"
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vereiste autorisatie"
           }
         },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rzuć okiem na swojego ulubionego asystenta parkowania"
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wymagana autoryzacja"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dê uma olhadela rápida ao seu assistente de estacionamento favorito"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autorização requerida"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Взгляни на своего любимого помощника по парковке."
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Требуется авторизация"
           }
         },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ta en snabb titt på din favoritparkeringsassistent"
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auktorisering krävs"
           }
         },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Favori park asistanınıza hızlıca bir göz atın"
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yetkilendirme gerekli"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Погляньте на свій улюблений паркувальний асистент"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Потрібна авторизація"
           }
         },
-        "zh": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "看看您最喜欢的泊车助手"
-          }
-        }
-      }
-    },
-    "widget_not_parked_title": {
-      "comment": "Not taken, available",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Free"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gratis"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Libre"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Frei"
-          }
-        },
-        "zh": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "免费"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Вільний"
-          }
-        },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "無料"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Бесплатно"
-          }
-        },
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "متاح مجاناً"
-          }
-        },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Livre"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gratuito"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "무료"
-          }
-        },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gratis"
-          }
-        },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fri"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Darmowy"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ücretsiz"
-          }
-        },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gratis"
-          }
-        },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Vapaa"
-          }
-        },
-        "el": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Δωρεάν"
-          }
-        },
-        "hu": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ingyenes"
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "需要授权"
           }
         }
       }
     },
-    "widget_parked_title": {
-      "comment": "From the verb park, vehicle parking",
-      "extractionState": "manual",
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Parked"
+    "share_location_title" : {
+      "comment" : "Location sharing title",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "متوقفة في"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aparcado"
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parkeret ved"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Garé"
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geparkt bei"
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Geparkt"
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Παρκαρισμένο σε"
           }
         },
-        "zh": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "停车"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parked at"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Припаркований"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aparcado en"
           }
         },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "駐車する"
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pysäköity osoitteessa"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Припаркуйся"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stationné à"
           }
         },
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ركنت"
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parkolt"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Estacionado"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parcheggiato a"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Parcheggiato"
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "駐車場"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Parked"
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "주차 위치"
           }
         },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Geparkeerd"
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geparkeerd bij"
           }
         },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "parkerade"
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaparkowany pod adresem"
           }
         },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "zaparkowany"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estacionado em"
           }
         },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Park edilmiş"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Припарковался у"
           }
         },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Parkeret"
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parkerad vid"
           }
         },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "pysäköity"
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Park yeri"
           }
         },
-        "el": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Παρκαρισμένο"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Припарковано за адресою"
           }
         },
-        "hu": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Parkolt"
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "停车地点"
           }
         }
       }
     },
-    "widget_title": {
-      "extractionState": "manual",
-      "localizations": {
-        "ar": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "مساعد وقوف السيارات"
+    "share_note_title" : {
+      "comment" : "Note sharing title",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الملاحظة"
           }
         },
-        "da": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Parkeringsassistent"
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bemærk:"
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Parkassistent"
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hinweis:"
           }
         },
-        "el": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Βοηθός στάθμευσης"
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σημείωση:"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Parking assistant"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Note:"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Asistente de aparcamiento"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nota:"
           }
         },
-        "fi": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pysäköintiassistentti"
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Huom:"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aide au stationnement"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Note :"
           }
         },
-        "hu": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Parkolási asszisztens"
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Megjegyzés:"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Assistente al parcheggio"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nota:"
           }
         },
-        "ja": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "駐車アシスタント"
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ノート"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "주차 도우미"
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "참고:"
           }
         },
-        "nl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Parkeerassistent"
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opmerking:"
           }
         },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Asystent parkowania"
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uwaga:"
           }
         },
-        "pt": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Assistente de estacionamento"
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nota:"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Парковочный ассистент"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Примечание:"
           }
         },
-        "sv": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Parkeringsassistent"
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notera:"
           }
         },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Otopark asistanı"
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not:"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Паркувальний асистент"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нотатка:"
           }
         },
-        "zh": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "停车助理"
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "注释"
+          }
+        }
+      }
+    },
+    "unknown_location" : {
+      "comment" : "Unknown location",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "موقع غير معروف"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ukendt sted"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unbekannter Ort"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Άγνωστη τοποθεσία"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unknown location"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lugar desconocido"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuntematon sijainti"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lieu inconnu"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ismeretlen hely"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Posizione sconosciuta"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "所在地不明"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "알 수 없는 위치"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Onbekende locatie"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nieznana lokalizacja"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Local desconhecido"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Неизвестное место"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Okänd plats"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bilinmeyen yer"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Невідоме місцезнаходження"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未知地点"
+          }
+        }
+      }
+    },
+    "widget_description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ألق نظرة سريعة على مساعد ركن السيارات المفضل لديك"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tag et hurtigt kig på din foretrukne parkeringsassistent"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wirf einen kurzen Blick auf deinen Lieblings-Parkassistenten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ρίξτε μια γρήγορη ματιά στον αγαπημένο σας βοηθό στάθμευσης"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Take a quick look at your favourite parking assistant"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Echa un vistazo a tu asistente de aparcamiento favorito"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutustu nopeasti suosikkipysäköintiassistenttiisi"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jette un coup d'œil rapide à ton assistant de stationnement préféré."
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vessen egy gyors pillantást kedvenc parkolóasszisztensére"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dai un'occhiata al tuo assistente di parcheggio preferito"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お気に入りのパーキングアシスタントをちょっと見てみよう"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "좋아하는 주차 도우미에 대해 간단히 살펴보세요."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kijk snel naar je favoriete parkeerhulp"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rzuć okiem na swojego ulubionego asystenta parkowania"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dê uma olhadela rápida ao seu assistente de estacionamento favorito"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Взгляни на своего любимого помощника по парковке."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta en snabb titt på din favoritparkeringsassistent"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favori park asistanınıza hızlıca bir göz atın"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Погляньте на свій улюблений паркувальний асистент"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "看看您最喜欢的泊车助手"
+          }
+        }
+      }
+    },
+    "widget_not_parked_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "متوفرة"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilgængelig"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verfügbar"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαθέσιμο"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Available"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disponible"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saatavilla"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disponible"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elérhető"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disponibile"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "利用可能"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사용 가능"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beschikbaar"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dostępne"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disponível"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Доступно"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tillgänglig"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mevcut"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Доступно"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可用"
+          }
+        }
+      }
+    },
+    "widget_parked_title" : {
+      "comment" : "From the verb park, vehicle parking",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ركنت"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parkeret"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geparkt"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Παρκαρισμένο"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parked"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aparcado"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "pysäköity"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Garé"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parkolt"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parcheggiato"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "駐車する"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "주차됨"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geparkeerd"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "zaparkowany"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estacionado"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Припаркуйся"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parkerade"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Park edilmiş"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Припаркований"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "停车"
+          }
+        }
+      }
+    },
+    "widget_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مساعد وقوف السيارات"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parkeringsassistent"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parkassistent"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Βοηθός στάθμευσης"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parking assistant"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asistente de aparcamiento"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pysäköintiassistentti"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aide au stationnement"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parkolási asszisztens"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assistente al parcheggio"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "駐車アシスタント"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "주차 도우미"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parkeerassistent"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asystent parkowania"
+          }
+        },
+        "pt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assistente de estacionamento"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Парковочный ассистент"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parkeringsassistent"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otopark asistanı"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Паркувальний асистент"
+          }
+        },
+        "zh" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "停车助理"
           }
         }
       }
     }
   },
-  "version": "1.0"
+  "version" : "1.0"
 }

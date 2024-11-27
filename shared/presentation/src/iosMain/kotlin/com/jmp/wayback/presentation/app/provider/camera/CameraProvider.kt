@@ -54,7 +54,6 @@ class CameraProvider {
 
     fun requestAuthorization(callback: (Boolean) -> Unit) {
         val status = AVCaptureDevice.authorizationStatusForMediaType(AVMediaTypeVideo)
-        println("TSST: requestAuthorization status: $")
         when (status) {
             AVAuthorizationStatusAuthorized -> callback(true)
             AVAuthorizationStatusDenied, AVAuthorizationStatusRestricted -> showSettingsAlert()

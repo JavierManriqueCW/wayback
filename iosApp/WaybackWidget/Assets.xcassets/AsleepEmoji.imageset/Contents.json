@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "widget_background.jpg",
+      "filename" : "sleep-svgrepo-com-svg.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "widget_background 1.jpg",
+      "filename" : "sleep-svgrepo-com-svg 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "widget_background 2.jpg",
+      "filename" : "sleep-svgrepo-com-svg 2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
