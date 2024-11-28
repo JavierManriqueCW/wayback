@@ -1,1 +1,6 @@
-NSCameraUsageDescription = "Wayback käyttää kameraa, jonka avulla voit ottaa kuvan pysäköidystä autostasi";NSLocationAlwaysAndWhenInUseUsageDescription = "Wayback tarvitsee paikannuksen, jotta voit tallentaa pysäköintipaikkasi ja auttaa sinua löytämään ajoneuvosi. Ota se käyttöön sovelluksen asetuksissa";NSLocationAlwaysUsageDescription = "Wayback tarvitsee paikannuksen tallentaakseen pysäköintipaikkasi ja auttaakseen sinua löytämään ajoneuvosi.";NSLocationWhenInUseUsageDescription = "Wayback tarvitsee paikannuksen tallentaakseen pysäköintipaikkasi ja auttaakseen sinua löytämään ajoneuvosi.";
+NSCameraUsageDescription = "Wayback käyttää kameraa, jonka avulla voit ottaa kuvan pysäköidystä autostasi";
+NSLocationAlwaysAndWhenInUseUsageDescription = "Wayback tarvitsee paikannuksen, jotta voit tallentaa pysäköintipaikkasi ja auttaa sinua löytämään ajoneuvosi. Ota se käyttöön sovelluksen asetuksissa";
+NSLocationAlwaysUsageDescription = "Wayback tarvitsee paikannuksen tallentaakseen pysäköintipaikkasi ja auttaakseen sinua löytämään ajoneuvosi.";
+NSLocationWhenInUseUsageDescription = "Wayback tarvitsee paikannuksen tallentaakseen pysäköintipaikkasi ja auttaakseen sinua löytämään ajoneuvosi.";
+
+

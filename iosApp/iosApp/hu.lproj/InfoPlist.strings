@@ -1,1 +1,6 @@
-NSCameraUsageDescription = "A Wayback a kamera segítségével készít fényképet a parkoló autójáról";NSLocationAlwaysAndWhenInUseUsageDescription = "A Waybacknek helymeghatározásra van szüksége, hogy elmentse a parkolóhelyét, és segítsen megtalálni a járművét. Kérjük, engedélyezze ezt az alkalmazás beállításaiban";NSLocationAlwaysUsageDescription = "A Waybacknek helymeghatározásra van szüksége, hogy elmentse a parkolóhelyét és segítsen megtalálni a járművét";NSLocationWhenInUseUsageDescription = "A Waybacknek helymeghatározásra van szüksége, hogy elmentse a parkolóhelyét és segítsen megtalálni a járművét";
+NSCameraUsageDescription = "A Wayback a kamera segítségével készít fényképet a parkoló autójáról";
+NSLocationAlwaysAndWhenInUseUsageDescription = "A Waybacknek helymeghatározásra van szüksége, hogy elmentse a parkolóhelyét, és segítsen megtalálni a járművét. Kérjük, engedélyezze ezt az alkalmazás beállításaiban";
+NSLocationAlwaysUsageDescription = "A Waybacknek helymeghatározásra van szüksége, hogy elmentse a parkolóhelyét és segítsen megtalálni a járművét";
+NSLocationWhenInUseUsageDescription = "A Waybacknek helymeghatározásra van szüksége, hogy elmentse a parkolóhelyét és segítsen megtalálni a járművét";
+
+

@@ -1,1 +1,6 @@
-NSCameraUsageDescription = "يستخدم Wayback الكاميرا لمساعدتك على التقاط صورة لسيارتك المتوقفة";NSLocationAlwaysAndWhenInUseUsageDescription = "يحتاج Wayback إلى الوصول إلى الموقع لحفظ مكان ركن سيارتك ومساعدتك في العثور على سيارتك. يُرجى تمكينه في إعدادات التطبيق";NSLocationAlwaysUsageDescription = "يحتاج Wayback إلى الوصول إلى الموقع لحفظ مكان ركن سيارتك ومساعدتك في العثور على سيارتك";NSLocationWhenInUseUsageDescription = "يحتاج Wayback إلى الوصول إلى الموقع لحفظ مكان ركن سيارتك ومساعدتك في العثور على سيارتك";
+NSCameraUsageDescription = "يستخدم Wayback الكاميرا لمساعدتك على التقاط صورة لسيارتك المتوقفة";
+NSLocationAlwaysAndWhenInUseUsageDescription = "يحتاج Wayback إلى الوصول إلى الموقع لحفظ مكان ركن سيارتك ومساعدتك في العثور على سيارتك. يُرجى تمكينه في إعدادات التطبيق";
+NSLocationAlwaysUsageDescription = "يحتاج Wayback إلى الوصول إلى الموقع لحفظ مكان ركن سيارتك ومساعدتك في العثور على سيارتك";
+NSLocationWhenInUseUsageDescription = "يحتاج Wayback إلى الوصول إلى الموقع لحفظ مكان ركن سيارتك ومساعدتك في العثور على سيارتك";
+
+

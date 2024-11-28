@@ -1,1 +1,6 @@
-NSCameraUsageDescription = "Wayback, park halindeki aracınızın fotoğrafını çekmenize yardımcı olmak için kamerayı kullanır";NSLocationAlwaysAndWhenInUseUsageDescription = "Wayback, park yerinizi kaydetmek ve aracınızı bulmanıza yardımcı olmak için konum erişimine ihtiyaç duyar. Lütfen uygulama ayarlarından etkinleştirin";NSLocationAlwaysUsageDescription = "Wayback, park yerinizi kaydetmek ve aracınızı bulmanıza yardımcı olmak için konum erişimine ihtiyaç duyar";NSLocationWhenInUseUsageDescription = "Wayback, park yerinizi kaydetmek ve aracınızı bulmanıza yardımcı olmak için konum erişimine ihtiyaç duyar";
+NSCameraUsageDescription = "Wayback, park halindeki aracınızın fotoğrafını çekmenize yardımcı olmak için kamerayı kullanır";
+NSLocationAlwaysAndWhenInUseUsageDescription = "Wayback, park yerinizi kaydetmek ve aracınızı bulmanıza yardımcı olmak için konum erişimine ihtiyaç duyar. Lütfen uygulama ayarlarından etkinleştirin";
+NSLocationAlwaysUsageDescription = "Wayback, park yerinizi kaydetmek ve aracınızı bulmanıza yardımcı olmak için konum erişimine ihtiyaç duyar";
+NSLocationWhenInUseUsageDescription = "Wayback, park yerinizi kaydetmek ve aracınızı bulmanıza yardımcı olmak için konum erişimine ihtiyaç duyar";
+
+

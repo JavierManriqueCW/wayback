@@ -1,1 +1,6 @@
-NSCameraUsageDescription = "Wayback usa la fotocamera per aiutarti a catturare una foto della tua auto parcheggiata";NSLocationAlwaysAndWhenInUseUsageDescription = "Wayback ha bisogno dell'accesso alla posizione per salvare il tuo posto auto e aiutarti a trovare il tuo veicolo. Abilitalo nelle impostazioni dell'app";NSLocationAlwaysUsageDescription = "Wayback ha bisogno di un accesso alla posizione per salvare il tuo posto auto e aiutarti a trovare il tuo veicolo";NSLocationWhenInUseUsageDescription = "Wayback ha bisogno di un accesso alla posizione per salvare il tuo posto auto e aiutarti a trovare il tuo veicolo";
+NSCameraUsageDescription = "Wayback usa la fotocamera per aiutarti a catturare una foto della tua auto parcheggiata";
+NSLocationAlwaysAndWhenInUseUsageDescription = "Wayback ha bisogno dell'accesso alla posizione per salvare il tuo posto auto e aiutarti a trovare il tuo veicolo. Abilitalo nelle impostazioni dell'app";
+NSLocationAlwaysUsageDescription = "Wayback ha bisogno di un accesso alla posizione per salvare il tuo posto auto e aiutarti a trovare il tuo veicolo";
+NSLocationWhenInUseUsageDescription = "Wayback ha bisogno di un accesso alla posizione per salvare il tuo posto auto e aiutarti a trovare il tuo veicolo";
+
+
