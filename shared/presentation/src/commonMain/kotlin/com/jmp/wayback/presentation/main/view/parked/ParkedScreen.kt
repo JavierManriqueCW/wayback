@@ -55,7 +55,7 @@ fun ParkedScreen(
                     top.linkTo(parent.top)
                     end.linkTo(parent.end)
                 }
-                .padding(start = 32.dp, top = 64.dp),
+                .padding(top = 64.dp),
             uiState = uiState
         )
 
@@ -72,7 +72,8 @@ fun ParkedScreen(
                     end.linkTo(parent.end)
                     bottom.linkTo(buttonContainer.top)
                     height = Dimension.fillToConstraints
-                },
+                }
+                .padding(horizontal = 32.dp),
             uiState = uiState
         )
 
@@ -81,7 +82,9 @@ fun ParkedScreen(
                 .fillMaxWidth()
                 .navigationBarsPadding()
                 .padding(
+                    start = 32.dp,
                     top = 0.dp,
+                    end = 32.dp,
                     bottom = 32.dp
                 )
                 .constrainAs(buttonContainer) {

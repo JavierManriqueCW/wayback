@@ -74,9 +74,7 @@ fun MainScreen(
                     val isParked = generalUiState.data.parkedUiState != null
                     if (isParked) {
                         ParkedScreen(
-                            modifier = Modifier
-                                .fillMaxSize()
-                                .padding(horizontal = 32.dp),
+                            modifier = Modifier.fillMaxSize(),
                             uiState = generalUiState.data.parkedUiState as ParkedUiState,
                             stopParking = { viewModel.sendIntent(MainIntent.StopParking) },
                             onStopParkingClicked = { viewModel.sendIntent(MainIntent.ShowStopParkingDialog) },

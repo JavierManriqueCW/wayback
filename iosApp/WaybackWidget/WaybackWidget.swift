@@ -45,7 +45,7 @@ struct WaybackWidgetEntryView: View {
             
             Text(title.uppercased())
                 .font(Font.custom("Futura-Medium", size: 12))
-                .foregroundColor(.white)
+                .foregroundColor(.gray)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         .widgetBackground {

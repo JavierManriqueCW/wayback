@@ -3,6 +3,7 @@ package com.jmp.wayback.presentation.main.view.parked
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
@@ -14,6 +15,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.constraintlayout.compose.ConstraintLayout
+import androidx.constraintlayout.compose.Dimension
 import com.jmp.wayback.presentation.main.viewmodel.ParkedUiState
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
@@ -29,15 +31,18 @@ fun ParkedScreenHeader(
         Box(
             modifier = Modifier.constrainAs(title) {
                 start.linkTo(parent.start)
-                top.linkTo(icon.top)
-                end.linkTo(icon.start, 16.dp)
-                bottom.linkTo(icon.bottom)
+                end.linkTo(icon.start)
+                width = Dimension.fillToConstraints
             }
         ) {
             Text(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .align(Alignment.CenterStart),
+                    .align(Alignment.CenterStart)
+                    .padding(
+                        start = 32.dp,
+                        end = 16.dp
+                    ),
                 text = stringResource(uiState.title),
                 color = Color.White,
                 fontSize = 40.sp,
@@ -48,9 +53,10 @@ fun ParkedScreenHeader(
         }
 
         Box(
-            modifier = Modifier.constrainAs(icon) {
-                end.linkTo(parent.end)
-            }
+            modifier = Modifier
+                .constrainAs(icon) {
+                    end.linkTo(parent.end, 32.dp)
+                }
         ) {
             Image(
                 modifier = Modifier

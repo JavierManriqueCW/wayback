@@ -30,11 +30,6 @@ struct ComposeView: UIViewControllerRepresentable {
             }
         }
     }
-    
-    func fileExists(at filePath: String) -> Bool {
-        let fileManager = FileManager.default
-        return fileManager.fileExists(atPath: filePath)
-    }
 }
 
 struct ContentView: View {

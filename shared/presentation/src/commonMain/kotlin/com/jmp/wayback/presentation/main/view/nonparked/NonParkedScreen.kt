@@ -40,8 +40,7 @@ fun NonParkedScreen(
                     start.linkTo(parent.start)
                     end.linkTo(parent.end)
                     width = Dimension.fillToConstraints
-                }
-                .padding(start = 32.dp),
+                },
             uiState = uiState
         )
 
