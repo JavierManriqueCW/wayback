@@ -68,6 +68,12 @@ def create_directory_if_not_exists(directory_name):
         os.makedirs(directory_name)
 
 
+def create_ios_directory(language_code):
+    directory = os.path.join(VALUES_FOLDER, f"{language_code}.lproj")
+    create_directory_if_not_exists(directory)
+    return directory
+
+
 def create_android_directories(dir_language):
     file_directory = VALUES_FOLDER + "-" + dir_language.lower()
 
@@ -78,6 +84,42 @@ def create_android_directories(dir_language):
 languages_from_translate = INPUT_LANGUAGE
 languages_to_translate = OUTPUT_LANGUAGES.split(",")
 languages_supporting_formality = ["DE", "FR", "IT", "ES", "NL", "PL", "PT-BR", "PT-PT", "JA", "RU"]
+
+
+def translate_ios_infoplist_strings():
+    with open(INPUT_FILE, 'r', encoding='utf-8') as file:
+        strings = file.readlines()
+
+    for language_name in languages_to_translate:
+        language_code = language_name.strip().lower()
+        translated_directory = create_ios_directory(language_code)
+        translated_file_path = os.path.join(translated_directory, 'InfoPlist.strings')
+
+        with open(translated_file_path, 'w', encoding='utf-8') as translated_file:
+            for line in strings:
+                if '="' in line:
+                    key, value = line.split('="', 1)
+                    value = value.strip().rstrip('";')
+
+                    params = {
+                        'auth_key': API_KEY,
+                        'text': value,
+                        'source_lang': INPUT_LANGUAGE,
+                        'target_lang': language_code.upper()
+                    }
+
+                    if language_code.upper() in languages_supporting_formality:
+                        params["formality"] = "less"
+
+                    response = requests.post("https://api.deepl.com/v2/translate", data=params)
+                    result = response.json()
+
+                    translated_text = result.get("translations", [{}])[0].get("text", "").strip()
+                    translated_line = f'{key}="{translated_text}";'
+                    translated_file.write(translated_line)
+                    print(f"{value} --> {translated_text}")
+                else:
+                    translated_file.write(line)
 
 
 def translate_ios_strings():
@@ -182,4 +224,5 @@ def translate_android_or_common_strings():
 if PLATFORM != 'ios':
     translate_android_or_common_strings()
 else:
+    translate_ios_infoplist_strings()
     translate_ios_strings()
