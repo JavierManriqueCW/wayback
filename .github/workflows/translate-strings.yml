@@ -82,7 +82,7 @@ jobs:
       - name: Add ios strings to Git
         if: ${{ github.event.inputs.platform == 'ios' || github.event.inputs.platform == 'all' }}
         run: |
-          git add iosApp/*.lproj
+          git add iosApp/iosApp/*.lproj
           git add iosApp/Localizable.xcstrings
           
 

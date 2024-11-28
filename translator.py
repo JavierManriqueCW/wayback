@@ -32,6 +32,7 @@ import xml.etree.ElementTree as ElementTree
 API_KEY = ""
 OUTPUT_LANGUAGES = ""
 INPUT_FILE = ""
+INFO_PLIST_STRINGS_INPUT_FILE = ""
 VALUES_FOLDER = ""
 INPUT_LANGUAGE = "EN"
 PLATFORM = ""
@@ -59,6 +60,7 @@ if args.input_folder:
     VALUES_FOLDER = args.input_folder
     if PLATFORM == 'ios':
         INPUT_FILE = VALUES_FOLDER + '/Localizable.xcstrings'
+        INFO_PLIST_STRINGS_INPUT_FILE = VALUES_FOLDER + '/iosApp/en.lproj/InfoPlist.strings'
     else:
         INPUT_FILE = VALUES_FOLDER + '/strings.xml'
 
@@ -87,7 +89,7 @@ languages_supporting_formality = ["DE", "FR", "IT", "ES", "NL", "PL", "PT-BR", "
 
 
 def translate_ios_infoplist_strings():
-    with open(INPUT_FILE, 'r', encoding='utf-8') as file:
+    with open(INFO_PLIST_STRINGS_INPUT_FILE, 'r', encoding='utf-8') as file:
         strings = file.readlines()
 
     for language_name in languages_to_translate:
