@@ -86,7 +86,7 @@ languages_to_translate = OUTPUT_LANGUAGES.split(",")
 languages_supporting_formality = ["DE", "FR", "IT", "ES", "NL", "PL", "PT-BR", "PT-PT", "JA", "RU"]
 
 
-def translate_ios_infoplist_strings():
+def translate_infoplist_strings():
     with open(INPUT_FILE, 'r', encoding='utf-8') as file:
         strings = file.readlines()
 
@@ -97,9 +97,10 @@ def translate_ios_infoplist_strings():
 
         with open(translated_file_path, 'w', encoding='utf-8') as translated_file:
             for line in strings:
-                if '="' in line:
-                    key, value = line.split('="', 1)
-                    value = value.strip().rstrip('";')
+                if '=' in line:
+                    key, value = line.split('=', 1)
+                    key = key.strip()
+                    value = value.strip().strip('"').strip(';')
 
                     params = {
                         'auth_key': API_KEY,
@@ -115,7 +116,7 @@ def translate_ios_infoplist_strings():
                     result = response.json()
 
                     translated_text = result.get("translations", [{}])[0].get("text", "").strip()
-                    translated_line = f'{key}="{translated_text}";'
+                    translated_line = f'{key} = "{translated_text}";'
                     translated_file.write(translated_line)
                     print(f"{value} --> {translated_text}")
                 else:
