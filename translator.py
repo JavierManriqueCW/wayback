@@ -86,7 +86,7 @@ languages_to_translate = OUTPUT_LANGUAGES.split(",")
 languages_supporting_formality = ["DE", "FR", "IT", "ES", "NL", "PL", "PT-BR", "PT-PT", "JA", "RU"]
 
 
-def translate_infoplist_strings():
+def translate_ios_infoplist_strings():
     with open(INPUT_FILE, 'r', encoding='utf-8') as file:
         strings = file.readlines()
 
