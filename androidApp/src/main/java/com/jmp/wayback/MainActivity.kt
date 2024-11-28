@@ -1,6 +1,8 @@
 package com.jmp.wayback
 
 import android.os.Bundle
+import android.view.View
+import android.view.Window
 import androidx.activity.ComponentActivity
 import androidx.activity.SystemBarStyle
 import androidx.activity.compose.setContent
@@ -23,6 +25,7 @@ class MainActivity : ComponentActivity() {
         enableFullyEdgeToEdge()
         super.onCreate(savedInstanceState)
         WindowCompat.setDecorFitsSystemWindows(window, false)
+        configureNavigationBar(window)
 
         initCameraProvider()
         initLocationProvider()
@@ -38,6 +41,14 @@ class MainActivity : ComponentActivity() {
                 Color.Transparent.toArgb()
             )
         )
+    }
+
+    @Suppress("DEPRECATION")
+    private fun configureNavigationBar(window: Window) {
+        window.decorView.systemUiVisibility = (
+                View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+                        or View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+                )
     }
 
     private fun initCameraProvider() {
