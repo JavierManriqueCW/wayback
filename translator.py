@@ -119,10 +119,10 @@ def translate_ios_infoplist_strings():
 
                     translated_text = result.get("translations", [{}])[0].get("text", "").strip()
                     translated_line = f'{key} = "{translated_text}";'
-                    translated_file.write(translated_line)
+                    translated_file.write(translated_line + '\n')
                     print(f"{value} --> {translated_text}")
                 else:
-                    translated_file.write(line)
+                    translated_file.write(line + '\n')
 
 
 def translate_ios_strings():
