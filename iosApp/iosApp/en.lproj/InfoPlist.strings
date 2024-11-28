@@ -1,5 +1,5 @@
-NSCameraUsageDescription = "Wayback uses the camera to help you capture a photo of your parked car"
-NSLocationAlwaysAndWhenInUseUsageDescription = "Wayback needs location access to save your parking spot and help you find your vehicle. Please enable it in the app settings"
-NSLocationAlwaysUsageDescription = "Wayback needs location access to save your parking spot and help you find your vehicle"
-NSLocationWhenInUseUsageDescription = "Wayback needs location access to save your parking spot and help you find your vehicle"
+NSCameraUsageDescription = "Wayback uses the camera to help you capture a photo of your parked car";
+NSLocationAlwaysAndWhenInUseUsageDescription = "Wayback needs location access to save your parking spot and help you find your vehicle. Please enable it in the app settings";
+NSLocationAlwaysUsageDescription = "Wayback needs location access to save your parking spot and help you find your vehicle";
+NSLocationWhenInUseUsageDescription = "Wayback needs location access to save your parking spot and help you find your vehicle";
 
