@@ -70,8 +70,8 @@ def create_directory_if_not_exists(directory_name):
         os.makedirs(directory_name)
 
 
-def create_ios_directory(language_code):
-    directory = os.path.join(VALUES_FOLDER, f"{language_code}.lproj")
+def create_infoplist_strings_ios_directory(language_code):
+    directory = os.path.join(VALUES_FOLDER, f"iosApp/{language_code}.lproj")
     create_directory_if_not_exists(directory)
     return directory
 
@@ -94,7 +94,7 @@ def translate_ios_infoplist_strings():
 
     for language_name in languages_to_translate:
         language_code = language_name.strip().lower()
-        translated_directory = create_ios_directory(language_code)
+        translated_directory = create_infoplist_strings_ios_directory(language_code)
         translated_file_path = os.path.join(translated_directory, 'InfoPlist.strings')
 
         with open(translated_file_path, 'w', encoding='utf-8') as translated_file:
