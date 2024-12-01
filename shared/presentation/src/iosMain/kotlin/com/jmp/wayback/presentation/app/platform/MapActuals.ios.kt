@@ -1,15 +1,17 @@
 package com.jmp.wayback.presentation.app.platform
 
-import kotlinx.cinterop.ExperimentalForeignApi
-import platform.CoreLocation.CLLocationCoordinate2DMake
-import platform.MapKit.MKMapItem
-import platform.MapKit.MKPlacemark
+import platform.Foundation.NSURL
+import platform.UIKit.UIApplication
 
-@OptIn(ExperimentalForeignApi::class)
 actual fun openMap(latitude: Double, longitude: Double) {
-    val coordinate = CLLocationCoordinate2DMake(latitude, longitude)
-    val placemark = MKPlacemark(coordinate)
-    val mapItem = MKMapItem(placemark = placemark)
-    mapItem.name = "Wayback pin"
-    mapItem.openInMapsWithLaunchOptions(null)
+    val urlString = "http://maps.apple.com/?ll=${latitude},${longitude}&q=${"Wayback pin"}"
+    val url = NSURL.URLWithString(urlString) ?: return
+
+    if (UIApplication.sharedApplication.canOpenURL(url)) {
+        UIApplication.sharedApplication.openURL(
+            url = url,
+            options = emptyMap<Any?, Any>(),
+            completionHandler = null
+        )
+    }
 }

@@ -1,7 +1,7 @@
 import argparse
+import json
 import os
 import requests
-import json
 import xml.etree.ElementTree as ElementTree
 
 # MIT License
