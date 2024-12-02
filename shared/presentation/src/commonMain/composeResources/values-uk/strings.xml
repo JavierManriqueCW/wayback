@@ -31,4 +31,8 @@
     <string name="parked_screen_date_title">Оскільки</string>
     <string name="parked_screen_detail_title">Тобі записка.</string>
     <string name="parked_screen_stop_parking_button" comment="Stop vehicle parking">припинити паркування</string>
+    <string name="location_not_found">У нас проблеми з визначенням вашого місцезнаходження</string>
+    <string name="parking_error">Виникла помилка під час паркування автомобіля</string>
+    <string name="non_parked_screen_error_alert_title">Помилка.</string>
+    <string name="non_parked_screen_error_alert_confirm_button" translatable="false">OK</string>
 </resources>

@@ -31,4 +31,8 @@
     <string name="parked_screen_date_title">O zamandan beri</string>
     <string name="parked_screen_detail_title">Bir notun var.</string>
     <string name="parked_screen_stop_parking_button" comment="Stop vehicle parking">park etmeyi̇ durdur</string>
+    <string name="location_not_found">Konumunuzu bulmakta sorun yaşıyoruz</string>
+    <string name="parking_error">Aracınızı park ederken bir hata oluştu</string>
+    <string name="non_parked_screen_error_alert_title">Hata</string>
+    <string name="non_parked_screen_error_alert_confirm_button" translatable="false">OK</string>
 </resources>

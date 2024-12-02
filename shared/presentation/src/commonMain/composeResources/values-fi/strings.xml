@@ -31,4 +31,8 @@
     <string name="parked_screen_date_title">Koska</string>
     <string name="parked_screen_detail_title">Sinulla on viesti</string>
     <string name="parked_screen_stop_parking_button" comment="Stop vehicle parking">Pysäytä pysäköinti</string>
+    <string name="location_not_found">Meillä on ongelmia sijaintisi löytämisessä</string>
+    <string name="parking_error">Ajoneuvon pysäköinnissä tapahtui virhe</string>
+    <string name="non_parked_screen_error_alert_title">Virhe</string>
+    <string name="non_parked_screen_error_alert_confirm_button" translatable="false">OK</string>
 </resources>

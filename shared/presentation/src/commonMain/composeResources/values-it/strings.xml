@@ -31,4 +31,8 @@
     <string name="parked_screen_date_title">Da quando</string>
     <string name="parked_screen_detail_title">Hai ricevuto un biglietto</string>
     <string name="parked_screen_stop_parking_button" comment="Stop vehicle parking">sosta parcheggio</string>
+    <string name="location_not_found">Abbiamo problemi a trovare la tua posizione</string>
+    <string name="parking_error">Si è verificato un errore nel parcheggio del veicolo</string>
+    <string name="non_parked_screen_error_alert_title">Errore</string>
+    <string name="non_parked_screen_error_alert_confirm_button" translatable="false">OK</string>
 </resources>

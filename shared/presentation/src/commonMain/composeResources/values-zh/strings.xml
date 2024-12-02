@@ -31,4 +31,8 @@
     <string name="parked_screen_date_title">因为</string>
     <string name="parked_screen_detail_title">你有一张纸条</string>
     <string name="parked_screen_stop_parking_button" comment="Stop vehicle parking">停车</string>
+    <string name="location_not_found">我们无法找到您的位置</string>
+    <string name="parking_error">停放车辆时发生错误</string>
+    <string name="non_parked_screen_error_alert_title">错误</string>
+    <string name="non_parked_screen_error_alert_confirm_button" translatable="false">OK</string>
 </resources>

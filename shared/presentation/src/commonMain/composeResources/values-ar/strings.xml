@@ -31,4 +31,8 @@
     <string name="parked_screen_date_title">منذ</string>
     <string name="parked_screen_detail_title">لديك ملاحظة</string>
     <string name="parked_screen_stop_parking_button" comment="Stop vehicle parking">إيقاف وقوف السيارات</string>
+    <string name="location_not_found">نواجه مشكلة في العثور على موقعك</string>
+    <string name="parking_error">حدث خطأ في إيقاف سيارتك</string>
+    <string name="non_parked_screen_error_alert_title">خطأ</string>
+    <string name="non_parked_screen_error_alert_confirm_button" translatable="false">OK</string>
 </resources>

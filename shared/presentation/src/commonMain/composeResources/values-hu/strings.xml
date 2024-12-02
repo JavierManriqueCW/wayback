@@ -31,4 +31,8 @@
     <string name="parked_screen_date_title">Mivel</string>
     <string name="parked_screen_detail_title">Kaptál egy üzenetet</string>
     <string name="parked_screen_stop_parking_button" comment="Stop vehicle parking">parkolás megállítása</string>
+    <string name="location_not_found">Nem tudjuk megtalálni a helyét</string>
+    <string name="parking_error">Hiba történt a jármű parkolásában</string>
+    <string name="non_parked_screen_error_alert_title">Hiba</string>
+    <string name="non_parked_screen_error_alert_confirm_button" translatable="false">OK</string>
 </resources>

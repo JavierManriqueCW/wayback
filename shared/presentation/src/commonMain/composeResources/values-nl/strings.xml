@@ -31,4 +31,8 @@
     <string name="parked_screen_date_title">Sinds</string>
     <string name="parked_screen_detail_title">Je hebt een briefje</string>
     <string name="parked_screen_stop_parking_button" comment="Stop vehicle parking">stoppen met parkeren</string>
+    <string name="location_not_found">We hebben problemen om je locatie te vinden</string>
+    <string name="parking_error">Er is een fout opgetreden bij het parkeren van je voertuig</string>
+    <string name="non_parked_screen_error_alert_title">Fout</string>
+    <string name="non_parked_screen_error_alert_confirm_button" translatable="false">OK</string>
 </resources>

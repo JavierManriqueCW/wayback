@@ -31,4 +31,8 @@
     <string name="parked_screen_date_title">이후</string>
     <string name="parked_screen_detail_title">메모가 있습니다.</string>
     <string name="parked_screen_stop_parking_button" comment="Stop vehicle parking">주차 중지</string>
+    <string name="location_not_found">현재 위치를 찾는 데 문제가 있습니다.</string>
+    <string name="parking_error">차량 주차 중 오류가 발생했습니다.</string>
+    <string name="non_parked_screen_error_alert_title">오류</string>
+    <string name="non_parked_screen_error_alert_confirm_button" translatable="false">OK</string>
 </resources>

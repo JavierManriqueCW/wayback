@@ -31,4 +31,8 @@
     <string name="parked_screen_date_title">Seit</string>
     <string name="parked_screen_detail_title">Du hast einen Zettel</string>
     <string name="parked_screen_stop_parking_button" comment="Stop vehicle parking">Parken stoppen</string>
+    <string name="location_not_found">Wir haben Probleme, deinen Standort zu finden</string>
+    <string name="parking_error">Beim Parken deines Fahrzeugs ist ein Fehler aufgetreten</string>
+    <string name="non_parked_screen_error_alert_title">Fehler</string>
+    <string name="non_parked_screen_error_alert_confirm_button" translatable="false">OK</string>
 </resources>
