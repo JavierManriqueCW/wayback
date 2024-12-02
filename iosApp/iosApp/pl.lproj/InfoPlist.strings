@@ -1,6 +1,6 @@
-NSCameraUsageDescription = "Wayback wykorzystuje kamerę, aby pomóc Ci zrobić zdjęcie zaparkowanego samochodu"";
-NSLocationAlwaysAndWhenInUseUsageDescription = "Wayback potrzebuje dostępu do lokalizacji, aby zapisać Twoje miejsce parkingowe i pomóc Ci znaleźć pojazd. Włącz tę opcję w ustawieniach aplikacji"";
-NSLocationAlwaysUsageDescription = "Wayback potrzebuje dostępu do lokalizacji, aby zapisać Twoje miejsce parkingowe i pomóc Ci znaleźć pojazd"";
-NSLocationWhenInUseUsageDescription = "Wayback potrzebuje dostępu do lokalizacji, aby zapisać Twoje miejsce parkingowe i pomóc Ci znaleźć pojazd"";
+NSCameraUsageDescription = "Wayback wykorzystuje kamerę, aby pomóc Ci zrobić zdjęcie zaparkowanego samochodu";
+NSLocationAlwaysAndWhenInUseUsageDescription = "Wayback potrzebuje dostępu do lokalizacji, aby zapisać Twoje miejsce parkingowe i pomóc Ci znaleźć pojazd. Włącz tę opcję w ustawieniach aplikacji";
+NSLocationAlwaysUsageDescription = "Wayback potrzebuje dostępu do lokalizacji, aby zapisać Twoje miejsce parkingowe i pomóc Ci znaleźć pojazd";
+NSLocationWhenInUseUsageDescription = "Wayback potrzebuje dostępu do lokalizacji, aby zapisać Twoje miejsce parkingowe i pomóc Ci znaleźć pojazd";
 
 

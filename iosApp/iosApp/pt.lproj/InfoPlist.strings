@@ -1,6 +1,6 @@
-NSCameraUsageDescription = "O Wayback utiliza a câmara para o ajudar a tirar uma fotografia do seu carro estacionado"";
-NSLocationAlwaysAndWhenInUseUsageDescription = "A Wayback precisa de acesso à localização para guardar o seu lugar de estacionamento e ajudá-lo a encontrar o seu veículo. Active-o nas definições da aplicação"";
-NSLocationAlwaysUsageDescription = "O Wayback precisa de acesso à localização para guardar o seu lugar de estacionamento e ajudá-lo a encontrar o seu veículo"";
-NSLocationWhenInUseUsageDescription = "O Wayback precisa de acesso à localização para guardar o seu lugar de estacionamento e ajudá-lo a encontrar o seu veículo"";
+NSCameraUsageDescription = "O Wayback utiliza a câmara para o ajudar a tirar uma fotografia do seu carro estacionado";
+NSLocationAlwaysAndWhenInUseUsageDescription = "A Wayback precisa de acesso à localização para guardar o seu lugar de estacionamento e ajudá-lo a encontrar o seu veículo. Active-o nas definições da aplicação";
+NSLocationAlwaysUsageDescription = "O Wayback precisa de acesso à localização para guardar o seu lugar de estacionamento e ajudá-lo a encontrar o seu veículo";
+NSLocationWhenInUseUsageDescription = "O Wayback precisa de acesso à localização para guardar o seu lugar de estacionamento e ajudá-lo a encontrar o seu veículo";
 
 

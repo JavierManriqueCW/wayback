@@ -1,6 +1,6 @@
-NSCameraUsageDescription = "웨이백은 카메라를 사용하여 주차된 차량의 사진을 찍을 수 있도록 도와줍니다."";
-NSLocationAlwaysAndWhenInUseUsageDescription = "웨이백은 주차 공간을 저장하고 차량을 찾는 데 도움을 주기 위해 위치 액세스가 필요합니다. 앱 설정에서 활성화하세요."";
-NSLocationAlwaysUsageDescription = "웨이백은 주차 공간을 절약하고 차량을 찾는 데 도움이 되는 위치 액세스가 필요합니다."";
-NSLocationWhenInUseUsageDescription = "웨이백은 주차 공간을 절약하고 차량을 찾는 데 도움이 되는 위치 액세스가 필요합니다."";
+NSCameraUsageDescription = "웨이백은 카메라를 사용하여 주차된 차량의 사진을 찍을 수 있도록 도와줍니다.";
+NSLocationAlwaysAndWhenInUseUsageDescription = "웨이백은 주차 공간을 저장하고 차량을 찾는 데 도움을 주기 위해 위치 액세스가 필요합니다. 앱 설정에서 활성화하세요.";
+NSLocationAlwaysUsageDescription = "웨이백은 주차 공간을 절약하고 차량을 찾는 데 도움이 되는 위치 액세스가 필요합니다.";
+NSLocationWhenInUseUsageDescription = "웨이백은 주차 공간을 절약하고 차량을 찾는 데 도움이 되는 위치 액세스가 필요합니다.";
 
 
