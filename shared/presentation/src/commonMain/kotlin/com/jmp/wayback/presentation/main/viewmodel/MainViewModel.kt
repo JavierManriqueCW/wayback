@@ -2,6 +2,7 @@ package com.jmp.wayback.presentation.main.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.jmp.wayback.common.Failure
 import com.jmp.wayback.common.doOnError
 import com.jmp.wayback.common.doOnSuccess
 import com.jmp.wayback.domain.interactor.ClearParkingInformation
@@ -21,6 +22,9 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.suspendCancellableCoroutine
+import wayback.shared.presentation.generated.resources.Res
+import wayback.shared.presentation.generated.resources.location_not_found
+import wayback.shared.presentation.generated.resources.parking_error
 import kotlin.coroutines.resume
 
 typealias UiState = GeneralUiState<MainUiState>
@@ -78,6 +82,16 @@ class MainViewModel(
         }
     }
 
+    private fun dismissParkingErrorAlert() {
+        _uiState.asLoaded()?.data?.let { state ->
+            updateUiState(
+                GeneralUiState.Loaded(
+                    state.copy(nonParkedUiState = state.nonParkedUiState.copy(error = null))
+                )
+            )
+        }
+    }
+
     fun sendIntent(intent: MainIntent) {
         when (intent) {
             is MainIntent.UpdateDetailIntent -> updateDetail(intent.detail)
@@ -85,6 +99,7 @@ class MainViewModel(
             is MainIntent.RemovePicture -> removePicture()
             is MainIntent.ShowStopParkingDialog -> updateStopDialogVisibility(true)
             is MainIntent.DismissStopParkingDialog -> updateStopDialogVisibility(false)
+            is MainIntent.DismissParkingErrorAlert -> dismissParkingErrorAlert()
             is MainIntent.ParkIntent -> park(intent.detail, intent.imagePath)
             is MainIntent.StopParking -> stopParking()
         }
@@ -129,8 +144,10 @@ class MainViewModel(
                         updatePlatformSpecificIsParkedStatus(isParked = true)
                         updateUiStateToLoadingParking(false)
                     }.doOnError {
-                        updateUiStateToLoadingParking(false)
+                        handleParkingError(it)
                     }
+                } ?: run {
+                    handleParkingError()
                 }
             }
         }
@@ -148,9 +165,8 @@ class MainViewModel(
                 when (checkLocationPermissions()) {
                     true -> saveParkingInformation(image)
                     false -> requestLocationPermissions {
-                        if (it) {
-                            saveParkingInformation(image)
-                        } else updateUiStateToLoadingParking(false)
+                        if (it) saveParkingInformation(image)
+                        else updateUiStateToLoadingParking(false)
                     }
                 }
             }
@@ -201,6 +217,26 @@ class MainViewModel(
             updateUiState(
                 GeneralUiState.Loaded(
                     state.copy(nonParkedUiState = state.nonParkedUiState.copy(imagePath = null))
+                )
+            )
+        }
+    }
+
+    private fun handleParkingError(failure: Failure? = null) {
+        val error = when (failure) {
+            is Failure.LocationNotFound, null -> Res.string.location_not_found
+            else -> Res.string.parking_error
+        }
+
+        uiState.asLoaded()?.data?.let { state ->
+            updateUiState(
+                GeneralUiState.Loaded(
+                    state.copy(
+                        nonParkedUiState = state.nonParkedUiState.copy(
+                            error = error,
+                            parking = false
+                        )
+                    )
                 )
             )
         }

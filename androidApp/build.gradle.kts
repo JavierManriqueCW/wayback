@@ -12,19 +12,22 @@ android {
         applicationId = "com.jmp.wayback"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
-        versionCode = 5
+        versionCode = 10
         versionName = "1.0.0"
     }
+
+    buildTypes {
+        release {
+            isMinifyEnabled = true
+        }
+    }
+
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
-    buildTypes {
-        getByName("release") {
-            isMinifyEnabled = true
-        }
-    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
@@ -48,4 +51,5 @@ dependencies {
     implementation(libs.koin.core)
     implementation(libs.koin.core.android)
     implementation(libs.androidx.core.splashscreen)
+    coreLibraryDesugaring(libs.desugar.jdk.libs)
 }

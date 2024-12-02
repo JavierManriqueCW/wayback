@@ -32,4 +32,8 @@
     <string name="parked_screen_date_title">Since</string>
     <string name="parked_screen_detail_title">You got a note</string>
     <string name="parked_screen_stop_parking_button" comment="Stop vehicle parking">stop parking</string>
+    <string name="location_not_found">We are having trouble finding your location</string>
+    <string name="parking_error">An error occurred parking your vehicle</string>
+    <string name="non_parked_screen_error_alert_title">Error</string>
+    <string name="non_parked_screen_error_alert_confirm_button" translatable="false">OK</string>
 </resources>

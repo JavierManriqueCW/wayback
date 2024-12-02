@@ -21,5 +21,8 @@ data class NonParkedUiState(
     val parkButtonText: StringResource,
     val imagePath: String? = null,
     val parking: Boolean = false,
-    val animatedTexts: List<StringResource>
+    val animatedTexts: List<StringResource>,
+    val error: StringResource? = null,
+    val errorAlertTitle: StringResource,
+    val errorAlertConfirmButtonText: StringResource
 )

@@ -40,6 +40,8 @@ import wayback.shared.presentation.generated.resources.parked_screen_stop_parkin
 import wayback.shared.presentation.generated.resources.parked_screen_stop_parking_dialog_title
 import wayback.shared.presentation.generated.resources.parked_screen_title
 import wayback.shared.presentation.generated.resources.parked_screen_title_image_description
+import wayback.shared.presentation.generated.resources.non_parked_screen_error_alert_title
+import wayback.shared.presentation.generated.resources.non_parked_screen_error_alert_confirm_button
 
 class MainUiProvider {
 
@@ -74,7 +76,9 @@ class MainUiProvider {
                 Res.string.non_parked_screen_animated_text_4,
                 Res.string.non_parked_screen_animated_text_5,
                 Res.string.non_parked_screen_animated_text_6
-            )
+            ),
+            errorAlertTitle = Res.string.non_parked_screen_error_alert_title,
+            errorAlertConfirmButtonText = Res.string.non_parked_screen_error_alert_confirm_button
         )
 
     private fun provideParkedUiState(parkingInformation: ParkingInformation): ParkedUiState =

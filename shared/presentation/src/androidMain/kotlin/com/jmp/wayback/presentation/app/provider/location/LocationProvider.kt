@@ -16,6 +16,7 @@ import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.app.ActivityCompat.shouldShowRequestPermissionRationale
 import androidx.core.content.ContextCompat
+import com.google.android.gms.location.CurrentLocationRequest
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 import com.jmp.wayback.presentation.R
@@ -98,8 +99,10 @@ class LocationProvider {
     @SuppressLint("MissingPermission")
     suspend fun getUserLocation(): Location? =
         suspendCancellableCoroutine { continuation ->
-            fusedLocationClient.lastLocation
-                .addOnSuccessListener { location ->
+            fusedLocationClient.getCurrentLocation(
+                CurrentLocationRequest.Builder().build(),
+                null
+            ).addOnSuccessListener { location ->
                     if (location != null) {
                         getAddressFromLatLong(
                             context = context,

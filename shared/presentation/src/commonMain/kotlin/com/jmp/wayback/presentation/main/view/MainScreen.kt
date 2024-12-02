@@ -117,6 +117,9 @@ fun MainScreen(
                                         imagePath = generalUiState.data.nonParkedUiState.imagePath
                                     )
                                 )
+                            },
+                            onDismissAlertRequest = {
+                                viewModel.sendIntent(MainIntent.DismissParkingErrorAlert)
                             }
                         )
                     }

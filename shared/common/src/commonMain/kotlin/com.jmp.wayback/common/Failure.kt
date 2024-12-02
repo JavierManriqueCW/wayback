@@ -1,14 +1,16 @@
 package com.jmp.wayback.common
 
-sealed class Failure(val message: Int? = null) {
+sealed class Failure {
 
     data object NoConnectivityException : Exception()
 
-    class NoConnectivity : Failure()
+    data object NoConnectivity : Failure()
 
-    class UnknownError : Failure()
+    data object UnknownError : Failure()
 
-    class ErrorDisablingOnboarding : Failure()
+    data object ErrorDisablingOnboarding : Failure()
+
+    data object LocationNotFound : Failure()
 
     data object ErrorSavingParkingInformation : Failure()
 }

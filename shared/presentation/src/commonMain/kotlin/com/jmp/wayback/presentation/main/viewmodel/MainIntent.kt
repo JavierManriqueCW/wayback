@@ -12,6 +12,8 @@ sealed class MainIntent {
 
     data object DismissStopParkingDialog : MainIntent()
 
+    data object DismissParkingErrorAlert : MainIntent()
+
     data class ParkIntent(
         val detail: String,
         val imagePath: String?

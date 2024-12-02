@@ -18,9 +18,9 @@ sealed class Either<out L, out R> {
                     throw Failure.NoConnectivityException
                 Success(call())
             } catch (exception: Failure.NoConnectivityException) {
-                Error(Failure.NoConnectivity())
+                Error(Failure.NoConnectivity)
             } catch (exception: Exception) {
-                Error(Failure.UnknownError())
+                Error(Failure.UnknownError)
             }
         }
     }
