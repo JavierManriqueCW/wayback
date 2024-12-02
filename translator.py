@@ -119,7 +119,7 @@ def translate_ios_infoplist_strings():
 
                     translated_text = result.get("translations", [{}])[0].get("text", "").strip().rstrip('。;')
                     translated_text = translated_text.replace('"', '\"')  # Escape quotes in translated text
-                    translated_line = f'{key} = "{translated_text.rstrip(';')}";'  # Ensure translated string is always within quotes
+                    translated_line = f'{key} = "{translated_text}";'  # Ensure translated string is always within quotes
                     translated_file.write(translated_line + '\n')
                     print(f"{value} --> {translated_text}")
                 else:
