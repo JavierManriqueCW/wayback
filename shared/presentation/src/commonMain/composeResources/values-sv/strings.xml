@@ -31,4 +31,8 @@
     <string name="parked_screen_date_title">Sedan</string>
     <string name="parked_screen_detail_title">Du fick en lapp</string>
     <string name="parked_screen_stop_parking_button" comment="Stop vehicle parking">Stoppa parkering</string>
+    <string name="location_not_found">Vi har problem med att hitta din plats</string>
+    <string name="parking_error">Ett fel inträffade när du parkerade ditt fordon</string>
+    <string name="non_parked_screen_error_alert_title">Fel</string>
+    <string name="non_parked_screen_error_alert_confirm_button" translatable="false">OK</string>
 </resources>

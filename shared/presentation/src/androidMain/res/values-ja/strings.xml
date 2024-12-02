@@ -3,7 +3,7 @@
     <string name="permission_required_title">許可が必要</string>
     <string name="permission_required_positive_action">設定に進む</string>
     <string name="permission_required_negative_action" comment="Cancel an action">キャンセルする</string>
-    <string name="location_permission_required_message">この機能には位置情報の許可が必要。アプリの設定で有効にする。</string>
+    <string name="location_permission_required_message">この機能には位置情報の許可が必要。アプリの設定で有効にしてね。</string>
     <string name="camera_permission_required_message">撮影にはカメラ許可が必要。アプリの設定で有効にしてね。</string>
     <string name="no_maps_application">地図アプリケーションが見つからない</string>
     <string name="share_using">シェアする</string>

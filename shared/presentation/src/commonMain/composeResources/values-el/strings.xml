@@ -31,4 +31,8 @@
     <string name="parked_screen_date_title">Από το</string>
     <string name="parked_screen_detail_title">Έχεις ένα σημείωμα</string>
     <string name="parked_screen_stop_parking_button" comment="Stop vehicle parking">διακοπή στάθμευσης</string>
+    <string name="location_not_found">Έχουμε πρόβλημα να βρούμε την τοποθεσία σας</string>
+    <string name="parking_error">Παρουσιάστηκε σφάλμα κατά τη στάθμευση του οχήματός σας</string>
+    <string name="non_parked_screen_error_alert_title">Σφάλμα</string>
+    <string name="non_parked_screen_error_alert_confirm_button" translatable="false">OK</string>
 </resources>

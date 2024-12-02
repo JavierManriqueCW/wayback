@@ -31,4 +31,8 @@
     <string name="parked_screen_date_title">Od</string>
     <string name="parked_screen_detail_title">Masz notatkę</string>
     <string name="parked_screen_stop_parking_button" comment="Stop vehicle parking">zatrzymaj parkowanie</string>
+    <string name="location_not_found">Mamy problem ze znalezieniem Twojej lokalizacji</string>
+    <string name="parking_error">Wystąpił błąd podczas parkowania pojazdu</string>
+    <string name="non_parked_screen_error_alert_title">Błąd</string>
+    <string name="non_parked_screen_error_alert_confirm_button" translatable="false">OK</string>
 </resources>

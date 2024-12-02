@@ -1,6 +1,6 @@
-NSCameraUsageDescription = "Wayback gebruikt de camera om je te helpen een foto te maken van je geparkeerde auto";
-NSLocationAlwaysAndWhenInUseUsageDescription = "Wayback heeft locatietoegang nodig om je parkeerplaats op te slaan en je te helpen je voertuig terug te vinden. Schakel dit in bij de app-instellingen";
-NSLocationAlwaysUsageDescription = "Wayback heeft locatietoegang nodig om je parkeerplaats op te slaan en je te helpen je voertuig terug te vinden";
-NSLocationWhenInUseUsageDescription = "Wayback heeft locatietoegang nodig om je parkeerplaats op te slaan en je te helpen je voertuig terug te vinden";
+NSCameraUsageDescription = "Wayback gebruikt de camera om je te helpen een foto van je geparkeerde auto te maken."";
+NSLocationAlwaysAndWhenInUseUsageDescription = "Wayback heeft locatietoegang nodig om je parkeerplaats op te slaan en je te helpen je voertuig terug te vinden. Schakel dit in bij de instellingen van de app.";
+NSLocationAlwaysUsageDescription = "Wayback heeft locatietoegang nodig om je parkeerplaats op te slaan en je te helpen je voertuig terug te vinden".";
+NSLocationWhenInUseUsageDescription = "Wayback heeft locatietoegang nodig om je parkeerplaats op te slaan en je te helpen je voertuig terug te vinden".";
 
 

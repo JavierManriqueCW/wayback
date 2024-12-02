@@ -31,4 +31,8 @@
     <string name="parked_screen_date_title">それ以来</string>
     <string name="parked_screen_detail_title">メモを受け取った</string>
     <string name="parked_screen_stop_parking_button" comment="Stop vehicle parking">ストップパーキング</string>
+    <string name="location_not_found">あなたの場所が見つからない</string>
+    <string name="parking_error">駐車中にエラーが発生した</string>
+    <string name="non_parked_screen_error_alert_title">エラー</string>
+    <string name="non_parked_screen_error_alert_confirm_button" translatable="false">OK</string>
 </resources>
