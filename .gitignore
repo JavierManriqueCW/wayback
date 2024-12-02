@@ -48,6 +48,8 @@ gradle-app.setting
 **/build/
 **/captures/
 **/outputs/
+androidApp/release
+androidApp/keystore
 *.apk
 *.ap_
 *.dex
