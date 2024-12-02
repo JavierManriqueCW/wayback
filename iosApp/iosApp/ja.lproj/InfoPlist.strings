@@ -1,5 +1,5 @@
 NSCameraUsageDescription = "Waybackはカメラを使って、駐車している車の写真を撮る手助けをする"";
-NSLocationAlwaysAndWhenInUseUsageDescription = "Waybackは、駐車スポットを保存し、あなたの車を見つけるのを助けるために位置情報アクセスが必要である。アプリの設定で有効にしてね。";
+NSLocationAlwaysAndWhenInUseUsageDescription = "Waybackは、駐車スポットを保存し、あなたの車を見つけるのを助けるために位置情報アクセスが必要である。アプリの設定で有効にしてね";
 NSLocationAlwaysUsageDescription = "Waybackは、駐車場所を保存し、車を見つけるのに役立つ位置情報アクセスを必要とする"";
 NSLocationWhenInUseUsageDescription = "Waybackは、駐車場所を保存し、車を見つけるのに役立つ位置情報アクセスを必要とする"";
 
