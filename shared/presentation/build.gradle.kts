@@ -9,7 +9,6 @@ plugins {
 }
 
 kotlin {
-
     androidTarget()
     listOf(
         iosX64(),
@@ -75,7 +74,6 @@ kotlin {
             implementation(libs.compottie.network)
             implementation(libs.compottie.resources)
             implementation(libs.constraintlayout.compose.multiplatform)
-            implementation(libs.coil.compose)
         }
     }
 }
