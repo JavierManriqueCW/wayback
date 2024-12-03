@@ -42,6 +42,8 @@ Wayback leverages a custom GitHub Action to localize the entire KMM project. Thi
 ## 🛠️ Tech Stack
 - **Kotlin Multiplatform Mobile (KMM)**: Shared codebase between Android and iOS.
 - **Compose Multiplatform**: Unified UI framework for Android and iOS.
+- **Clean Architecture**: With presentation, domain & data layers.
+- **Model-View-Intent**: As the presentation architectural pattern.
 - **Koin**: For Dependency Injection.
 - **DataStore**: Modern device preferences handling.
 - **GitHub Actions**: Custom localization workflow for seamless string management in .
