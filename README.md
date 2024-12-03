@@ -1,6 +1,10 @@
-# 🚗 Wayback - Easy Parking <img src="https://github.com/user-attachments/assets/17fb6180-ddac-4b58-bfef-292dc2a5500f" width="40"/>
+# 🚗 Wayback - Easy Parking
+
+<br>
 
 Wayback is a Kotlin Multiplatform Mobile (KMM) application available for android & iOS, featuring a sleek design this cross-platform application was thought to be a helpful companion for you. It was designed to help you easily find your way back to your vehicle. Whether you have parked at a busy mall, an unfamiliar street, or a large parking lot, Wayback makes it easy to locate your car, with an intuitive interface and rich features. Take a look! 😊
+
+<br>
 
 ![](https://github.com/user-attachments/assets/b53f7b07-851f-472c-b006-149869695052)
 
