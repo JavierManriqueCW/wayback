@@ -1,13 +1,10 @@
-# 🚗 Wayback - Easy Parking
-<table>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/17fb6180-ddac-4b58-bfef-292dc2a5500f" width="300"/></td>
-    <td><img src="https://github.com/user-attachments/assets/44615cf1-a4b9-4589-9e12-da04b6c2c818" width="300" /></td>
-    <td><img src="https://github.com/user-attachments/assets/0dac9c87-170f-47d0-8850-4bb7d015db78" width="300" /></td>
-  </tr>
-</table>
+# 🚗 Wayback - Easy Parking <img src="https://github.com/user-attachments/assets/17fb6180-ddac-4b58-bfef-292dc2a5500f" width="40"/>
 
-Wayback is a Kotlin Multiplatform Mobile (KMM) application available for android & iOS and designed to help you easily find your way back to your vehicle. Whether you've parked at a busy mall, an unfamiliar street, or a large parking lot, Wayback makes it easy to locate your car, with an intuitive interface and rich features.
+Wayback is a Kotlin Multiplatform Mobile (KMM) application available for android & iOS, featuring a sleek design this cross-platform application was thought to be a helpful companion for you. It was designed to help you easily find your way back to your vehicle. Whether you have parked at a busy mall, an unfamiliar street, or a large parking lot, Wayback makes it easy to locate your car, with an intuitive interface and rich features. Take a look! 😊
+
+![](https://github.com/user-attachments/assets/b53f7b07-851f-472c-b006-149869695052)
+
+<br>
 
 ## ✨ Features
 
@@ -21,8 +18,12 @@ Wayback is a Kotlin Multiplatform Mobile (KMM) application available for android
 - 🌍 **Multi-Language Support**: Available in 19 languages, making it accessible to users around the world.
 - 📱 **iOS Exclusive Widget**: Screen widget featured on iOS.
 
+<br>
+
 ### 🎨 Sleek Design & Cross-Platform Convenience
 Wayback is designed with a sleek, user-friendly interface to provide an intuitive experience. Developed as a Kotlin Multiplatform Mobile (KMM) project, it features:
+
+<br>
 
 ### 📲 Platform-Specific Highlights
 - **Android Compatibility**: Supports devices from SDK 26 to SDK 34.
@@ -32,10 +33,14 @@ Wayback is designed with a sleek, user-friendly interface to provide an intuitiv
 - **Android & iOS camera access**: To take photos of your parking spot.
 - **Android & iOS file system usage**: To store and delete parking photos.
 
+<br>
+
 ### 🌐 Automatic Localization
 Wayback leverages a custom GitHub Action to localize the entire KMM project. This powerful automation feature allows for effortless translation management, supporting all 19 languages with:
 
 - **Full Localization**: Translate all strings at once or target Android, iOS, or common strings individually.
+
+<br>
 
 ## 🛠️ Tech Stack
 - **Kotlin Multiplatform Mobile (KMM)**: Shared codebase between Android and iOS.
@@ -44,9 +49,14 @@ Wayback leverages a custom GitHub Action to localize the entire KMM project. Thi
 - **DataStore**: Modern device preferences handling.
 - **GitHub Actions**: Custom localization workflow for seamless string management in .
 
+<br>
+
 ## 📥 How to Install
 - **Android**: Available on the Google Play Store (link coming soon).
 - **iOS**: Available on the App Store (link coming soon).
+- **Compiling it yourself**: This application is free and open source, so you can download this repo and try it yourself! 😊
+
+<br>
 
 ## 📸 Screenshots
 
@@ -99,8 +109,12 @@ Wayback leverages a custom GitHub Action to localize the entire KMM project. Thi
   </tr>
 </table>
 
+<br>
+
 ## 📜 License
 This project is licensed under the GLT License. [Check this](https://github.com/JavierManriqueCW/wayback#GPL-3.0-1-ov-file) for more information.
+
+<br>
 
 ## 📞 Contact
 If you have any questions or want to contribute, feel free to open an issue or submit a pull request. You can also reach out via [LinkedIn](https://www.linkedin.com/in/javier-m-a54839173).
