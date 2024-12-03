@@ -2,6 +2,6 @@ package com.jmp.wayback.di.provider
 
 import org.koin.core.module.Module
 
-interface DependencyInjectionModulesProvider {
+interface DependencyInjectorModules {
     val modules: List<Module>
 }
