@@ -10,7 +10,7 @@ Wayback is a Kotlin Multiplatform Mobile (KMM) application available for android
 
 <br>
 
-## ✨ Features
+## ✨ Native Features
 
 - 📍 **Location Access**: Uses your phone's GPS to save the exact location of your parked vehicle.
 - 📸 **Camera Integration**: Snap a picture of your parked car and its surroundings to easily identify it later.
@@ -18,8 +18,6 @@ Wayback is a Kotlin Multiplatform Mobile (KMM) application available for android
 - ⏰ **System's Date & Time**: Automatically logs the time of parking to help you manage parking duration.
 - 🖼️ **Image Preview**: View saved parking photos through your system's native picture previewer.
 - 🔗 **Share Intent**: Share the parking location, photo, and directions with others through native sharing functionality.
-- ♿ **Accessible Design**: All screens are designed to support small devices with large font sizes, as well as big screens with small font sizes.
-- 🌍 **Multi-Language Support**: Available in 19 languages, making it accessible to users around the world.
 - 📱 **iOS Exclusive Widget**: Screen widget featured on iOS.
 
 <br>
@@ -27,15 +25,10 @@ Wayback is a Kotlin Multiplatform Mobile (KMM) application available for android
 ### 🎨 Sleek Design & Cross-Platform Convenience
 Wayback is designed with a sleek, user-friendly interface to provide an intuitive experience. Developed as a Kotlin Multiplatform Mobile (KMM) project, it features:
 
-<br>
-
-### 📲 Platform-Specific Highlights
-- **Android Compatibility**: Supports devices from SDK 26 to SDK 34.
-- **iOS Compatibility**: Available for devices running iOS 15.3 and above.
-- **iOS Widget**: An exclusive widget for iOS that displays whether your vehicle is currently parked or not. This acts as both a quick status checker and a beautiful shortcut to the app.
-- **Android & iOS location access**: To save and navigate back to your parked location.
-- **Android & iOS camera access**: To take photos of your parking spot.
-- **Android & iOS file system usage**: To store and delete parking photos.
+- ♿ **Accessible Design**: All screens are designed to support small devices with large font sizes, as well as big screens with small font sizes.
+- 🌍 **Multi-Language Support**: Available in 19 languages, making it accessible to users around the world.
+- 🤖 **Android Compatibility**: Supports devices from SDK 26 to SDK 34.
+- 🍏 **iOS Compatibility**: Available for devices running iOS 15.3 and above.
 
 <br>
 
