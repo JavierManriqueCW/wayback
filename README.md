@@ -123,6 +123,10 @@ This project is licensed under the GLT License. [Check this](https://github.com/
 ## 📞 Contact
 If you have any questions or want to contribute, feel free to open an issue or submit a pull request. You can also reach out via [LinkedIn](https://www.linkedin.com/in/javier-m-a54839173).
 
----
+<br>
+<br>
+<br>
+<br>
+<br>
 
 Wayback – Easy parking.
