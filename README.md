@@ -1,4 +1,4 @@
-# 🚗 Wayback - Easy Parking
+# Wayback - Easy Parking 🚗
 
 <br>
 
@@ -52,7 +52,7 @@ Wayback leverages a custom GitHub Action to localize the entire KMM project. Thi
 
 ## 📥 How to Install
 - **Android**: Available on the Google Play Store (link coming soon).
-- **iOS**: Available on the App Store (link coming soon).
+- **iOS**: Available on [the App Store](https://apps.apple.com/es/app/wayback-easy-parking/id6738704931).
 - **Compiling it yourself**: This application is free and open source, so you can download this repo and try it yourself! 😊
 
 <br>
