@@ -100,7 +100,7 @@ Wayback leverages a custom GitHub Action to localize the entire KMM project. Thi
 </table>
 
 ## 📜 License
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
+This project is licensed under the GLT License. [Check this](https://github.com/JavierManriqueCW/wayback#GPL-3.0-1-ov-file) for more information.
 
 ## 📞 Contact
 If you have any questions or want to contribute, feel free to open an issue or submit a pull request. You can also reach out via [LinkedIn](https://www.linkedin.com/in/javier-m-a54839173).
