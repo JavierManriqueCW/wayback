@@ -20,6 +20,8 @@ import wayback.shared.presentation.generated.resources.non_parked_screen_animate
 import wayback.shared.presentation.generated.resources.non_parked_screen_camera_button_content_description
 import wayback.shared.presentation.generated.resources.non_parked_screen_close_button_content_description
 import wayback.shared.presentation.generated.resources.non_parked_screen_detail_placeholder
+import wayback.shared.presentation.generated.resources.non_parked_screen_error_alert_confirm_button
+import wayback.shared.presentation.generated.resources.non_parked_screen_error_alert_title
 import wayback.shared.presentation.generated.resources.non_parked_screen_lottie_content_description
 import wayback.shared.presentation.generated.resources.non_parked_screen_lottie_path
 import wayback.shared.presentation.generated.resources.non_parked_screen_park_button
@@ -40,8 +42,6 @@ import wayback.shared.presentation.generated.resources.parked_screen_stop_parkin
 import wayback.shared.presentation.generated.resources.parked_screen_stop_parking_dialog_title
 import wayback.shared.presentation.generated.resources.parked_screen_title
 import wayback.shared.presentation.generated.resources.parked_screen_title_image_description
-import wayback.shared.presentation.generated.resources.non_parked_screen_error_alert_title
-import wayback.shared.presentation.generated.resources.non_parked_screen_error_alert_confirm_button
 
 class MainUiProvider {
 

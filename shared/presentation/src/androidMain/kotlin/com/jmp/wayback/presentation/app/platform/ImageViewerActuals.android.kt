@@ -7,7 +7,7 @@ import org.koin.mp.KoinPlatform
 
 actual fun showPicture(picturePath: String) {
     KoinPlatform.getKoin().get<Context>().apply {
-        getContentUri(picturePath)?.let { uri ->
+        getContentUri(picturePath).let { uri ->
             startActivity(
                 Intent(Intent.ACTION_VIEW).apply {
                     setDataAndType(uri, "image/*")

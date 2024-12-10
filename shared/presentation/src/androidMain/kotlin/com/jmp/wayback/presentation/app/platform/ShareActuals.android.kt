@@ -33,7 +33,7 @@ private fun getIntent(
                     }
         )
         parkingInformation.imagePath?.let {
-            context.getContentUri(it).let { uri ->
+            getContentUri(it).let { uri ->
                 putExtra(Intent.EXTRA_STREAM, uri)
                 type = "image/*"
             }

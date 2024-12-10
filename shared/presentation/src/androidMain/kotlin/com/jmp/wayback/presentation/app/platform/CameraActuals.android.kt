@@ -1,10 +1,10 @@
 package com.jmp.wayback.presentation.app.platform
 
 import android.content.Context
+import android.net.Uri
 import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.graphics.asImageBitmap
 import com.jmp.wayback.presentation.app.provider.camera.CameraProvider
-import com.jmp.wayback.presentation.app.utils.Utils.getContentUri
 import com.jmp.wayback.presentation.app.utils.Utils.uriToBitmap
 import org.koin.mp.KoinPlatform
 
@@ -19,12 +19,14 @@ actual suspend fun takeCameraPicture(callback: (String?) -> Unit) {
 }
 
 actual fun deleteCameraPicture(picturePath: String) {
-    KoinPlatform.getKoin().get<CameraProvider>().deleteFile(picturePath)
+    val context = KoinPlatform.getKoin().get<Context>()
+    KoinPlatform.getKoin().get<CameraProvider>().deleteFile(context, picturePath)
 }
 
 actual fun String.toImageBitmap(): ImageBitmap? =
     KoinPlatform.getKoin().get<Context>().run {
-        getContentUri(this@toImageBitmap)?.let { uri ->
-            uriToBitmap(uri)?.asImageBitmap()
-        }
+        val uri = Uri.parse(this@toImageBitmap)
+        uriToBitmap(uri)?.asImageBitmap()
     }
+
+
