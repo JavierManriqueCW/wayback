@@ -7,7 +7,11 @@ import androidx.activity.ComponentActivity
 import androidx.activity.SystemBarStyle
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.tooling.preview.Preview
@@ -20,6 +24,8 @@ import org.koin.java.KoinJavaComponent.inject
 
 class MainActivity : ComponentActivity() {
 
+    private val cameraProvider: CameraProvider by inject(CameraProvider::class.java)
+
     override fun onCreate(savedInstanceState: Bundle?) {
         installSplashScreen()
         enableFullyEdgeToEdge()
@@ -31,7 +37,17 @@ class MainActivity : ComponentActivity() {
         initLocationProvider()
 
         setContent {
+            val hasActiveCamera = cameraProvider.isActive.collectAsState()
+
             AppScreen()
+
+            AnimatedVisibility(
+                visible = hasActiveCamera.value,
+                enter = fadeIn(),
+                exit = fadeOut()
+            ) {
+                CameraScreen(cameraProvider)
+            }
         }
     }
 
@@ -52,7 +68,6 @@ class MainActivity : ComponentActivity() {
     }
 
     private fun initCameraProvider() {
-        val cameraProvider: CameraProvider by inject(CameraProvider::class.java)
         cameraProvider.init(
             context = this,
             activity = this

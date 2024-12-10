@@ -12,7 +12,7 @@ android {
         applicationId = "com.jmp.wayback"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
-        versionCode = 11
+        versionCode = 13
         versionName = "1.0.0"
     }
 
@@ -51,5 +51,11 @@ dependencies {
     implementation(libs.koin.core)
     implementation(libs.koin.core.android)
     implementation(libs.androidx.core.splashscreen)
+    implementation(libs.androidx.camera.core)
+    implementation(libs.camera.camera2)
+    implementation(libs.androidx.camera.view)
+    implementation(libs.androidx.camera.lifecycle)
+    implementation(libs.androidx.foundation.layout.android)
+    implementation(libs.androidx.material3.android)
     coreLibraryDesugaring(libs.desugar.jdk.libs)
 }
