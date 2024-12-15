@@ -1,6 +1,17 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "camera_permission_required_message" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camera authorisation is required to take a picture of your parking. Please enable it in the app settings"
+          }
+        }
+      }
+    },
     "location_permission_required_message" : {
       "extractionState" : "manual",
       "localizations" : {
