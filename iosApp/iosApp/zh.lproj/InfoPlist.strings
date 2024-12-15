@@ -1,5 +1,5 @@
 NSCameraUsageDescription = "Wayback 使用摄像头帮您捕捉停放车辆的照片";
-NSLocationAlwaysAndWhenInUseUsageDescription = "Wayback 需要定位功能来保存您的停车位并帮助您找到车辆。请在应用程序设置中启用";
+NSLocationAlwaysAndWhenInUseUsageDescription = "Wayback 需要定位功能来保存您的停车位，并帮助您找到车辆。请在应用程序设置中启用";
 NSLocationAlwaysUsageDescription = "Wayback 需要定位访问，以保存您的停车位并帮助您找到车辆";
 NSLocationWhenInUseUsageDescription = "Wayback 需要定位访问，以保存您的停车位并帮助您找到车辆";
 
